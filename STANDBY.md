@@ -26,3 +26,17 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 | Q69 limitador | AC 220 V | A folha /22 traz as duas versões (AC 220 V e DC 24 V); a escolha vem do Gelson e é coerente com a lista (201 e 202 até XB 203 e 205). |
 | Q70 SZ | Bornes pequenos em 5 pares (1-2, 3-4, 13-14, 23-24, 33-34) no lugar da tomada de 9 pinos do esquema | Coerente com o desenho (1-2 = plugue SZ1 normal; 33-34 = ligação DC12 a T02). Pares com origem na lista e no Rev. 11. |
 | Q71 jumpers 62 a 66 | Só de bancada; saem quando os cabos de campo (BA, BD, BE, HW, AA) são ligados | Indicação baseada na pendência P8 do Rev. 11, marcada [Provável] lá; sem confirmação visual em campo. Os jumpers 61 (BA/8-9) e 67 (AA/14-6) o próprio esquema prevê para elevador de PORTA ÚNICA ("single door, connect…"), então ficam no campo no elevador de referência (1 porta). |
+
+## Perguntas abertas do Capítulo 3 (14/11/2026), cada uma com selo no rascunho
+| Selo | Pergunta |
+|---|---|
+| Q79 | O inversor entregue é o NICE-L-C-4007 (o esquema só diz "40XX")? |
+| Q80 | Qual resistor de frenagem está instalado (ohm e watt)? |
+| Q81 | Qual a função de DQFB1, DQFB2 e DQFB3 (aparecem na foto, não no esquema)? |
+| Q82 | Corrente nominal, poder de corte e tipo do QF e dos QFB3 e QFB4 (C ou D); qual proteção diferencial o projeto adota (o manual pede tipo B)? |
+| Q83 | Pares de pinos do plugue S2 (as folhas /14, /16 e /19 divergem) e posição de cada jumper |
+| Q84 | Valores de B0-00, B0-01 e B0-02 e tensão e corrente da bobina do freio da máquina de referência |
+| Q85 | Posição no quadro real da PCB-D1, do QFB4, de XA, TA, XB, SZ, CZ e XPE; o que cada polo do barramento de terra recebe |
+| Q86 | O ERB do quadro é o A1 (com bateria) ou o A2? |
+| Q87 | Qual rótulo da botoeira vale (12/11 amarelo ou 13/11 branco)? |
+| Q88 | Marca, corrente (AC-3), tensão de bobina e tipo dos auxiliares de SW, BY e FX |
