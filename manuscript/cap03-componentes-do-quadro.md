@@ -1,6 +1,6 @@
 # Capítulo 3. Componentes do quadro de comando
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q79]` a `PREENCHER [Q88]`. As figuras 3.1 a 3.4 ainda não foram feitas. Fatos levantados em `sources/cap03_fichas_potencia.md`, `sources/cap03_fichas_controle.md` e `sources/cap03_fotos.md`.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q79]` a `PREENCHER [Q88]`. Texto aprovado pelo Gelson em 14/11/2026 (as respostas Q79 a Q88 seguem em aberto). Fatos levantados em `sources/cap03_fichas_potencia.md`, `sources/cap03_fichas_controle.md` e `sources/cap03_fotos.md`.
 
 **Parte II. O quadro de comando**
 
@@ -33,6 +33,11 @@ O quadro de comando reúne, de cima para baixo no quadro real, estes grupos de c
 | 6. Base | Barramento de terra, bornes grandes em duas fileiras de 7, minibornes e tomada | ver 3.9 |
 
 Fonte: fotos do quadro (12 e 13/11/2026), catalogadas em `sources/cap03_fotos.md`.
+
+![Figura 3.1](../assets/figuras/fig-3-1-layout-zonas.svg)
+
+**Figura 3.1.** Layout do quadro de comando em seis zonas, de cima para baixo. Os callouts 1 a 6 correspondem às zonas da tabela acima. O que está em tracejado não foi confirmado nas fotos.
+Fonte: fotos do quadro (12 e 13/11/2026) e desenho de furação do quadro; sem escala.
 
 O que as fotos **não** confirmam: onde ficam a placa PCB-D1, o QFB4, os bornes XA, TA, XB e SZ, a barra XPE e a tomada CZ (nenhuma etiqueta com esses nomes foi lida), e o que há nas colunas laterais do gabinete. A posição de cada um: `PREENCHER [Q85]`.
 
@@ -137,6 +142,11 @@ A KCB-B4A, "Control cabinet interface board" no esquema, recebe a alimentação 
 
 A numeração de pinos dos conectores BB, BC e BD no desenho é duvidosa, e a função do TEL3 e do KY10 não é definida em nenhuma folha lida. Fonte: esquema Vitinho, folha /21 e folhas /11, /19, /23 e /24. Detalhe de cada pino: `sources/cap03_fichas_controle.md`.
 
+![Figura 3.2](../assets/figuras/fig-3-2-mapa-kcb.svg)
+
+**Figura 3.2.** Conectores da KCB-B4A agrupados pelo componente a que cada um leva.
+Fonte: esquema Vitinho 19061867-ZL, folhas /11, /13, /14, /19, /21, /23 e /24 (págs. PDF 13, 15, 16, 21, 23, 25 e 26).
+
 **Plugues S1 e S2 (bypass).** O plugue S1 fica no conector da KCB em operação normal; o S2 faz o bypass da porta de cabina ou das portas de pavimento (ver o capítulo 1). As folhas /14, /16 e /19 descrevem os pares de pinos do S2 de formas diferentes: o pino a pino do S2 e a posição de cada jumper: `PREENCHER [Q83]`.
 
 **Entradas e saídas da KCB.** Entradas X1 a X22 e saídas Y1 a Y7. Entre elas: X1 nível de subida, X2 zona de porta, X3 nível de descida, X4 sinal de bypass, X5 realimentação do freio 2, X6 realimentação do contator de marcha, X7 realimentação do freio 1, X8 realimentação do curto das fases U, V e W, X9 sinal de emergência, X10 e X11 emergência de subida e de descida, X25 detecção da cadeia de segurança, X26 e X28 detecção do travamento das fechaduras e X27 detecção da porta; Y1 contator de marcha, Y2 contator de freio, Y3 curto das fases U, V e W. Fonte: tabela da folha /21 (pág. PDF 23).
@@ -229,6 +239,11 @@ Rótulos dos botões na caixa real. A etiqueta mudou entre as fotos de 12/11 (SU
 
 Os dois diferenciais (QFB3 e QFB4) ficam **antes** do QF e continuam energizados com o QF desligado. O tipo (C ou D) do QFB3 e do QFB4 aparece diferente nas folhas /7 e /8. As correntes e o poder de corte do QF e o tipo instalado: `PREENCHER [Q82]`.
 
+![Figura 3.3](../assets/figuras/fig-3-3-alimentacao-protecao.svg)
+
+**Figura 3.3.** Alimentação e proteção do quadro de comando. QFB3 e QFB4 saem antes do QF.
+Fonte: esquema Vitinho 19061867-ZL, folhas /8, /9, /10 e /11 (págs. PDF 10 a 13).
+
 Na foto, ao lado dos QFB aparecem as etiquetas DQFB1, DQFB2 e DQFB3. O esquema não tem DQFB, e o QFB4 não foi visto no quadro. A função de cada DQFB: `PREENCHER [Q81]`.
 
 **Transformador TRF.** Gera a tensão de comando do circuito de segurança.
@@ -261,6 +276,11 @@ O primário vem de 207 e 208, que a KCB gera de 201 e 202 depois da proteção c
 O contato 53-54 do SW dá o positivo ao freio 1 e o 73-74 ao freio 2: o freio só recebe tensão com o SW fechado. Os três contatos do BY em série no BK- aparecem no esquema, que usa só dois freios; o motivo da tripla série não está explicado.
 
 A KCB comanda as bobinas pelas saídas Y1, Y2 e Y3 e lê a realimentação por X6, X7 e X8. O manual manda ligar marcha, freio e curto do estator nas saídas Y1 a Y3, porque só elas têm supressão nos contatos. Fonte: manual NICE3000new, pág. PDF 65 (impressa 64).
+
+![Figura 3.4](../assets/figuras/fig-3-4-potencia-freio.svg)
+
+**Figura 3.4.** Potência do motor e caminho do freio. O FX liga as fases do motor entre si quando está desenergizado.
+Fonte: esquema Vitinho 19061867-ZL, folhas /9, /13 e /17 (págs. PDF 11, 15 e 19); manual NICE3000new, Tab. 3-12, pág. PDF 100.
 
 Marca, corrente de emprego (AC-3), tensão de bobina e tipo dos contatos auxiliares dos contatores instalados: `PREENCHER [Q88]`.
 

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t34 d34">
+  <title id="t34 d34">Figura 3.4 Potência do motor e caminho do freio</title>
+  <desc id="d34">Do inversor ao motor pelo contator SW e pela régua do motor, com o contator FX em curto e o resistor de frenagem; e o caminho do freio pela PCB-D1 e pelo contator BY.</desc>
+  <style>
+    .b{fill:#fff;stroke:#C0392B;stroke-width:2.5}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.5}
+    .u{fill:#fff;stroke:#777;stroke-width:2;stroke-dasharray:6 4}
+    .t{font-size:13px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .lp{stroke:#C0392B;stroke-width:3;fill:none}
+    .lc{stroke:#1F5FA8;stroke-width:3;fill:none}
+  </style>
+  <rect width="960" height="560" fill="#fff"/>
+  <text x="20" y="28" class="h">Potência do motor</text>
+  <rect x="20" y="50" width="170" height="90" class="b"/><text x="105" y="82" text-anchor="middle" class="h">Inversor</text><text x="105" y="104" text-anchor="middle" class="s">saídas U, V e W</text><text x="105" y="122" text-anchor="middle" class="s">(+) e PB: resistor</text>
+  <rect x="260" y="50" width="170" height="90" class="b"/><text x="345" y="82" text-anchor="middle" class="h">SW</text><text x="345" y="104" text-anchor="middle" class="s">contator de marcha</text><text x="345" y="122" text-anchor="middle" class="s">polos 1-2, 3-4 e 5-6</text>
+  <rect x="500" y="50" width="170" height="90" class="b"/><text x="585" y="82" text-anchor="middle" class="h">Régua do motor</text><text x="585" y="104" text-anchor="middle" class="s">TA U, V, W e XA U, V, W</text>
+  <rect x="740" y="50" width="200" height="90" class="b"/><text x="840" y="82" text-anchor="middle" class="h">Motor síncrono</text><text x="840" y="104" text-anchor="middle" class="s">ímã permanente, 7,5 kW</text><text x="840" y="122" text-anchor="middle" class="s">freio e encoder</text>
+  <rect x="260" y="180" width="170" height="80" class="b"/><text x="345" y="210" text-anchor="middle" class="h">FX</text><text x="345" y="232" text-anchor="middle" class="s">curto das fases U, V e W</text><text x="345" y="248" text-anchor="middle" class="s">contatos 21-22 e 31-32</text>
+  <rect x="20" y="180" width="170" height="80" class="u"/><text x="105" y="210" text-anchor="middle" class="h">Resistor</text><text x="105" y="232" text-anchor="middle" class="s">65 a 85 ohm, 2500 W</text><text x="105" y="248" text-anchor="middle" class="s">PREENCHER [Q80]</text>
+  <path class="lp" d="M190 95 H260"/><path class="lp" d="M430 95 H500"/><path class="lp" d="M670 95 H740"/>
+  <path class="lp" d="M345 140 V180"/>
+  <path class="lp" d="M105 140 V180"/>
+  <text x="225" y="88" class="s">U, V, W</text><text x="455" y="88" class="s">2, 4, 6</text>
+  <text x="360" y="166" class="s">do lado do motor</text>
+  <!-- Freio -->
+  <text x="20" y="318" class="h">Caminho do freio</text>
+  <rect x="20" y="340" width="190" height="90" class="c"/><text x="115" y="372" text-anchor="middle" class="h">PCB-D1</text><text x="115" y="394" text-anchor="middle" class="s">BK1+, BK2+ e BK- (J3)</text><text x="115" y="412" text-anchor="middle" class="s">110 VDC padrão</text>
+  <rect x="270" y="340" width="150" height="90" class="b"/><text x="345" y="372" text-anchor="middle" class="h">SW</text><text x="345" y="394" text-anchor="middle" class="s">53-54 em BK1+</text><text x="345" y="412" text-anchor="middle" class="s">73-74 em BK2+</text>
+  <rect x="480" y="340" width="150" height="90" class="b"/><text x="555" y="372" text-anchor="middle" class="h">KCB, plugue MT</text><text x="555" y="394" text-anchor="middle" class="s">ZQ1+, ZQ2+, ZQ1-, ZQ2-</text><text x="555" y="412" text-anchor="middle" class="s">MT 5, 6, 11 e 12</text>
+  <rect x="690" y="340" width="250" height="90" class="b"/><text x="815" y="372" text-anchor="middle" class="h">Bobinas do freio BK1 e BK2</text><text x="815" y="394" text-anchor="middle" class="s">tensão e corrente da bobina</text><text x="815" y="412" text-anchor="middle" class="s">PREENCHER [Q84]</text>
+  <rect x="270" y="460" width="150" height="70" class="b"/><text x="345" y="490" text-anchor="middle" class="h">BY</text><text x="345" y="510" text-anchor="middle" class="s">três contatos em série em BK-</text>
+  <path class="lp" d="M210 372 H270"/><path class="lp" d="M420 372 H480"/><path class="lp" d="M630 372 H690"/>
+  <path class="lp" d="M115 430 V495 H270"/><path class="lp" d="M420 495 H650 V430"/>
+  <text x="240" y="364" class="s">BK1+, BK2+</text>
+  <text x="535" y="488" class="s">BK- até ZQ1- e ZQ2-</text>
+  <text x="480" y="548" text-anchor="middle" class="s">Vermelho: potência e freio. Tracejado: dado que falta. A bobina e o resistor reais ainda não foram informados.</text>
+</svg>

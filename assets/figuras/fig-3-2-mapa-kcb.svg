@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t32 d32">
+  <title id="t32">Figura 3.2 Mapa dos conectores da placa KCB-B4A por destino</title>
+  <desc id="d32">A KCB-B4A no centro e os conectores agrupados pelo componente ao qual cada um leva.</desc>
+  <style>
+    .k{fill:#fff;stroke:#111;stroke-width:3}
+    .d{fill:#fafafa;stroke:#1F5FA8;stroke-width:2}
+    .dp{fill:#fafafa;stroke:#C0392B;stroke-width:2}
+    .du{fill:#fff;stroke:#777;stroke-width:2;stroke-dasharray:6 4}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#1F5FA8;stroke-width:2.5}
+    .lp{stroke:#C0392B;stroke-width:2.5}
+  </style>
+  <rect width="960" height="620" fill="#fff"/>
+  <!-- KCB central -->
+  <rect x="350" y="230" width="260" height="150" rx="8" class="k"/>
+  <text x="480" y="270" text-anchor="middle" class="h">Placa de interface</text>
+  <text x="480" y="292" text-anchor="middle" class="h">KCB-B4A</text>
+  <text x="480" y="322" text-anchor="middle" class="s">fusíveis F1, F2 e F3</text>
+  <text x="480" y="340" text-anchor="middle" class="s">proteção contra sobretensão</text>
+  <text x="480" y="358" text-anchor="middle" class="s">plugues S1 e S2</text>
+  <!-- esquerda -->
+  <rect x="20" y="40" width="270" height="95" class="d"/>
+  <text x="155" y="64" text-anchor="middle" class="h">Inversor (MCB-C3)</text>
+  <text x="155" y="86" text-anchor="middle" class="t">KY1: 130, 134, 133, 131, 102</text>
+  <text x="155" y="104" text-anchor="middle" class="s">cadeia e fechaduras ao CN2</text>
+  <text x="155" y="122" text-anchor="middle" class="s">J10: cabo flat de 40 vias</text>
+  <rect x="20" y="160" width="270" height="105" class="dp"/>
+  <text x="155" y="184" text-anchor="middle" class="h">Placa fonte do freio PCB-D1</text>
+  <text x="155" y="206" text-anchor="middle" class="t">KY3: 301 e 302 (24 V)</text>
+  <text x="155" y="224" text-anchor="middle" class="t">KY6, KY8, KY9: 207, 208, ZQ</text>
+  <text x="155" y="242" text-anchor="middle" class="t">KY12: CAN+ e CAN-</text>
+  <rect x="20" y="290" width="270" height="95" class="d"/>
+  <text x="155" y="314" text-anchor="middle" class="h">Resgate elétrico ERB-A1</text>
+  <text x="155" y="336" text-anchor="middle" class="t">KY10, KY11 e POW1 (501, 502)</text>
+  <text x="155" y="354" text-anchor="middle" class="s">via soquete SZ, plugues MT e MT1</text>
+  <rect x="20" y="410" width="270" height="85" class="d"/>
+  <text x="155" y="434" text-anchor="middle" class="h">Contatores SW, BY e FX</text>
+  <text x="155" y="456" text-anchor="middle" class="t">KY2: Y1, Y2, Y3 e X5 a X8</text>
+  <text x="155" y="474" text-anchor="middle" class="s">bobinas e realimentação</text>
+  <rect x="20" y="515" width="270" height="85" class="d"/>
+  <text x="155" y="539" text-anchor="middle" class="h">Alimentação de comando</text>
+  <text x="155" y="561" text-anchor="middle" class="t">KY5: 201, 202, 101 e 102</text>
+  <text x="155" y="579" text-anchor="middle" class="s">de QFB2 e do circuito de segurança</text>
+  <!-- direita -->
+  <rect x="670" y="40" width="270" height="95" class="d"/>
+  <text x="805" y="64" text-anchor="middle" class="h">Botoeira de inspeção</text>
+  <text x="805" y="86" text-anchor="middle" class="t">KY4: 301, 56, 55, X9, 125,</text>
+  <text x="805" y="104" text-anchor="middle" class="t">118, 110, 122B, 123, 101A</text>
+  <rect x="670" y="160" width="270" height="105" class="d"/>
+  <text x="805" y="184" text-anchor="middle" class="h">Cabo de manobra (caixa de teto)</text>
+  <text x="805" y="206" text-anchor="middle" class="t">AA (16 pinos) e AB (14 pinos)</text>
+  <text x="805" y="224" text-anchor="middle" class="s">segurança, fechaduras, CAN, 220 V</text>
+  <text x="805" y="242" text-anchor="middle" class="s">KY13: módulo de abertura antecipada</text>
+  <rect x="670" y="290" width="270" height="105" class="d"/>
+  <text x="805" y="314" text-anchor="middle" class="h">Caixa de corrida e poço</text>
+  <text x="805" y="336" text-anchor="middle" class="t">BA: cadeia e fechaduras</text>
+  <text x="805" y="354" text-anchor="middle" class="t">BB: 24 V e RS-485 (botoeiras)</text>
+  <text x="805" y="372" text-anchor="middle" class="t">BC, BD e BE</text>
+  <rect x="670" y="420" width="270" height="85" class="dp"/>
+  <text x="805" y="444" text-anchor="middle" class="h">Máquina e limitador</text>
+  <text x="805" y="466" text-anchor="middle" class="t">MT: freio e realimentação</text>
+  <text x="805" y="484" text-anchor="middle" class="t">OS: limitador de velocidade</text>
+  <rect x="670" y="525" width="270" height="75" class="du"/>
+  <text x="805" y="549" text-anchor="middle" class="h">Fora do elevador de referência</text>
+  <text x="805" y="571" text-anchor="middle" class="s">HW (volante, só casa de máquinas)</text>
+  <text x="805" y="587" text-anchor="middle" class="s">AC, ARD, FR e TEL3: função não definida</text>
+  <!-- linhas -->
+  <line x1="290" y1="88" x2="350" y2="260" class="l"/>
+  <line x1="290" y1="212" x2="350" y2="285" class="lp"/>
+  <line x1="290" y1="337" x2="350" y2="315" class="l"/>
+  <line x1="290" y1="452" x2="350" y2="350" class="l"/>
+  <line x1="290" y1="557" x2="350" y2="370" class="l"/>
+  <line x1="670" y1="88" x2="610" y2="260" class="l"/>
+  <line x1="670" y1="212" x2="610" y2="285" class="l"/>
+  <line x1="670" y1="342" x2="610" y2="315" class="l"/>
+  <line x1="670" y1="462" x2="610" y2="350" class="lp"/>
+  <text x="480" y="30" text-anchor="middle" class="s">Azul: comando e sinais. Vermelho: freio e potência. Tracejado: fora do elevador de referência.</text>
+  <text x="480" y="445" text-anchor="middle" class="s">O pino 1 de cada conector está na posição do desenho da folha /21.</text>
+</svg>

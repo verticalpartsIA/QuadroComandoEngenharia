@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t33 d33">
+  <title id="t33">Figura 3.3 Alimentação e proteção do quadro de comando</title>
+  <desc id="d33">Da rede ao QF, ao filtro, ao inversor e à alimentação de comando por QFB1 a QFB4, trafo e KCB.</desc>
+  <style>
+    .b{fill:#fff;stroke:#C0392B;stroke-width:2.5}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.5}
+    .a{fill:#fff3e6;stroke:#ea580c;stroke-width:2.5}
+    .t{font-size:13px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .lp{stroke:#C0392B;stroke-width:3;fill:none}
+    .lc{stroke:#1F5FA8;stroke-width:3;fill:none}
+  </style>
+  <rect width="960" height="600" fill="#fff"/>
+  <!-- Rede e XA -->
+  <rect x="20" y="230" width="130" height="70" class="b"/><text x="85" y="258" text-anchor="middle" class="h">Rede</text><text x="85" y="278" text-anchor="middle" class="s">L1, L2, L3, N e PE</text>
+  <rect x="180" y="230" width="90" height="70" class="b"/><text x="225" y="258" text-anchor="middle" class="h">XA</text><text x="225" y="278" text-anchor="middle" class="s">R, S, T, N</text>
+  <!-- derivações antes do QF -->
+  <rect x="300" y="40" width="150" height="62" class="a"/><text x="375" y="65" text-anchor="middle" class="h">QFB4</text><text x="375" y="85" text-anchor="middle" class="s">2P, 6 A, 30 mA</text>
+  <rect x="300" y="125" width="150" height="62" class="a"/><text x="375" y="150" text-anchor="middle" class="h">QFB3</text><text x="375" y="170" text-anchor="middle" class="s">2P, 6 A, 30 mA</text>
+  <!-- QF -->
+  <rect x="300" y="230" width="150" height="70" class="b"/><text x="375" y="258" text-anchor="middle" class="h">QF</text><text x="375" y="278" text-anchor="middle" class="s">disjuntor geral, 4 polos</text>
+  <rect x="480" y="230" width="120" height="70" class="b"/><text x="540" y="258" text-anchor="middle" class="h">Filtro EMC</text><text x="540" y="278" text-anchor="middle" class="s">entre QF e TA</text>
+  <rect x="630" y="230" width="90" height="70" class="b"/><text x="675" y="258" text-anchor="middle" class="h">TA</text><text x="675" y="278" text-anchor="middle" class="s">R, S, T, N</text>
+  <rect x="750" y="230" width="190" height="70" class="b"/><text x="845" y="258" text-anchor="middle" class="h">Inversor</text><text x="845" y="278" text-anchor="middle" class="s">NICE3000new, R, S, T</text>
+  <!-- QFB2 -->
+  <rect x="630" y="340" width="150" height="62" class="c"/><text x="705" y="365" text-anchor="middle" class="h">QFB2</text><text x="705" y="385" text-anchor="middle" class="s">2P, 6 A, curva C</text>
+  <rect x="630" y="440" width="150" height="62" class="c"/><text x="705" y="465" text-anchor="middle" class="h">KCB-B4A</text><text x="705" y="485" text-anchor="middle" class="s">proteção sobretensão 300 V</text>
+  <rect x="440" y="440" width="150" height="62" class="c"/><text x="515" y="465" text-anchor="middle" class="h">Trafo TRF</text><text x="515" y="485" text-anchor="middle" class="s">220V/0P para 125V/0S</text>
+  <rect x="230" y="440" width="150" height="62" class="c"/><text x="305" y="465" text-anchor="middle" class="h">QFB1</text><text x="305" y="485" text-anchor="middle" class="s">1P+N, 10 A, curva C</text>
+  <rect x="20" y="440" width="170" height="62" class="c"/><text x="105" y="465" text-anchor="middle" class="h">Cadeia de segurança</text><text x="105" y="485" text-anchor="middle" class="s">101 e 102, fusível F3</text>
+  <rect x="800" y="340" width="140" height="62" class="c"/><text x="870" y="365" text-anchor="middle" class="h">PCB-D1</text><text x="870" y="385" text-anchor="middle" class="s">24 V e freio (207, 208)</text>
+  <!-- destinos QFB3 / QFB4 -->
+  <rect x="520" y="125" width="200" height="62" class="c"/><text x="620" y="150" text-anchor="middle" class="h">POW1 e resgate elétrico</text><text x="620" y="170" text-anchor="middle" class="s">501 e 502</text>
+  <rect x="520" y="40" width="200" height="62" class="c"/><text x="620" y="65" text-anchor="middle" class="h">Iluminação do poço e CZ</text><text x="620" y="85" text-anchor="middle" class="s">LIHS1, XB 807, 809, 802</text>
+  <!-- linhas -->
+  <path class="lp" d="M150 265 H180"/><path class="lp" d="M270 265 H300"/><path class="lp" d="M450 265 H480"/><path class="lp" d="M600 265 H630"/><path class="lp" d="M720 265 H750"/>
+  <path class="lp" d="M240 230 V71 H300"/><path class="lp" d="M255 230 V156 H300"/>
+  <path class="lc" d="M450 71 H520"/><path class="lc" d="M450 156 H520"/>
+  <path class="lc" d="M675 300 V340"/><path class="lc" d="M705 402 V440"/><path class="lc" d="M630 471 H590"/><path class="lc" d="M440 471 H380"/><path class="lc" d="M230 471 H190"/>
+  <path class="lc" d="M780 371 H800"/><path class="lc" d="M780 471 H840 V402"/>
+  <text x="725" y="330" class="s">R e N</text>
+  <text x="610" y="462" text-anchor="middle" class="s">207, 208</text>
+  <text x="410" y="462" text-anchor="middle" class="s">125 V</text>
+  <text x="710" y="422" class="s">201, 202</text>
+  <!-- aviso -->
+  <rect x="20" y="540" width="920" height="46" class="a" stroke-dasharray="6 4"/>
+  <text x="480" y="560" text-anchor="middle" class="h">QFB3 e QFB4 ficam antes do QF: continuam energizados com o QF desligado.</text>
+  <text x="480" y="578" text-anchor="middle" class="s">Cores só neste diagrama: vermelho potência, azul comando, laranja circuitos antes do QF.</text>
+</svg>
