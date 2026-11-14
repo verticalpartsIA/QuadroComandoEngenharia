@@ -1,0 +1,36 @@
+/* Tokens VerticalParts para impressão.
+   Fonte: github.com/verticalpartsIA/009_DesignSystem, src/tokens/tokens.ts e tailwind.config.js
+   (extraído em 14/11/2026). Não editar valores aqui sem conferir lá. */
+:root {
+  /* Marca */
+  --vp-primary: #F5C400;
+  --vp-primary-dark: #C99E00;
+  --vp-primary-light: #FFD400;
+
+  /* Superfícies escuras */
+  --vp-surface: #0f0f0f;
+  --vp-surface-card: #1a1a1f;
+  --vp-surface-elevated: #222228;
+
+  /* Texto */
+  --vp-text-on-light: #111111;
+  --vp-text-muted-on-light: #6b7280;
+  --vp-text-on-dark: #f1f5f9;
+  --vp-text-muted-on-dark: #94a3b8;
+  --vp-content-bg: #ffffff;
+  --vp-content-border: #e5e7eb;
+
+  /* Status (base dos alertas; mapeamento dos 4 níveis a definir no CSS de impressão) */
+  --vp-success: #22c55e;
+  --vp-warning: #f59e0b;
+  --vp-danger: #ef4444;
+  --vp-info: #3b82f6;
+
+  /* Tipografia */
+  --vp-font: Poppins, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+
+  /* Raios */
+  --vp-radius-sm: 0.25rem;
+  --vp-radius-md: 0.5rem;
+  --vp-radius-lg: 0.75rem;
+}
