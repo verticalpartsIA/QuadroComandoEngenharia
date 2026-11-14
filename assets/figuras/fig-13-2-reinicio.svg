@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t133 d133">
+  <title id="t133">Figura 13.3 Reinício depois da falha</title>
+  <desc id="d133">Depois de identificar e eliminar a causa, o reinício é automático, manual ou desligando e religando, conforme a falha.</desc>
+  <style>
+    .b{fill:#fff;stroke:#1F5FA8;stroke-width:2.5}
+    .a{fill:#fff6e0;stroke:#f59e0b;stroke-width:2.5}
+    .t{font-size:13px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .l{stroke:#1F5FA8;stroke-width:2.5;fill:none}
+  </style>
+  <rect width="960" height="440" fill="#fff"/>
+  <rect x="20" y="30" width="190" height="80" rx="6" class="a"/>
+  <text x="115" y="62" text-anchor="middle" class="h">Falha</text>
+  <text x="115" y="84" text-anchor="middle" class="s">código e subcódigo na tela</text>
+  <rect x="260" y="30" width="200" height="80" rx="6" class="b"/>
+  <text x="360" y="62" text-anchor="middle" class="h">Identificar a causa</text>
+  <text x="360" y="84" text-anchor="middle" class="s">pelo código, na tabela 13.6</text>
+  <rect x="510" y="30" width="200" height="80" rx="6" class="b"/>
+  <text x="610" y="62" text-anchor="middle" class="h">Eliminar a causa</text>
+  <text x="610" y="84" text-anchor="middle" class="s">conforme o manual</text>
+  <rect x="760" y="30" width="180" height="80" rx="6" class="b"/>
+  <text x="850" y="62" text-anchor="middle" class="h">Reiniciar</text>
+  <text x="850" y="84" text-anchor="middle" class="s">depende da falha</text>
+  <path class="l" d="M210 70 H260"/><path class="l" d="M460 70 H510"/><path class="l" d="M710 70 H760"/>
+  <path class="l" d="M850 110 V180 H150 V230"/><path class="l" d="M850 180 H480 V230"/><path class="l" d="M850 180 H810 V230"/>
+  <rect x="30" y="230" width="240" height="150" rx="6" class="b"/>
+  <text x="150" y="262" text-anchor="middle" class="h">Reinício automático</text>
+  <text x="150" y="288" text-anchor="middle" class="t">Algumas falhas: o controlador</text>
+  <text x="150" y="306" text-anchor="middle" class="t">reinicia sozinho quando as</text>
+  <text x="150" y="324" text-anchor="middle" class="t">condições de reinício são</text>
+  <text x="150" y="342" text-anchor="middle" class="t">atendidas.</text>
+  <rect x="360" y="230" width="240" height="150" rx="6" class="b"/>
+  <text x="480" y="262" text-anchor="middle" class="h">Reinício manual</text>
+  <text x="480" y="288" text-anchor="middle" class="t">Tecla vermelha STOP/RES do</text>
+  <text x="480" y="306" text-anchor="middle" class="t">painel de operação,</text>
+  <text x="480" y="324" text-anchor="middle" class="t">ou F-2 igual a 1</text>
+  <text x="480" y="342" text-anchor="middle" class="t">no teclado.</text>
+  <rect x="690" y="230" width="240" height="150" rx="6" class="b"/>
+  <text x="810" y="262" text-anchor="middle" class="h">Desligar e religar</text>
+  <text x="810" y="288" text-anchor="middle" class="t">Algumas falhas exigem cortar</text>
+  <text x="810" y="306" text-anchor="middle" class="t">a alimentação do controlador</text>
+  <text x="810" y="324" text-anchor="middle" class="t">e ligar de novo, depois de</text>
+  <text x="810" y="342" text-anchor="middle" class="t">eliminar a causa.</text>
+  <text x="480" y="412" text-anchor="middle" class="s">O manual, nesta seção, não diz quais falhas usam cada um dos três caminhos.</text>
+</svg>

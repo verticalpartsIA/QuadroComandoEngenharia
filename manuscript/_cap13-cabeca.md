@@ -28,6 +28,11 @@ O código aparece então em dois formatos para a mesma falha: "E22-101" no tecla
 
 Fonte: manual NICE3000new, seção 7.1, pág. PDF 265 (impressa 264), figuras 7-1 e 7-2.
 
+![Figura 13.1](../assets/figuras/fig-13-1-codigo-na-tela.svg)
+
+**Figura 13.1.** A mesma falha aparece como E22-101 no teclado da placa MCB e como Err22 no painel de operação. O código 22 é o do exemplo do manual.
+Fonte: manual NICE3000new, seção 7.1, pág. PDF 265.
+
 ## 13.3 Como reiniciar depois da falha
 
 | Etapa | O que fazer |
@@ -39,6 +44,11 @@ Fonte: manual NICE3000new, seção 7.1, pág. PDF 265 (impressa 264), figuras 7-
 | Reinício desligando | Algumas falhas exigem desligar a alimentação do controlador e ligar de novo depois de eliminar a causa. |
 
 Fonte: manual NICE3000new, seção 7.2, pág. PDF 266 (impressa 265).
+
+![Figura 13.3](../assets/figuras/fig-13-2-reinicio.svg)
+
+**Figura 13.2.** Reinício depois da falha: automático, manual ou desligando e religando o controlador.
+Fonte: manual NICE3000new, seção 7.2, pág. PDF 266.
 
 ## 13.4 Os cinco níveis de falha
 
@@ -53,6 +63,11 @@ O NICE3000new tem quase 70 informações de alarme e funções de proteção. El
 | 5 | Mostra o código, aciona o relé de falha e o elevador para imediatamente | 5A: em baixa velocidade, para imediatamente e não pode reiniciar. 5B: em baixa velocidade não para; em velocidade normal para e depois pode partir em baixa velocidade, após 3 s |
 
 Fonte: manual NICE3000new, seção 7.3, Tabela 7-1, pág. PDF 267 (impressa 266).
+
+![Figura 13.2](../assets/figuras/fig-13-3-niveis.svg)
+
+**Figura 13.3.** Os cinco níveis de falha, do menos grave (1) ao mais grave (5).
+Fonte: manual NICE3000new, seção 7.3, Tabela 7-1, pág. PDF 267.
 
 ## 13.5 Como usar a tabela de falhas
 

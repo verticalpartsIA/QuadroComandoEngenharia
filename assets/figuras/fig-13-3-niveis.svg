@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 460" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t132 d132">
+  <title id="t132">Figura 13.2 Os cinco níveis de falha</title>
+  <desc id="d132">Do nível 1 ao nível 5, a falha fica mais grave e o elevador reage de forma mais forte.</desc>
+  <style>
+    .n{font-size:22px;font-weight:800;fill:#fff}
+    .t{font-size:13px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .h{font-size:14px;font-weight:700;fill:#111}
+  </style>
+  <rect width="960" height="460" fill="#fff"/>
+  <text x="20" y="28" class="h">Mais grave, de baixo para cima</text>
+  <!-- barras: cores de gravidade crescente -->
+  <rect x="20" y="360" width="90" height="70" fill="#3b82f6"/><text x="65" y="404" text-anchor="middle" class="n">1</text>
+  <rect x="120" y="360" width="820" height="70" fill="#eaf2ff"/>
+  <text x="135" y="388" class="h">Nível 1: mostra o código e aciona o relé de falha</text>
+  <text x="135" y="410" class="t">A marcha do elevador não é afetada em nenhuma condição (1A).</text>
+  <rect x="20" y="280" width="90" height="70" fill="#f59e0b"/><text x="65" y="324" text-anchor="middle" class="n">2</text>
+  <rect x="120" y="280" width="820" height="70" fill="#fff6e0"/>
+  <text x="135" y="308" class="h">Nível 2: o elevador continua a marcha normal</text>
+  <text x="135" y="330" class="t">2A desabilita a operação em paralelo ou em grupo. 2B desabilita a abertura antecipada da porta e o renivelamento.</text>
+  <rect x="20" y="200" width="90" height="70" fill="#ea580c"/><text x="65" y="244" text-anchor="middle" class="n">3</text>
+  <rect x="120" y="200" width="820" height="70" fill="#fff1e6"/>
+  <text x="135" y="228" class="h">Nível 3: para a saída e aplica o freio logo depois da parada</text>
+  <text x="135" y="250" class="t">3A: em baixa velocidade, para com desaceleração especial e não reinicia. 3B: pode partir em baixa velocidade após 3 s.</text>
+  <rect x="20" y="120" width="90" height="70" fill="#dc2626"/><text x="65" y="164" text-anchor="middle" class="n">4</text>
+  <rect x="120" y="120" width="820" height="70" fill="#fdecec"/>
+  <text x="135" y="148" class="h">Nível 4: no controle por distância, desacelera até parar e não anda de novo</text>
+  <text x="135" y="170" class="t">4A, 4B e 4C: o manual descreve a parada em baixa e em velocidade normal; o texto do 4C repete o do 4B.</text>
+  <rect x="20" y="40" width="90" height="70" fill="#991b1b"/><text x="65" y="84" text-anchor="middle" class="n">5</text>
+  <rect x="120" y="40" width="820" height="70" fill="#fbe3e3"/>
+  <text x="135" y="68" class="h">Nível 5: o elevador para imediatamente</text>
+  <text x="135" y="90" class="t">5A: em baixa velocidade, para imediatamente e não reinicia. 5B: pode partir em baixa velocidade após 3 s.</text>
+  <text x="480" y="452" text-anchor="middle" class="s">Em todos os níveis o controlador mostra o código e aciona o comando do relé de falha.</text>
+</svg>

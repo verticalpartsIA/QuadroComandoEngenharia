@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 400" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t131 d131">
+  <title id="t131">Figura 13.1 Como o código de falha aparece</title>
+  <desc id="d131">A mesma falha aparece como E22-101 no teclado da placa MCB e como Err22 no painel de operação. O histórico das últimas 10 falhas aparece com F-2 igual a 2.</desc>
+  <style>
+    .b{fill:#fff;stroke:#1F5FA8;stroke-width:2.5}
+    .k{fill:#0f0f0f;stroke:#0f0f0f}
+    .t{font-size:13px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .d{font-family:Consolas,'Courier New',monospace;font-size:34px;font-weight:700;fill:#F5C400}
+    .l{stroke:#1F5FA8;stroke-width:2.5;fill:none}
+  </style>
+  <rect width="960" height="400" fill="#fff"/>
+  <!-- Teclado MCB -->
+  <rect x="30" y="40" width="400" height="190" rx="8" class="b"/>
+  <text x="230" y="68" text-anchor="middle" class="h">Teclado da placa MCB</text>
+  <rect x="90" y="85" width="280" height="70" rx="4" class="k"/>
+  <text x="230" y="135" text-anchor="middle" class="d">E22-101</text>
+  <text x="230" y="182" text-anchor="middle" class="t">E + código (22) + subcódigo (101)</text>
+  <text x="230" y="206" text-anchor="middle" class="s">mostra a falha atual</text>
+  <!-- Painel de operação -->
+  <rect x="530" y="40" width="400" height="190" rx="8" class="b"/>
+  <text x="730" y="68" text-anchor="middle" class="h">Painel de operação</text>
+  <rect x="590" y="85" width="280" height="70" rx="4" class="k"/>
+  <text x="730" y="135" text-anchor="middle" class="d">Err22</text>
+  <text x="730" y="182" text-anchor="middle" class="t">Err + código (22)</text>
+  <text x="730" y="206" text-anchor="middle" class="s">quando o painel está ligado</text>
+  <!-- seta de igualdade -->
+  <path class="l" d="M430 120 H530"/><path class="l" d="M430 120 l12 -8 M430 120 l12 8 M530 120 l-12 -8 M530 120 l-12 8"/>
+  <text x="480" y="104" text-anchor="middle" class="s">mesma falha</text>
+  <!-- histórico -->
+  <rect x="30" y="270" width="900" height="100" rx="8" class="b"/>
+  <text x="480" y="300" text-anchor="middle" class="h">Histórico: F-2 igual a 2 no teclado</text>
+  <text x="480" y="326" text-anchor="middle" class="t">mostra as últimas 10 falhas, com código, subcódigo e hora</text>
+  <text x="480" y="350" text-anchor="middle" class="s">detalhes nos grupos E0 a E9 e nos parâmetros FC-11 a FC-210</text>
+  <path class="l" d="M230 230 V270"/><path class="l" d="M730 230 V270"/>
+</svg>
