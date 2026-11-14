@@ -18,6 +18,7 @@ ORDEM = [
     ("capa", "manuscript/00-frente.md"),
     ("cap", "manuscript/cap01-principios-cadeia-seguranca.md"),
     ("cap", "manuscript/cap03-componentes-do-quadro.md"),
+    ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
     ("ap", "manuscript/ap-a-lista-de-fios.md"),
     ("ap", "manuscript/ap-c-pendencias-e-correcoes.md"),
 ]
