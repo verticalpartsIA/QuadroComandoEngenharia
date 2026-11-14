@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t21 d21">
+  <title id="t21">Figura 2.1 Componentes do sistema e barramentos</title>
+  <desc id="d21">O quadro de comando liga, por CAN, a caixa de teto, a PCB-D1 e o módulo de abertura antecipada; por RS-485, as placas de chamada dos pavimentos; e por contatos, o poço. A máquina recebe potência e freio.</desc>
+  <style>
+    .b{fill:#fff;stroke:#111;stroke-width:2.5}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2}
+    .u{fill:#fff;stroke:#777;stroke-width:2;stroke-dasharray:6 4}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .can{stroke:#1F5FA8;stroke-width:3.5;fill:none}
+    .rs{stroke:#ea580c;stroke-width:3.5;fill:none}
+    .ct{stroke:#444;stroke-width:2.5;fill:none;stroke-dasharray:8 5}
+    .pw{stroke:#C0392B;stroke-width:3.5;fill:none}
+  </style>
+  <rect width="960" height="640" fill="#fff"/>
+  <!-- Quadro de comando -->
+  <rect x="20" y="40" width="440" height="560" rx="8" class="b" fill="#fafafa"/>
+  <text x="240" y="64" text-anchor="middle" class="h">Quadro de comando</text>
+  <rect x="45" y="85" width="390" height="70" class="p"/><text x="240" y="115" text-anchor="middle" class="t" font-weight="700">Controlador integrado NICE3000new</text><text x="240" y="135" text-anchor="middle" class="s">inversor e placa principal MCB-C3</text>
+  <rect x="45" y="200" width="390" height="70" class="c"/><text x="240" y="230" text-anchor="middle" class="t" font-weight="700">Placa de interface KCB-B4A</text><text x="240" y="250" text-anchor="middle" class="s">cadeia de segurança e distribuição de sinais</text>
+  <rect x="45" y="315" width="180" height="60" class="c"/><text x="135" y="341" text-anchor="middle" class="t" font-weight="700">PCB-D1</text><text x="135" y="360" text-anchor="middle" class="s">24 V e freio</text>
+  <rect x="255" y="315" width="180" height="60" class="u"/><text x="345" y="341" text-anchor="middle" class="t" font-weight="700">SCB-A4 ou SCB-D4</text><text x="345" y="360" text-anchor="middle" class="s">PREENCHER [Q92]</text>
+  <rect x="45" y="410" width="390" height="60" class="c"/><text x="240" y="436" text-anchor="middle" class="t" font-weight="700">Resgate elétrico ERB-A1</text><text x="240" y="455" text-anchor="middle" class="s">libera o freio sem rede</text>
+  <rect x="45" y="500" width="390" height="70" class="p"/><text x="240" y="528" text-anchor="middle" class="t" font-weight="700">Contatores SW, BY e FX</text><text x="240" y="548" text-anchor="middle" class="s">potência do motor e freio</text>
+  <!-- Cabina -->
+  <rect x="560" y="40" width="380" height="190" rx="8" class="b" fill="#fafafa"/>
+  <text x="750" y="64" text-anchor="middle" class="h">Cabina</text>
+  <rect x="580" y="80" width="340" height="60" class="c"/><text x="750" y="106" text-anchor="middle" class="t" font-weight="700">Caixa de teto CTW-B3</text><text x="750" y="124" text-anchor="middle" class="s">interface, CTB, inspeção, interfone, iluminação</text>
+  <rect x="580" y="155" width="160" height="55" class="c"/><text x="660" y="179" text-anchor="middle" class="t" font-weight="700">COB</text><text x="660" y="196" text-anchor="middle" class="s">botoeira de cabina</text>
+  <rect x="760" y="155" width="160" height="55" class="c"/><text x="840" y="179" text-anchor="middle" class="t" font-weight="700">Operador de porta</text><text x="840" y="196" text-anchor="middle" class="s">NICE900 (AD30)</text>
+  <!-- Pavimentos -->
+  <rect x="560" y="260" width="380" height="140" rx="8" class="b" fill="#fafafa"/>
+  <text x="750" y="284" text-anchor="middle" class="h">Pavimentos</text>
+  <rect x="580" y="300" width="100" height="75" class="c"/><text x="630" y="332" text-anchor="middle" class="t" font-weight="700">HCB 1</text><text x="630" y="352" text-anchor="middle" class="s">chamadas</text>
+  <rect x="695" y="300" width="100" height="75" class="c"/><text x="745" y="332" text-anchor="middle" class="t" font-weight="700">HCB 2</text><text x="745" y="352" text-anchor="middle" class="s">chamadas</text>
+  <rect x="810" y="300" width="110" height="75" class="c"/><text x="865" y="332" text-anchor="middle" class="t" font-weight="700">HCB 3</text><text x="865" y="352" text-anchor="middle" class="s">chamadas</text>
+  <!-- Poço -->
+  <rect x="560" y="430" width="180" height="90" rx="8" class="b" fill="#fafafa"/>
+  <text x="650" y="456" text-anchor="middle" class="h">Poço</text>
+  <text x="650" y="480" text-anchor="middle" class="t">caixa de inspeção</text><text x="650" y="498" text-anchor="middle" class="s">MBT-PIB e MCTC-PTB-A1</text>
+  <!-- Máquina -->
+  <rect x="760" y="430" width="180" height="90" rx="8" class="b" fill="#fafafa"/>
+  <text x="850" y="456" text-anchor="middle" class="h">Máquina</text>
+  <text x="850" y="480" text-anchor="middle" class="t">motor, freio e encoder</text><text x="850" y="498" text-anchor="middle" class="s">capítulo 7</text>
+  <!-- ligações -->
+  <path class="can" d="M435 235 H520 V110 H580"/>  <!-- KCB -> caixa de teto -->
+  <path class="can" d="M240 270 V292 H135 V315"/> <!-- KCB -> PCB-D1 -->
+  <path class="can" d="M240 292 H345 V315"/> <!-- KCB -> SCB -->
+  <path class="rs" d="M435 255 H500 V338 H580"/> <!-- RS-485 -> HCB -->
+  <path class="rs" d="M680 338 H695"/><path class="rs" d="M795 338 H810"/>
+  <path class="ct" d="M435 275 H530 V475 H560"/> <!-- contatos -> poço -->
+  <path class="pw" d="M435 535 H520 V500 H760"/> <!-- potência -> máquina -->
+  <path class="ct" d="M240 155 V200"/>
+  <text x="250" y="182" class="s">cabo flat de 40 vias</text>
+  <!-- legenda -->
+  <g font-size="12" fill="#333">
+    <line x1="560" y1="560" x2="610" y2="560" class="can"/><text x="618" y="564">CAN</text>
+    <line x1="560" y1="584" x2="610" y2="584" class="rs"/><text x="618" y="588">RS-485 (Modbus)</text>
+    <line x1="720" y1="560" x2="770" y2="560" class="ct"/><text x="778" y="564">contatos (cadeia e chaves)</text>
+    <line x1="720" y1="584" x2="770" y2="584" class="pw"/><text x="778" y="588">potência e freio</text>
+    <text x="20" y="626" font-size="11" fill="#666">Cores só neste diagrama. Os fios reais do quadro são pretos e se identificam pela anilha.</text>
+  </g>
+</svg>

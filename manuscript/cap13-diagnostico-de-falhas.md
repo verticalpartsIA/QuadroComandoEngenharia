@@ -1,6 +1,6 @@
 # Capítulo 13. Diagnóstico de falhas
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. A tabela de falhas é tradução fiel do capítulo 7 do manual do controlador; a revisão técnica final é do responsável técnico e da Qualidade. Este arquivo é montado por `build/monta_cap13.py`; edite os arquivos de origem.
+> RASCUNHO v0.1 de 14/11/2026. Texto revisado pelo Gelson em 14/11/2026; aguarda a assinatura da Qualidade. A tabela de falhas é tradução fiel do capítulo 7 do manual do controlador; a revisão técnica final é do responsável técnico e da Qualidade. Este arquivo é montado por `build/monta_cap13.py`; edite os arquivos de origem.
 
 **Parte IV. Comissionamento**
 

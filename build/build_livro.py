@@ -17,6 +17,7 @@ NOME = "Livro_Quadro_de_Comando_NICE3000_VerticalParts_Rev12_base_v0-1"
 ORDEM = [
     ("capa", "manuscript/00-frente.md"),
     ("cap", "manuscript/cap01-principios-cadeia-seguranca.md"),
+    ("cap", "manuscript/cap02-visao-geral-sistema.md"),
     ("cap", "manuscript/cap03-componentes-do-quadro.md"),
     ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
     ("ap", "manuscript/ap-a-lista-de-fios.md"),
