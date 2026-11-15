@@ -282,7 +282,7 @@ A KCB comanda as bobinas pelas saídas Y1, Y2 e Y3 e lê a realimentação por X
 **Figura 3.4.** Potência do motor e caminho do freio. O FX liga as fases do motor entre si quando está desenergizado.
 Fonte: esquema Vitinho 19061867-ZL, folhas /9, /13 e /17 (págs. PDF 11, 15 e 19); manual NICE3000new, Tab. 3-12, pág. PDF 100.
 
-Marca, corrente de emprego (AC-3), tensão de bobina e tipo dos contatos auxiliares dos contatores instalados: `PREENCHER [Q88]`.
+Nas fotos de 12/11/2026 dá para ler: no FX, "WEG" e "CAWB 32"; no BY, "CWC012.01E" (leitura parcial); no SW, só o bloco auxiliar "BFB-22" da WEG, sem o modelo do contator. A lista de materiais especifica para a variante de 7,5 kW em 380 V o contator CWB25 (VPMP-846) e o bloco BFB-22 (Apêndice B). Corrente de emprego (AC-3), tensão de bobina e o modelo do contator SW: `PREENCHER [Q88]`. Fonte: `sources/cap03_fotos.md`, fotos F05 e F12.
 
 ## 3.10 Bornes, tomada e terra
 
