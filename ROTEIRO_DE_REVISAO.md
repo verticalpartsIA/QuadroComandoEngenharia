@@ -92,3 +92,10 @@ Rascunho v0.1. Fontes: POP-ISO-PCP Rev. 00, Rev. 11 págs. 32 e 33 (E1 a E12 e R
 4. Seção 5.6 e 5.7: checklist da Qualidade e modelo do relatório de CQ vêm só do POP; critérios por item ficam em espera (Q49 a Q52).
 Selos: Q118 e Q119 (issues abertas).
 
+
+## Apêndice D, Glossário e siglas (15/11/2026)
+Rascunho v0.1 (págs. 153 a 157 do PDF atual). Parte 1: os 17 termos fixos (os 11 do `GLOSSARY.md` mais resgate automático, operação elétrica de emergência, operador de porta, controlador de porta, autoajuste e zona de porta). Parte 2: siglas por grupo, cada uma com o capítulo. O que revisar:
+1. Se algum termo "Evite" está faltando (palavras que você não quer ver no livro).
+2. Siglas sem função confirmada ficam como estão: função de cada chave da cadeia (selo Q59, função das chaves) e DQFB, XA, TA, XB, CZ e XPE.
+3. ZL (sufixo dos esquemas) e AFE (Err67) ficam sem desdobramento, porque as fontes não o dão.
+Selo: Q59 (função de cada chave da cadeia).
