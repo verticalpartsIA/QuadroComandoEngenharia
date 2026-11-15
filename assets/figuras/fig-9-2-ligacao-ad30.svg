@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 640" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t92 d92">
+  <title id="t92">Figura 9.2 Ligação elétrica do controlador AD30</title>
+  <desc id="d92">O AD30 recebe a rede em L, N e PE, alimenta o motor por U, V, W e PE, alimenta e lê o encoder por 24 V, COM, PGA, PGB e PGZ, tem as entradas DI1 a DI8 e as saídas a relé DO1 a DO4.</desc>
+  <style>
+    .k{fill:#fafafa;stroke:#111;stroke-width:3}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2.2}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#1F5FA8;stroke-width:2.6;fill:none}
+    .lp{stroke:#C0392B;stroke-width:2.6;fill:none}
+  </style>
+  <rect width="960" height="640" fill="#fff"/>
+  <!-- controlador -->
+  <rect x="330" y="30" width="300" height="540" rx="8" class="k"/>
+  <text x="480" y="56" text-anchor="middle" class="h">Controlador AD30 (NICE900)</text>
+  <!-- entradas -->
+  <text x="345" y="90" class="s">Entradas digitais</text>
+  <g class="t">
+    <text x="345" y="112">DI1</text><text x="345" y="134">DI2</text><text x="345" y="156">DI3</text><text x="345" y="178">DI4</text><text x="345" y="200">DI5 a DI8</text><text x="345" y="222">COM e +24 V</text>
+  </g>
+  <!-- saídas -->
+  <text x="520" y="90" class="s">Saídas a relé</text>
+  <g class="t">
+    <text x="520" y="112">TA12 comum</text><text x="520" y="134">TC1 (DO1)</text><text x="520" y="156">TC2 (DO2)</text><text x="520" y="178">TC3 (DO3)</text><text x="520" y="200">TC4 (DO4)</text>
+  </g>
+  <!-- encoder -->
+  <text x="345" y="290" class="s">Encoder</text>
+  <g class="t"><text x="345" y="312">24 V e COM</text><text x="345" y="334">PGA, PGB, PGZ</text></g>
+  <!-- potência -->
+  <text x="345" y="420" class="s">Potência</text>
+  <g class="t"><text x="345" y="442">L, N, PE</text><text x="520" y="442">U, V, W, PE</text></g>
+  <!-- blocos de fora, entradas -->
+  <rect x="20" y="95" width="250" height="26" class="c"/><text x="145" y="113" text-anchor="middle" class="t">Comando de abrir</text>
+  <rect x="20" y="123" width="250" height="26" class="c"/><text x="145" y="141" text-anchor="middle" class="t">Comando de fechar</text>
+  <rect x="20" y="151" width="250" height="26" class="c"/><text x="145" y="169" text-anchor="middle" class="t">Sinal da cortina de luz</text>
+  <rect x="20" y="179" width="250" height="26" class="c"/><text x="145" y="197" text-anchor="middle" class="t">Fechamento forçado</text>
+  <rect x="20" y="207" width="250" height="26" class="c"/><text x="145" y="225" text-anchor="middle" class="s">DI5 a DI8: reserva (parametrizáveis)</text>
+  <path class="l" d="M270 108 H330"/><path class="l" d="M270 136 H330"/><path class="l" d="M270 164 H330"/><path class="l" d="M270 192 H330"/>
+  <!-- sistema de controle -->
+  <rect x="690" y="95" width="250" height="26" class="c"/><text x="815" y="113" text-anchor="middle" class="t">Comum do sistema de controle</text>
+  <rect x="690" y="123" width="250" height="26" class="c"/><text x="815" y="141" text-anchor="middle" class="t">Limite de porta aberta (LPA)</text>
+  <rect x="690" y="151" width="250" height="26" class="c"/><text x="815" y="169" text-anchor="middle" class="t">Limite de porta fechada (LPF)</text>
+  <rect x="690" y="179" width="250" height="26" class="c"/><text x="815" y="197" text-anchor="middle" class="t">Fechamento impedido</text>
+  <rect x="690" y="207" width="250" height="26" class="c"/><text x="815" y="225" text-anchor="middle" class="t">Falha</text>
+  <path class="l" d="M630 108 H690"/><path class="l" d="M630 136 H690"/><path class="l" d="M630 164 H690"/><path class="l" d="M630 192 H690"/><path class="l" d="M630 220 H690"/>
+  <!-- encoder externo -->
+  <rect x="20" y="290" width="250" height="60" class="c"/><text x="145" y="316" text-anchor="middle" class="t" font-weight="700">Encoder da máquina</text><text x="145" y="336" text-anchor="middle" class="s">cabo blindado</text>
+  <path class="l" d="M270 320 H330"/>
+  <!-- rede e motor -->
+  <rect x="20" y="420" width="250" height="60" class="p"/><text x="145" y="446" text-anchor="middle" class="t" font-weight="700">Rede monofásica 220 V</text><text x="145" y="466" text-anchor="middle" class="s">com chave de alimentação</text>
+  <path class="lp" d="M270 450 H330"/>
+  <rect x="690" y="420" width="250" height="60" class="p"/><text x="815" y="446" text-anchor="middle" class="t" font-weight="700">Motor de porta (PMSM)</text><text x="815" y="466" text-anchor="middle" class="s">cabo blindado</text>
+  <path class="lp" d="M630 450 H690"/>
+  <text x="480" y="600" text-anchor="middle" class="s">Padrão de fábrica. Todos os terminais DI e DO são parametrizáveis.</text>
+  <text x="480" y="620" text-anchor="middle" class="s">Nunca inverta o 24 V com o COM nem PGA, PGB e PGZ. Vermelho: potência. Azul: comando e sinais.</text>
+</svg>

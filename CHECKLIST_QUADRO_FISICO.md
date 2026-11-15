@@ -29,5 +29,6 @@ Uma ida ao quadro de referência responde quase todas as perguntas abertas do Ca
 | 23 | Placa do poço (Capítulo 11) | Etiqueta da placa dentro da caixa de inspeção do poço (MCTC-PTB-A1 ou MCTC-KZ-G2) e a posição do jumper J15 | Q104 |
 | 24 | Placa da caixa de teto (Capítulo 8) | Etiqueta da placa dentro da caixa de teto (MCTC-CTB-H5 ou AD2SO22M1/2/3) e foto do curto do MSC, mostrando entre quais bornes ele está | Q98 |
 | 25 | Placa de comando da cabina (Capítulo 8) | Etiqueta da placa na cabina (MCTC-COB-A1 ou A2) | Q99 |
+| 26 | Operador de porta (Capítulo 9) | Placa do operador e do controlador de porta (fabricante, modelo); aviso impresso na tampa do controlador; dados da placa do motor e do encoder da porta; como o parâmetro de pulsos do encoder aparece no display (F1-07 ou F214) | Q106, Q107, Q109, Q110 |
 
 Antes de publicar qualquer foto: cobrir número de série, QR e código de barras, adesivos com nomes de pessoas ou clientes, e rostos.

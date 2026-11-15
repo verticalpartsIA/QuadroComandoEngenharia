@@ -33,3 +33,9 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 | Q102 | Velocidade nominal do elevador de referência | decisao-do-responsavel, ida-ao-quadro | [#23](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/23) | Sem resposta, aguardando dado do responsável |
 | Q104 | Qual é a placa do poço instalada? | ida-ao-quadro | [#24](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/24) | Respondida em 15/11/2026, a conferir contra a fonte antes de tirar o selo |
 | CREA | Registro profissional do responsável técnico (CREA ou CFT) | decisao-do-responsavel | [#25](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/25) | Sem resposta, aguardando dado do responsável |
+| Q106 | Qual notação de parâmetros vale no controlador de porta entregue? | ida-ao-quadro | [#26](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/26) | Aberta |
+| Q107 | Qual operador de porta tem o elevador de referência? | ida-ao-quadro, decisao-do-responsavel | [#27](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/27) | Aberta |
+| Q108 | Ligação real entre o DEN1 da caixa de teto e o AD30 | ida-ao-quadro, falta-documento | [#28](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/28) | Aberta |
+| Q109 | Dados do motor e do encoder do operador de porta | ida-ao-quadro | [#29](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/29) | Aberta |
+| Q110 | Tempo de espera para descarga do controlador de porta | ida-ao-quadro, falta-documento | [#30](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/30) | Aberta |
+| Q111 | Sentido invertido: trocar U e V, mudar o F215 ou os dois? | falta-documento, decisao-do-responsavel | [#31](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/31) | Aberta |

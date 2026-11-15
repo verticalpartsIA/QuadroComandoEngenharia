@@ -21,6 +21,7 @@ ORDEM = [
     ("cap", "manuscript/cap03-componentes-do-quadro.md"),
     ("cap", "manuscript/cap07-motor-freio-encoder.md"),
     ("cap", "manuscript/cap08-caixa-de-teto-e-cabina.md"),
+    ("cap", "manuscript/cap09-operador-de-porta.md"),
     ("cap", "manuscript/cap10-caixa-de-corrida-e-cabos.md"),
     ("cap", "manuscript/cap11-poco.md"),
     ("cap", "manuscript/cap12-energizacao-parametros-autoajuste.md"),

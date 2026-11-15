@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t91 d91">
+  <title id="t91">Figura 9.1 Interface entre a caixa de teto e o operador de porta</title>
+  <desc id="d91">A caixa de teto entrega a alimentação de 220 V pelo DC1 e os comandos de abrir, fechar e fechamento forçado pelo DEN1 ao controlador de porta. O controlador devolve os limites de abertura e de fechamento e a proteção térmica. O controlador comanda o motor e lê o encoder da máquina de porta.</desc>
+  <style>
+    .k{fill:#fafafa;stroke:#111;stroke-width:3}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2.2}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#1F5FA8;stroke-width:2.8;fill:none}
+    .lp{stroke:#C0392B;stroke-width:2.8;fill:none}
+  </style>
+  <defs>
+    <marker id="a91" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#1F5FA8"/></marker>
+    <marker id="b91" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#C0392B"/></marker>
+  </defs>
+  <rect width="960" height="560" fill="#fff"/>
+  <!-- caixa de teto -->
+  <rect x="20" y="30" width="300" height="440" rx="8" class="k"/>
+  <text x="170" y="56" text-anchor="middle" class="h">Caixa de teto CTW-B3</text>
+  <rect x="40" y="80" width="260" height="60" class="p"/><text x="170" y="104" text-anchor="middle" class="t" font-weight="700">DC1: 207, 208, PE</text><text x="170" y="124" text-anchor="middle" class="s">alimentação de 220 V</text>
+  <rect x="40" y="160" width="260" height="90" class="c"/><text x="170" y="184" text-anchor="middle" class="t" font-weight="700">DEN1</text><text x="170" y="204" text-anchor="middle" class="s">B1 abrir, B2 fechar, B3 fechamento forçado</text><text x="170" y="224" text-anchor="middle" class="s">X3 limite aberta, X5 limite fechada, BM e 301</text>
+  <rect x="40" y="270" width="260" height="60" class="c"/><text x="170" y="294" text-anchor="middle" class="t" font-weight="700">DP: X11, 301</text><text x="170" y="314" text-anchor="middle" class="s">proteção térmica do operador</text>
+  <rect x="40" y="350" width="260" height="60" class="c"/><text x="170" y="374" text-anchor="middle" class="t" font-weight="700">EDP1</text><text x="170" y="394" text-anchor="middle" class="s">cortina de luz e borda de segurança</text>
+  <!-- controlador -->
+  <rect x="440" y="80" width="230" height="250" rx="8" class="k"/>
+  <text x="555" y="106" text-anchor="middle" class="h">Controlador de porta</text>
+  <text x="555" y="126" text-anchor="middle" class="s">exemplo: AD30 / NICE900</text>
+  <text x="555" y="170" text-anchor="middle" class="t">entradas: abrir, fechar,</text>
+  <text x="555" y="190" text-anchor="middle" class="t">cortina, fechamento forçado</text>
+  <text x="555" y="226" text-anchor="middle" class="t">saídas a relé: limite aberta,</text>
+  <text x="555" y="246" text-anchor="middle" class="t">limite fechada, fechamento</text>
+  <text x="555" y="266" text-anchor="middle" class="t">impedido, falha</text>
+  <!-- máquina -->
+  <rect x="760" y="80" width="180" height="150" rx="8" class="k"/>
+  <text x="850" y="106" text-anchor="middle" class="h">Máquina de porta</text>
+  <text x="850" y="126" text-anchor="middle" class="s">exemplo: J4210</text>
+  <rect x="775" y="140" width="150" height="34" class="p"/><text x="850" y="162" text-anchor="middle" class="t">Motor: U, V, W, PE</text>
+  <rect x="775" y="182" width="150" height="34" class="c"/><text x="850" y="204" text-anchor="middle" class="t">Encoder: PGA, PGB, PGZ</text>
+  <!-- ligações -->
+  <path class="lp" d="M300 110 H440" marker-end="url(#b91)"/><text x="370" y="102" text-anchor="middle" class="s">L, N, PE</text>
+  <path class="l" d="M300 190 H440" marker-end="url(#a91)"/><text x="370" y="182" text-anchor="middle" class="s">comandos</text>
+  <path class="l" d="M440 225 H300" marker-end="url(#a91)"/><text x="370" y="244" text-anchor="middle" class="s">limites</text>
+  <path class="l" d="M440 300 H300" marker-end="url(#a91)"/><text x="370" y="292" text-anchor="middle" class="s">proteção térmica</text>
+  <path class="lp" d="M670 157 H775" marker-end="url(#b91)"/>
+  <path class="l" d="M775 199 H670" marker-end="url(#a91)"/>
+  <text x="720" y="150" text-anchor="middle" class="s">potência</text>
+  <text x="720" y="216" text-anchor="middle" class="s">posição</text>
+  <text x="480" y="510" text-anchor="middle" class="s">Vermelho: potência. Azul: comando, sinais e comunicação. A cortina de luz (EDP1) liga-se à porta, não ao controlador.</text>
+  <text x="480" y="534" text-anchor="middle" class="s">Nomes dos terminais do controlador variam de um fabricante para outro; os da caixa de teto são os do manual da CTW-B3.</text>
+</svg>

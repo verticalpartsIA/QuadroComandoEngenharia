@@ -59,3 +59,11 @@ Responda pelo número ("Q79: NICE-L-C-4007"). Qualquer resposta que a documenta�
 2. Retomo os capítulos que faltam, na ordem que você escolher (sugestão: 8, 10, 11, 4, 5, 9, 14).
 3. Rodo os testes de qualidade do livro (nenhum selo, fonte e página em tudo, alertas antes dos passos perigosos).
 4. A Qualidade assina os capítulos de segurança e o livro sai como Rev. 12.
+
+## Capítulo 9, Operador de porta (15/11/2026)
+Rascunho v0.1 (págs. 40 a 47 do PDF atual). Duas camadas: interface do quadro com qualquer operador (9.3) e exemplo AD30/NICE900 com a máquina J4210. O que revisar:
+1. Seção 9.3: a lista de sinais vale para todos os operadores? Confirmar contra o seu conhecimento de campo.
+2. Seção 9.5: só as 5 primeiras ligações têm base em manual; as 4 últimas são correspondência de função (issue #28).
+3. Seções 9.8 a 9.10: mostram os dois documentos do fabricante lado a lado (notação e método de autoajuste), sem escolher um (issues #26, #30 e #31).
+4. Seção 9.6 e 9.11: cotas e folhas tiradas do manual J4210, em inglês, traduzidas por mim.
+Selos: Q106 a Q111 (issues #26 a #31). Apoio não citado: manual Glarie, NICE3000new antigo, BST BG101/BG201, brochura J5801.
