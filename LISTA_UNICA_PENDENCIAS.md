@@ -41,38 +41,48 @@ Leve o checklist impresso, com o quadro desligado e 10 minutos de espera. Cada l
 
 | Nº | O que ler ou fotografar | Item do checklist | Resolve |
 |---|---|---|---|
-| C1 | Plaqueta do inversor (modelo, potência, correntes) | 1 | Se o inversor é o NICE-L-C-4007 (Q79) |
-| C2 | Plaqueta do resistor de frenagem e onde ele está fixado | 2 | Valor do resistor (Q80) e fixação (P5) |
+| C1 | Plaqueta do inversor (modelo, potência, correntes) | 1 | Só confirmação: a lista de materiais já especifica o NICE-L-C-4007 (Q79 resolvida) |
+| C2 | Onde o resistor de frenagem está fixado, bitola e terminal do cabo | 2 | Fixação do resistor (P5); o valor já está na lista de materiais (Q80 resolvida) |
 | C3 | Etiquetas de DQFB1 a DQFB3 e do QF, QFB3 e QFB4; foto do trilho de disjuntores inteiro | 3, 4 e 5 | Função dos DQFB (Q81) e dados das proteções (Q82) |
 | C4 | Conectores S1 e S2 da placa KCB, com plugues e jumpers | 6 | Pinos do bypass de porta (Q83) |
 | C5 | Parâmetros B0-00 a B0-02 no display da PCB-D1 e plaqueta do freio | 7 | Tensões do freio (Q84) |
 | C6 | Placa PCB-D1, base do quadro por fileira de bornes e barramento de terra com cada fio | 8, 9 e 10 | Posição das peças e dos bornes XA, TA, XB, SZ, CZ (Q85); bornes grandes (P17) |
-| C7 | Etiqueta do resgate elétrico e a bateria dentro | 11 | ERB-A1 ou A2 (Q86); bateria (P16); serigrafia de L e N (P10) |
+| C7 | A bateria dentro do resgate elétrico e a serigrafia de L e N | 11 | Bateria (P16) e L e N (P10); o modelo A1 já está confirmado pela foto (Q86 resolvida) |
 | C8 | Etiquetas dos contatores SW, BY e FX e dos blocos auxiliares | 13 | Dados dos contatores (Q88); mapa dos contatos (P6); bloco BC-1 ou BC-A (P15) |
 | C9 | Conectores AA, AB, BA, BD, BE e HW: há jumper instalado? | 14 | Se os jumpers 62 a 66 da lista de fios ficam só na bancada (Q71) |
 | C10 | Conector HW e o circuito do limitador de velocidade; se há contrapeso com cunha | 16 | Se existem RCS, CWSG e OS-G (Q54) e o botão MES-1 (Q60) |
 | C11 | Plaqueta do motor de tração e do encoder | 17 e 18 | Dados da máquina (Q95) e modelo do encoder (Q96) |
 | C12 | Módulo de abertura antecipada SCB-A4 ou SCB-D4 no quadro | 21 | Se o módulo está instalado (Q92) |
-| C13 | Cabos de manobra e de poço: tipo, bitola e comprimento | 22 | Cabos (Q101) |
+| C13 | Comprimento de cada cabo de manobra e de poço | 22 | Comprimento (Q101); tipo e bitola já confirmados pela lista de fiação |
 | C14 | Placa dentro da caixa de inspeção do poço e o jumper J15 | 23 | Placa do poço (Q104) |
-| C15 | Placa da caixa de teto e o curto do MSC; placa de comando da cabina | 24 e 25 | Caixa de teto (Q98) e placa COB (Q99) |
+| C15 | Etiqueta da placa de comando da cabina (MCTC-COB-A1 ou A2) | 25 | Placa COB (Q99); a caixa de teto já está resolvida (Q98) |
 | C16 | Placa do operador e do controlador de porta, aviso da tampa, plaqueta do motor e do encoder da porta, e como o parâmetro de pulsos aparece no display | 26 | Notação dos parâmetros (Q106), dados do motor da porta (Q109), tempo de espera (Q110) |
 | C17 | UPS, ARD ou contator de marcha da UPS no quadro | 27 | Resgate automático (Q112), se você não souber de cabeça (A5) |
 
-## Grupo D. Não depende de você (eu faço)
+## Grupo D. Conferência feita em 15/11/2026
 
-As 12 respostas do documento de 15/11 (`respostas_das_issues_quadrocomandoengenharia.md`) eu confiro contra a fonte citada antes de tirar o selo. Já vi quatro pontos fracos, que vou checar primeiro:
+As 12 respostas do documento de 15/11 foram conferidas contra a fonte citada. O resultado está também comentado em cada issue.
 
-1. **Placa do poço (Q104):** a resposta cita a MBT-PIB-A12, que no esquema é a caixa de parada, não a placa da caixa de inspeção.
-2. **Função das chaves (Q59):** a lista traz SGC, PIS e outra descrição do GTS, que não estão nas fontes lidas (por isso virou o B7).
-3. **Caixa de teto (Q98):** a resposta diz que você confirmou a CTW-B3; vou procurar esse registro na pendência P36.
-4. **Placa da cabina (Q99):** o raciocínio "porta única, então COB-A1" é plausível; vou conferir na folha /39 do esquema.
+| Resultado | Assunto | O que aconteceu |
+|---|---|---|
+| Resolvida | Modelo do inversor (Q79) | A lista de materiais especifica o NICE-L-C-4007-KZG; selo removido do capítulo 3 |
+| Resolvida | Resistor de frenagem (Q80) | A lista de materiais especifica 75 ohm e 2500 W; selo removido |
+| Resolvida | Resgate elétrico A1 ou A2 (Q86) | A etiqueta MCTC-ERB-A1 aparece na foto de 12/11; selo removido dos capítulos 3 e 14 |
+| Resolvida | Qual diagrama vale para a caixa de teto (Q98) | Você confirmou a CTW-B3 na revisão 8 (pendência P36); vale o manual; selo removido dos capítulos 8 e 10 |
+| Parcial | Cabos de manobra e de poço (Q101) | Feitos pela VerticalParts, cabo PP de 0,75 mm², Mini-Fit e Hylok; falta só o comprimento (C13) |
+| Parcial | Função dos DQFB (Q81) | Os componentes batem com a lista de materiais; o circuito de cada um vem só da lista de fios (C3) |
+| Não resolve | Amortecedores (Q56) | Repete o esquema; falta a sua confirmação (A8) |
+| Não resolve | Função das chaves da cadeia (Q59) | Traz itens sem fonte; precisa de material do fabricante (B7) |
+| Não resolve | Jumpers 62 a 66 (Q71) | Repete a indicação já registrada; falta ver no quadro (C9) |
+| Não resolve | Rótulo da botoeira (Q87) | A resposta fala de outra coisa (A7) |
+| Não resolve | Placa de comando da cabina (Q99) | Confundiu os conectores COB1 e COB2 com os modelos A1 e A2 (C15) |
+| Não resolve | Placa do poço (Q104) | A MBT-PIB-A12 é a caixa de parada, não a placa (C14) |
 
-As outras oito (Q56, Q71, Q79, Q80, Q81, Q86, Q87 e Q101) eu confiro na mesma rodada. As que baterem com a fonte saem do livro sem precisar de você.
+**Um ajuste num capítulo já aprovado:** no teste R3 do capítulo 5, a etiqueta do ERB-A1 fotografado diz 187 a 253 V, e o manual diz 187 a 242 V. O texto agora mostra as duas e manda usar a do manual, que é a mais estreita.
 
 ## Resumo
 
 - Grupo A: 12 decisões (A1 bloqueia o lançamento; A2 a A8 tiram selos dos rascunhos).
 - Grupo B: 9 pedidos de documento ou de outra área.
 - Grupo C: 17 leituras numa só ida ao quadro.
-- Grupo D: 12 conferências minhas.
+- Grupo D: feito; 4 resolvidas, 2 parciais e 6 que voltam para os grupos A, B e C.

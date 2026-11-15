@@ -80,7 +80,7 @@ Faça este teste depois de E1 a E12, com o freio e o motor conforme a etiqueta. 
 |---|---|---|---|---|
 | R1 | Conferir a bateria ligada, com a polaridade certa (vermelho no positivo). Energizar 501 e 502 por 12 h, no primeiro uso | Indicador amarelo: aceso fixo = bateria cheia; piscando devagar = carregando | | [ ] |
 | R2 | Medir a resistência da bobina do freio, desconectada | Pelo menos 27,5 Ω (110 V dividido pela corrente máxima de 4 A) | | [ ] |
-| R3 | Com a rede ligada, medir a tensão entre L e N do resgate | De 187 a 242 V CA (220 V com -15% e +10%) | | [ ] |
+| R3 | Com a rede ligada, medir a tensão entre L e N do resgate | De 187 a 242 V CA (220 V com -15% e +10%, pelo manual). A etiqueta do ERB-A1 fotografado diz 187 a 253 V; use a faixa do manual, que é a mais estreita | | [ ] |
 | R4 | Com a rede ligada, ver os indicadores em repouso | Indicador vermelho apagado | | [ ] |
 | R5 | Tirar o plugue SZ1 do SZ2 e o MT do MT1 (esquema, folha /23); desligar a rede (QFB3); apertar Start e Common (fora da zona de porta) | Indicador verde acende; ZQ+ e ZQ- com cerca de 110 V por 2 s e depois 80 V | | [ ] |
 | R6 | Repetir com Forced e Common (em zona de porta) | Idem | | [ ] |

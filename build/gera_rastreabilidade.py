@@ -16,7 +16,7 @@ SAIDA = MAN / "ap-f-rastreabilidade.md"
 
 # (nome no livro, arquivo ou identificação, padrão que reconhece a citação)
 DOCUMENTOS = [
-    ("Esquema elétrico Vitinho 19061867-ZL (2023-07-18), revisão de esquema válida", "Esquema_Eletrico_NICE3000new.pdf", r"Vitinho|19061867"),
+    ("Esquema elétrico Vitinho 19061867-ZL (2023-07-18), revisão de esquema válida", "Diagrama Completo Vitinho NICE3000-B&W-B4A(GBT).pdf", r"Vitinho|19061867"),
     ("Esquema elétrico VerticalParts 19060918-ZL (2022-10-11), só referência", "Esquema Elétrico Elevadores Verticalparts.pdf", r"19060918|esquema VerticalParts"),
     ("Manual do controlador NICE3000new (368 págs., edição 20181130)", "Manual_Usuario_Controlador_NICE3000new_Completo.pdf", r"[Mm]anual (do )?NICE3000new|Manual_Usuario_Controlador|manual do controlador"),
     ("Manual do resgate elétrico MCTC-ERB-A (19010850-B01)", "Manual_Dispositivo_Resgate_Eletrico_ERB-A1_EN.pdf", r"[Mm]anual (do )?(resgate elétrico|ERB)|Manual_Dispositivo_Resgate|MCTC-ERB-A,"),

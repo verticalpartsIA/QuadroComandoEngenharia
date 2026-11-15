@@ -1,6 +1,6 @@
 # Capítulo 14. Resgate elétrico e manutenção
 
-> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q86]`, `PREENCHER [Q112]`, `PREENCHER [Q113]` e `PREENCHER [Q114]`. Fontes: manual do resgate elétrico MCTC-ERB-A (Inovance, 19010850), manual do NICE3000new (seção 9.13) e cartilha "Manual de Resgate" da VerticalParts (VP-RES-01, Rev. 02, versão para validação técnica).
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q112]`, `PREENCHER [Q113]` e `PREENCHER [Q114]`. Fontes: manual do resgate elétrico MCTC-ERB-A (Inovance, 19010850), manual do NICE3000new (seção 9.13) e cartilha "Manual de Resgate" da VerticalParts (VP-RES-01, Rev. 02, versão para validação técnica).
 
 **Parte IV. Comissionamento**
 
@@ -33,7 +33,7 @@ Fonte: glossário do projeto; manual NICE3000new, seção 9.13; esquema Vitinho,
 
 ## 14.3 O resgate elétrico MCTC-ERB
 
-O MCTC-ERB é o dispositivo de liberação elétrica do freio da Inovance (série MCTC, específica para elevadores). Quando a rede falta, ele libera o freio para que a cabina pare em uma posição esperada, e com a rede normal ele carrega a bateria. A série tem duas versões: **A1**, com bateria, e **A2**, sem bateria (a bateria é por conta do usuário). O modelo do elevador de referência: `PREENCHER [Q86]`.
+O MCTC-ERB é o dispositivo de liberação elétrica do freio da Inovance (série MCTC, específica para elevadores). Quando a rede falta, ele libera o freio para que a cabina pare em uma posição esperada, e com a rede normal ele carrega a bateria. A série tem duas versões: **A1**, com bateria, e **A2**, sem bateria (a bateria é por conta do usuário). O elevador de referência usa o **A1**: a etiqueta "MCTC-ERB-A1" é legível na foto do quadro de 12/11/2026 (capítulo 3, seção 3.6).
 
 | Dado | Valor |
 |---|---|

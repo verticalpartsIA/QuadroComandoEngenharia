@@ -1,6 +1,6 @@
 # Capítulo 10. Caixa de corrida e cabos de manobra
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q98]` (ver capítulo 8), `PREENCHER [Q101]` e `PREENCHER [Q102]`.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q101]` (só o comprimento) e `PREENCHER [Q102]`.
 
 **Parte III. Instalação em campo**
 
@@ -23,7 +23,7 @@ Do quadro de comando saem dois cabos de manobra para a caixa de teto (um em cada
 **Figura 10.1.** Cabos entre o quadro de comando, a cabina e a caixa de corrida.
 Fonte: esquema Vitinho 19061867-ZL, folhas /11, /19, /34, /43, /44, /45 e /48 (págs. PDF 13, 21, 36, 45, 46, 47 e 50).
 
-Os cabos, o comprimento e a bitola dependem da obra. Se os cabos de manobra e de poço são os cabos modulares da BST ou cabos feitos pela VerticalParts, e qual o comprimento e a bitola de cada um: `PREENCHER [Q101]`. Nenhum esquema lido indica bitola.
+Os cabos, o comprimento e a bitola dependem da obra. Os cabos de manobra e de poço são feitos pela VerticalParts: a lista de materiais da fiação traz cabos PP de 0,75 mm² (2 vias de 750 V, 3 e 4 vias de 500 V), com conectores Mini-Fit de passo 4,2 mm do lado do quadro e da cabina e conectores Hylok do lado do poço (`Lista de materiais QDC e fiação(FIAÇÃO).csv`). Nenhum esquema lido indica bitola. O comprimento de cada cabo depende da obra: `PREENCHER [Q101]`.
 
 ## 10.3 O cabo de manobra
 
@@ -35,7 +35,7 @@ O cabo de manobra liga o quadro de comando à caixa de teto, em dois cabos separ
 - No lado da caixa de teto, o pino 1 é o quadrado do canto inferior direito. A linha de baixo vai da direita para a esquerda, de 1 até a metade, e a de cima continua a numeração.
 - O livro anterior diz que a KCB está montada girada 180 graus no quadro real, mas isso não foi confirmado. Confira o pino 1 impresso na placa.
 
-> **ATENÇÃO.** A correspondência pino a pino vale para o esquema Vitinho. A caixa de teto CTW-B3 do manual tem diferenças de rótulo e de numeração em alguns conectores (por exemplo, o CB do manual traz 102 onde o esquema traz 122A). Qual dos dois descreve a caixa de teto instalada: `PREENCHER [Q98]` (capítulo 8).
+> **ATENÇÃO.** A correspondência pino a pino vale para o esquema Vitinho. A caixa de teto CTW-B3 do manual tem diferenças de rótulo e de numeração em alguns conectores (por exemplo, o CB do manual traz 102 onde o esquema traz 122A). A caixa instalada é a CTW-B3 (capítulo 8, seção 8.6): onde os dois divergem, vale o manual da CTW-B3.
 
 **Cabo A: AA (quadro) para CA (caixa de teto).**
 

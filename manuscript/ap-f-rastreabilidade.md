@@ -6,7 +6,7 @@
 
 | Documento | Arquivo na base de conhecimento | Capítulos que citam |
 |---|---|---|
-| Esquema elétrico Vitinho 19061867-ZL (2023-07-18), revisão de esquema válida | `Esquema_Eletrico_NICE3000new.pdf` | 1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 14 |
+| Esquema elétrico Vitinho 19061867-ZL (2023-07-18), revisão de esquema válida | `Diagrama Completo Vitinho NICE3000-B&W-B4A(GBT).pdf` | 1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 14 |
 | Esquema elétrico VerticalParts 19060918-ZL (2022-10-11), só referência | `Esquema Elétrico Elevadores Verticalparts.pdf` | 5, 11 |
 | Manual do controlador NICE3000new (368 págs., edição 20181130) | `Manual_Usuario_Controlador_NICE3000new_Completo.pdf` | 1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14 |
 | Manual do resgate elétrico MCTC-ERB-A (19010850-B01) | `Manual_Dispositivo_Resgate_Eletrico_ERB-A1_EN.pdf` | 3, 4, 5, 7, 14 |
@@ -18,7 +18,7 @@
 | POP-ISO-PCP, planejamento, produção e controle de quadros de comando (Rev. 00) | `POP-ISO-PCP ... QUADROS DE COMANDO.pdf` | 5 |
 | Cartilha "Manual de Resgate" VP-RES-01 Rev. 02 (versão para validação técnica) | `VerticalParts_Manual_de_Resgate-2.pdf` | 14 |
 | Fotos do quadro de 12 e 13/11/2026 | `Fotos do quadro` | 3, 14 |
-| Livro do Quadro de Comando Rev. 11 e a auditoria dele | `Livro_..._Rev11.pdf; auditoria/` | 4, 5 |
+| Livro do Quadro de Comando Rev. 11 e a auditoria dele | `Livro_..._Rev11.pdf; auditoria/` | 4, 5, 8 |
 
 Hierarquia: quando dois documentos divergem, vale o esquema Vitinho 19061867-ZL para ligações e o manual do fabricante para valores e parâmetros. A lista de fios da produção não é fonte: ela é conferida contra o esquema (Apêndice A). Documentos de outros fabricantes (BST, Glarie) e edições antigas de manual foram lidos só como apoio e não são citados como fonte.
 
@@ -132,13 +132,10 @@ Cada selo `PREENCHER [Qn]` é um dado sem fonte. O livro só é liberado sem nen
 | 1.7 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço |
 | 2.3 | Q92 | O módulo SCB-A4 ou SCB-D4 está instalado no quadro? |
 | 3.2 | Q85 | Posição da PCB-D1, do QFB4 e da base do quadro; polos do barramento de terra |
-| 3.3 | Q79 | O inversor entregue é o NICE-L-C-4007? |
-| 3.3 | Q80 | Qual resistor de frenagem está instalado? |
 | 3.3 | Q82 | Dados do QF, tipo dos QFB3 e QFB4 e proteção diferencial |
 | 3.4 | Q83 | Pinos do plugue S2 e posição dos jumpers |
 | 3.5 | Q84 | Parâmetros B0 e dados da bobina do freio |
 | 3.5 | Q85 | Posição da PCB-D1, do QFB4 e da base do quadro; polos do barramento de terra |
-| 3.6 | Q86 | O resgate elétrico é o ERB-A1 (com bateria) ou o ERB-A2? |
 | 3.7 | Q87 | Qual rótulo da botoeira de inspeção vale? |
 | 3.8 | Q81 | Função de DQFB1, DQFB2 e DQFB3 |
 | 3.8 | Q82 | Dados do QF, tipo dos QFB3 e QFB4 e proteção diferencial |
@@ -157,7 +154,6 @@ Cada selo `PREENCHER [Qn]` é um dado sem fonte. O livro só é liberado sem nen
 | 7.2 | Q95 | Dados da máquina de tração |
 | 7.3 | Q96 | O motor usa o encoder EI53C9.25-2048? |
 | 7.5 | Q84 | Parâmetros B0 e dados da bobina do freio |
-| 8.6 | Q98 | Qual diagrama descreve a caixa de teto instalada? |
 | 8.9 | Q99 | A placa de comando da cabina é a COB-A1 ou a COB-A2? |
 | 9.2 | Q107 | Qual operador de porta tem o elevador de referência? |
 | 9.5 | Q108 | Ligação real entre o DEN1 da caixa de teto e o AD30 |
@@ -165,14 +161,12 @@ Cada selo `PREENCHER [Qn]` é um dado sem fonte. O livro só é liberado sem nen
 | 9.8 | Q109 | Dados do motor e do encoder do operador de porta |
 | 9.10 | Q111 | Sentido invertido: trocar U e V, mudar o F215 ou os dois? |
 | 10.2 | Q101 | Cabos de manobra e de poço: modulares BST ou feitos pela VerticalParts? |
-| 10.3 | Q98 | Qual diagrama descreve a caixa de teto instalada? |
 | 10.6 | Q102 | Velocidade nominal do elevador de referência |
 | 11.2 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço |
 | 11.2 | Q101 | Cabos de manobra e de poço: modulares BST ou feitos pela VerticalParts? |
 | 11.4 | Q59 | Função de cada chave da cadeia de segurança |
 | 11.5 | Q104 | Qual é a placa do poço instalada? |
 | 14.2 | Q112 | O elevador de referência tem UPS ou ARD além do resgate elétrico? |
-| 14.3 | Q86 | O resgate elétrico é o ERB-A1 (com bateria) ou o ERB-A2? |
 | 14.7 | Q113 | Plano de manutenção periódica do quadro de comando |
 | 14.8 | Q112 | O elevador de referência tem UPS ou ARD além do resgate elétrico? |
 | 14.9 | Q114 | A cartilha de resgate da VerticalParts (VP-RES-01 Rev. 02) está aprovada? |

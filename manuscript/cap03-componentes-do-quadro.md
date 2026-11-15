@@ -1,6 +1,6 @@
 # Capítulo 3. Componentes do quadro de comando
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q79]` a `PREENCHER [Q88]`. Texto aprovado pelo Gelson em 14/11/2026 (as respostas Q79 a Q88 seguem em aberto). Fatos levantados em `sources/cap03_fichas_potencia.md`, `sources/cap03_fichas_controle.md` e `sources/cap03_fotos.md`.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q81]` a `PREENCHER [Q85]`, `PREENCHER [Q87]` e `PREENCHER [Q88]` (Q79, Q80 e Q86 resolvidos em 15/11/2026). Texto aprovado pelo Gelson em 14/11/2026 (as respostas Q79 a Q88 seguem em aberto). Fatos levantados em `sources/cap03_fichas_potencia.md`, `sources/cap03_fichas_controle.md` e `sources/cap03_fotos.md`.
 
 **Parte II. O quadro de comando**
 
@@ -47,7 +47,7 @@ A caixa do quadro mede 1350 x 350 x 240 mm (altura, largura e profundidade). Fon
 
 **O que é.** O NICE3000new é um controlador integrado de elevador. Ele junta o controle lógico (a placa MCB) e o inversor vetorial de corrente alternada no mesmo equipamento. Controla o motor pelo encoder, fala com a caixa de teto por CAN e com os chamadores por RS-485. Fonte: manual NICE3000new, pág. PDF 35 (impressa 34).
 
-**Modelo do elevador de referência.** Para 7,5 kW em 380 V o manual indica o NICE-L-C-4007. O esquema Vitinho só escreve "NICE-L-C-40XX" e não fixa a potência. Que o inversor entregue é o NICE-L-C-4007: `PREENCHER [Q79]`.
+**Modelo do elevador de referência.** Para 7,5 kW em 380 V o manual indica o NICE-L-C-4007. O esquema Vitinho só escreve "NICE-L-C-40XX" e não fixa a potência. A lista de materiais da variante de 7,5 kW em 380 V especifica o código VPB-223, "NICE-L-C-4007-KZG" (Apêndice B). Confirme na plaqueta do inversor recebido, no recebimento (capítulo 4, etapa 1).
 
 | Dado do NICE-L-C-4007 | Valor | Fonte (manual, págs. PDF) |
 |---|---|---|
@@ -85,7 +85,7 @@ A caixa do quadro mede 1350 x 350 x 240 mm (altura, largura e profundidade). Fon
 | Torque do borne de controle | 0,565 N·m, ponteira tubular com 6 mm de condutor exposto |
 | Resistor de frenagem | de 65 a 85 ohm e 2500 W; unidade de frenagem interna (Tab. 3-12, pág. PDF 100) |
 
-O resistor que está instalado no quadro de referência (ohm e watt): `PREENCHER [Q80]`. No esquema ele aparece como "DBR-B Braking resistor box", ligado a (+) e PB, e a folha /9 não dá valor. Fonte: esquema Vitinho, folha /9 (pág. PDF 11).
+A lista de materiais da variante de 7,5 kW em 380 V especifica o resistor VPMP-901, de 75 ohm e 2500 W, dentro da faixa do manual (Apêndice B). No esquema ele aparece como "DBR-B Braking resistor box", ligado a (+) e PB, e a folha /9 não dá valor. Fonte: esquema Vitinho, folha /9 (pág. PDF 11).
 
 **Conectores de controle da MCB-C3** (manual, Tab. 2-15, págs. PDF 61 e 62):
 
@@ -184,7 +184,7 @@ Fonte: esquema Vitinho, folhas /10, /13 e /24 (PDF 12, 15 e 26). O desenho não 
 
 ## 3.6 Resgate elétrico ERB-A1
 
-O resgate elétrico MCTC-ERB-A1 libera o freio quando a rede falta. Com a rede normal, carrega a bateria. O A1 é a versão com bateria interna e o A2 é a versão sem bateria. O esquema escreve "MCTC-ERB-A" na lista de peças e "MCTC-ERB-A1" na folha /23. Se o ERB do quadro de referência é o A1: `PREENCHER [Q86]`.
+O resgate elétrico MCTC-ERB-A1 libera o freio quando a rede falta. Com a rede normal, carrega a bateria. O A1 é a versão com bateria interna e o A2 é a versão sem bateria. O esquema escreve "MCTC-ERB-A" na lista de peças e "MCTC-ERB-A1" na folha /23. O quadro de referência usa o A1: a etiqueta "MCTC-ERB-A1" é legível na foto F04, de 12/11/2026 (`sources/cap03_fotos.md`).
 
 | Dado | Valor | Fonte (manual ERB EN) |
 |---|---|---|
@@ -244,7 +244,7 @@ Os dois diferenciais (QFB3 e QFB4) ficam **antes** do QF e continuam energizados
 **Figura 3.3.** Alimentação e proteção do quadro de comando. QFB3 e QFB4 saem antes do QF.
 Fonte: esquema Vitinho 19061867-ZL, folhas /8, /9, /10 e /11 (págs. PDF 10 a 13).
 
-Na foto, ao lado dos QFB aparecem as etiquetas DQFB1, DQFB2 e DQFB3. O esquema não tem DQFB, e o QFB4 não foi visto no quadro. A função de cada DQFB: `PREENCHER [Q81]`.
+Na foto, ao lado dos QFB aparecem as etiquetas DQFB1, DQFB2 e DQFB3. O esquema não tem DQFB, e o QFB4 não foi visto no quadro. A lista de materiais traz três minidisjuntores monopolares C6 (VPMP-333) e três interruptores diferenciais de 30 mA (VPMP-761), o que bate com DQFB1 a DQFB3 ao lado de QFB1 a QFB3 (Apêndice B). Que circuito cada DQFB protege: `PREENCHER [Q81]`.
 
 **Transformador TRF.** Gera a tensão de comando do circuito de segurança.
 

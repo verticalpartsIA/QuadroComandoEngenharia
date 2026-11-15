@@ -1,6 +1,6 @@
 # Capítulo 8. Caixa de teto e cabina
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q98]` e `PREENCHER [Q99]`. A fonte principal é o manual da caixa de teto MCTC-CTW-B3 (edição A02, julho de 2022), que tem só duas páginas densas.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selo aberto: `PREENCHER [Q99]` (Q98 resolvido em 15/11/2026). A fonte principal é o manual da caixa de teto MCTC-CTW-B3 (edição A02, julho de 2022), que tem só duas páginas densas.
 
 **Parte III. Instalação em campo**
 
@@ -146,7 +146,7 @@ O capítulo 1 descreve a cadeia de segurança inteira. Na caixa de teto ficam: a
 | SUP1 | entre 129 e 130 | entre 129 e 130 |
 | GS1 | entre 130 e 131A | entre 130 e 131A |
 
-O esquema chama a placa de "AD2SO22M1/2/3 car top control board" (caixa de teto "D1/D2/D3-G"), e o manual descreve a placa MCTC-CTB-H5 da CTW-B3. Qual dos dois descreve a caixa de teto instalada no elevador de referência, e portanto onde fica o curto do MSC: `PREENCHER [Q98]`.
+O esquema chama a placa de "AD2SO22M1/2/3 car top control board" (caixa de teto "D1/D2/D3-G"), e o manual descreve a placa MCTC-CTB-H5 da CTW-B3. A caixa de teto instalada é a CTW-B3: o responsável técnico confirmou na revisão 8 do livro anterior (Rev. 11, pendência P36). Vale, portanto, o manual da CTW-B3: o curto do MSC fica entre 127 e 128. O desenho do esquema serve só para a topologia em série.
 
 > **PERIGO.** Não ponteie nem curto-circuite contatos da cadeia de segurança, exceto o curto que o fabricante manda fazer no lugar do MSC quando a régua magnética não existe. Fonte: manual CTW-B3, Tabela 4; capítulo 1.
 
