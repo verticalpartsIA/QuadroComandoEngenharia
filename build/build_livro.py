@@ -19,6 +19,7 @@ ORDEM = [
     ("cap", "manuscript/cap01-principios-cadeia-seguranca.md"),
     ("cap", "manuscript/cap02-visao-geral-sistema.md"),
     ("cap", "manuscript/cap03-componentes-do-quadro.md"),
+    ("cap", "manuscript/cap07-motor-freio-encoder.md"),
     ("cap", "manuscript/cap12-energizacao-parametros-autoajuste.md"),
     ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
     ("ap", "manuscript/ap-a-lista-de-fios.md"),
