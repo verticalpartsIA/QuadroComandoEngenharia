@@ -53,3 +53,9 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 |---|---|
 | Q98 | O manual da CTW-B3 (placa MCTC-CTB-H5) e o esquema Vitinho /34 (placa AD2SO22M1/2/3) usam redes diferentes na cadeia da caixa de teto (SOS, MSC, SUP2). Qual descreve a caixa de teto instalada, e onde fica o curto do MSC? |
 | Q99 | A placa de comando da cabina é a MCTC-COB-A1 (com anunciador de voz e gongo) ou a COB-A2? |
+
+## Capítulo 10 (14/11/2026)
+| Selo | Pergunta |
+|---|---|
+| Q101 | Os cabos de manobra e de poço são os modulares da BST ou feitos pela VerticalParts? Tipo, bitola e comprimento de cada um |
+| Q102 | Velocidade nominal do elevador de referência (para calcular a distância de desaceleração) |
