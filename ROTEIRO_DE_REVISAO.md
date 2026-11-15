@@ -99,3 +99,6 @@ Rascunho v0.1 (págs. 153 a 157 do PDF atual). Parte 1: os 17 termos fixos (os 1
 2. Siglas sem função confirmada ficam como estão: função de cada chave da cadeia (selo Q59, função das chaves) e DQFB, XA, TA, XB, CZ e XPE.
 3. ZL (sufixo dos esquemas) e AFE (Err67) ficam sem desdobramento, porque as fontes não o dão.
 Selo: Q59 (função de cada chave da cadeia).
+
+## Apêndice E, Índice remissivo (15/11/2026)
+Gerado por `build/gera_indice.py` a partir dos termos e siglas do Apêndice D: 109 verbetes. Remete por **seção** (3.6 = capítulo 3, seção 6), não por página, para não quebrar quando a paginação mudar. Ficam de fora as seções de objetivos, de teste e de fontes, e as siglas PDF e ZL. Para atualizar depois de mexer em capítulos: `python build/gera_indice.py` e gerar o livro de novo. O que revisar: se faltar algum assunto que você procuraria no índice, me diga a palavra e eu acrescento ao Apêndice D (o índice segue o D).
