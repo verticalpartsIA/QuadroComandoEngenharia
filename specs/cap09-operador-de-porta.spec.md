@@ -34,6 +34,7 @@ O quadro de comando conversa com **muitos operadores de porta**, não com um só
 - Catálogo `Catalogo_Operadores_de_Porta_BST_2019.pdf`, só se o Gelson confirmar que o operador é da BST (Q107).
 
 - Manual de depuração da Glarie GKL-01 (`639728241-manual-de-programacion-de-glarie.pdf`): **apoio de conhecimento, não fonte**. Trata da placa principal GKL-01 e do inversor de tração; não traz o controlador de porta NICE900/AD30 nem o F215. Não se cita no livro.
+- `403327582-New-monarch-nice-3000-pdf.pdf` (Scribd, 233 págs., inglês): edição mais antiga do manual do NICE3000new (Suzhou Monarch). **Apoio, não fonte**; não tem FA-63, F3-25 nem o código E22, que o manual da base (368 págs.) tem. Não traz o AD30/NICE900. Nele, F2-15 é parâmetro do laço de corrente de servo zero (NICE3000new), não inversão de sentido de porta.
 
 ## 5. Fora de escopo
 Instalação das portas de pavimento e da cabina (manuais GLORY J2240/T2240, em espera); falhas do AD30 (as fontes não trazem tabela de falhas do controlador de porta); parâmetros do AD30 além dos citados; resgate com porta (capítulo 14).
