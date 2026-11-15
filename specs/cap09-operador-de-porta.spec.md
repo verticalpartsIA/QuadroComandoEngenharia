@@ -1,4 +1,4 @@
-# Spec: Capítulo 9, Operador de porta (controlador AD30/NICE900 e máquina J4210)
+# Spec: Capítulo 9, Operador de porta (interface do quadro e exemplo AD30/NICE900 com máquina J4210)
 
 Status: SPEC (15/11/2026). Parte III, Instalação em campo. Aguarda aprovação do Gelson antes do rascunho.
 
@@ -7,6 +7,9 @@ Ao terminar, o leitor sabe o que é o operador de porta e como ele conversa com 
 
 ## 2. Leitor e pré-requisito
 Montador e técnico de campo. Pré-requisito: capítulos 2 e 8 (caixa de teto, bornes DEN1/DC1/DP).
+
+## 2.1 Decisão do responsável técnico (15/11/2026)
+O quadro de comando conversa com **muitos operadores de porta**, não com um só. Por isso o capítulo se organiza em duas camadas: (a) a **interface do quadro** com qualquer operador (alimentação, comandos de abrir e fechar, limites, cortina, fechamento forçado, proteção térmica), que vale para todos; (b) o **AD30/NICE900 com a máquina J4210** como **exemplo trabalhado**, porque é o único com documentação completa na base. Para outros operadores, o leitor segue o manual do fabricante, e o livro indica o que conferir na interface. Q107 deixa de pedir "qual é o operador" e passa a pedir só "qual é o operador do elevador de referência", se houver.
 
 ## 3. Conteúdo
 1. 9.1 O que você vai aprender e alerta de segurança (desligar, esperar descarga, porta livre).
@@ -29,6 +32,8 @@ Montador e técnico de campo. Pré-requisito: capítulos 2 e 8 (caixa de teto, b
 - `Manual_Instrucoes_Operador_de_Porta_J4210-T2.pdf` (16 págs., 22/03/2024, em inglês).
 - Manual da caixa de teto CTW-B3 e esquema Vitinho 19061867-ZL, só para a interface DEN1/DC1/DP (já lida no capítulo 8).
 - Catálogo `Catalogo_Operadores_de_Porta_BST_2019.pdf`, só se o Gelson confirmar que o operador é da BST (Q107).
+
+- Manual de depuração da Glarie GKL-01 (`639728241-manual-de-programacion-de-glarie.pdf`): **apoio de conhecimento, não fonte**. Trata da placa principal GKL-01 e do inversor de tração; não traz o controlador de porta NICE900/AD30 nem o F215. Não se cita no livro.
 
 ## 5. Fora de escopo
 Instalação das portas de pavimento e da cabina (manuais GLORY J2240/T2240, em espera); falhas do AD30 (as fontes não trazem tabela de falhas do controlador de porta); parâmetros do AD30 além dos citados; resgate com porta (capítulo 14).
@@ -58,8 +63,12 @@ PERIGO: desligar e esperar a descarga antes de mexer em cabos do motor; ATENÇÃ
 
 ## 10. Perguntas abertas (viram selos e issues se confirmadas)
 - **Q106** Notação de parâmetros que vale no controlador entregue (F1-01 ou F101?).
-- **Q107** O operador de porta é o J4210 com AD30, da BST ou outro? Modelo, largura e tipo de abertura (lateral ou central).
+- **Q107** Qual operador de porta tem o elevador de referência, se houver um? (O capítulo vale para vários operadores; o AD30/J4210 é o exemplo.)
 - **Q108** Ligação real DEN1 da caixa de teto com o AD30 (B1 a DI1, B2 a DI2, B3 a DI4, X3 a TC1, X5 a TC2, 301 a TA12 só por correspondência de função).
 - **Q109** Dados do motor e do encoder da porta (placa do motor; tipo de encoder; pulsos).
 - **Q110** Espera de descarga do controlador de porta.
 - **Q111** Sentido invertido: trocar U e V ou mudar F215, ou os dois?
+
+## 11. Respostas do responsável técnico em 15/11/2026
+- Q106 (notação), Q110 (espera de descarga) e Q111 (sentido invertido, F215): **o responsável não sabe responder**. Ficam como selos e viram issues, a resolver com as fotos da etiqueta do controlador ou com o fabricante.
+- Q107: o quadro serve a vários operadores (ver 2.1).
