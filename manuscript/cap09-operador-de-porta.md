@@ -1,6 +1,6 @@
 # Capítulo 9. Operador de porta
 
-> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Selos abertos: `PREENCHER [Q106]`, `PREENCHER [Q107]`, `PREENCHER [Q108]`, `PREENCHER [Q109]`, `PREENCHER [Q110]` e `PREENCHER [Q111]`. Fontes: boletim "Parametrização de Controlador de Porta NICE900", manual de comissionamento do NICE900 (versão 1.0, fevereiro de 2026) e manual de instalação da máquina de porta J4210 (22/03/2024).
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Selos abertos: `PREENCHER [Q108]` e `PREENCHER [Q111]` (Q106, Q107, Q109 e Q110 viraram conferência de obra em 15/11/2026). Fontes: boletim "Parametrização de Controlador de Porta NICE900", manual de comissionamento do NICE900 (versão 1.0, fevereiro de 2026) e manual de instalação da máquina de porta J4210 (22/03/2024).
 
 **Parte III. Instalação em campo**
 
@@ -14,7 +14,7 @@ Ao terminar este capítulo você será capaz de:
 4. Configurar o motor e o encoder e fazer os dois autoajustes: o do motor e o da largura da porta.
 5. Reconhecer os problemas mecânicos mais comuns da porta e como o fabricante manda resolvê-los.
 
-> **PERIGO.** Antes de mexer nos cabos do motor, no encoder ou nos bornes do controlador de porta, desligue a alimentação e espere a descarga dos capacitores. O manual do NICE900 manda esperar **5 minutos**; o capítulo 1 manda esperar 10 minutos para o quadro. Confirmação do tempo para o controlador de porta: `PREENCHER [Q110]`.
+> **PERIGO.** Antes de mexer nos cabos do motor, no encoder ou nos bornes do controlador de porta, desligue a alimentação e espere a descarga dos capacitores. O manual do NICE900 manda esperar **5 minutos**; o capítulo 1 manda esperar 10 minutos para o quadro. Para o controlador do seu elevador, siga o aviso impresso na tampa dele.
 
 > **ATENÇÃO.** O autoajuste move a porta por completo. Deixe a área livre e não toque no motor, na porta nem nas peças em movimento durante o processo.
 
@@ -25,7 +25,7 @@ O operador de porta abre e fecha a porta de cabina e, pela faca da porta de cabi
 1. **A máquina de porta:** motor síncrono de ímã permanente com encoder, polia motriz, correia dentada ou cabo de aço e as folhas da porta. No exemplo deste capítulo, a máquina é a J4210.
 2. **O controlador de porta:** recebe os comandos do quadro e comanda o motor. No exemplo deste capítulo, o controlador é o AD30, que o boletim do fabricante também chama de NICE900.
 
-**O quadro de comando conversa com muitos operadores de porta.** O elevador de referência tem um só, e qual é: `PREENCHER [Q107]`. Por isso o capítulo tem duas camadas: a seção 9.3 vale para qualquer operador, e as seções 9.4 em diante são o **exemplo trabalhado** com o AD30 e a J4210, que são os que o livro tem documentados. Para outro operador, siga o manual do fabricante e use a seção 9.3 como lista de conferência.
+**O quadro de comando conversa com muitos operadores de porta.** Cada elevador tem o seu: no pedido QC-2026-0014, modernização do elevador EL21, usado só como exemplo, por exemplo, o operador é Fermator, com acionamento VVVF em 220 V. Por isso o capítulo tem duas camadas: a seção 9.3 vale para qualquer operador, e as seções 9.4 em diante são o **exemplo trabalhado** com o AD30 e a J4210, que são os que o livro tem documentados. Para outro operador, siga o manual do fabricante e use a seção 9.3 como lista de conferência.
 
 Fonte: manual da caixa de teto MCTC-CTW-B3 (a B3 não inclui o controlador do operador; capítulo 8); manual J4210, seção 4.1.
 
@@ -151,7 +151,7 @@ Fonte: boletim AD30, pág. 3; manual de comissionamento NICE900, págs. 3, 7, 9 
 
 ## 9.8 Parâmetros do motor e do encoder
 
-Os dados do motor estão na placa de identificação, normalmente uma etiqueta na lateral esquerda do motor. Os do encoder, na placa do encoder. Os valores do elevador de referência: `PREENCHER [Q109]`.
+Os dados do motor estão na placa de identificação, normalmente uma etiqueta na lateral esquerda do motor. Os do encoder, na placa do encoder. Os valores mudam de um operador para outro: leia na placa do motor e do encoder do seu.
 
 Os dois documentos do fabricante usam notações diferentes para os mesmos parâmetros:
 
@@ -167,7 +167,7 @@ Os dois documentos do fabricante usam notações diferentes para os mesmos parâ
 | Pulsos do encoder | F1-07 | F214 |
 | Restaurar o padrão de fábrica (valor 1) | FP-01 | FP01 |
 
-> **NOTA.** Qual das duas notações vale no controlador entregue não está nos documentos: `PREENCHER [Q106]`. Veja no display do controlador qual escrita aparece (F1-01 ou F101) e use a coluna correspondente.
+> **NOTA.** Os documentos não dizem qual das duas notações vale em cada controlador. Veja no display do controlador qual escrita aparece (F1-01 ou F101) e use a coluna correspondente.
 
 Fonte: boletim AD30, pág. 3; manual de comissionamento NICE900, págs. 3, 4 e 11.
 

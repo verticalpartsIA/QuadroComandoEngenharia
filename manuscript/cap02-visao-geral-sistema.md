@@ -1,6 +1,6 @@
 # Capítulo 2. Visão geral do sistema
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selo aberto: `PREENCHER [Q92]`.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Sem selos (Q92 virou conferência de obra em 15/11/2026).
 
 **Parte I. Fundamentos**
 
@@ -40,7 +40,7 @@ Fonte: esquema Vitinho 19061867-ZL, folhas /24 e /45 (págs. PDF 26 e 47); manua
 | Módulo de abertura antecipada SCB-A4 ou SCB-D4 (opcional) | "Advanced door-open module": ligado à KCB por CAN | quadro de comando | 8 |
 | Máquina de tração, freio e encoder | Movem a cabina | ver o capítulo 7 | 7 |
 
-Se o módulo SCB-A4 ou SCB-D4 está instalado no elevador de referência (que tem renivelamento): `PREENCHER [Q92]`.
+O módulo é opcional: ele entra quando o pedido tem abertura antecipada de porta ou renivelamento com porta aberta. Confira no pedido do seu elevador e no quadro.
 
 Fonte: esquema Vitinho 19061867-ZL, folhas /3.a, /21, /24, /42 e /45 (págs. PDF 5, 23, 26, 44 e 47); manual NICE3000new, pág. PDF 35; manual da caixa de teto MCTC-CTW-B3, págs. PDF 1 e 2; documento "Parametrização de Controlador de Porta NICE900".
 

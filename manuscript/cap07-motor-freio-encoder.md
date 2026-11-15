@@ -1,6 +1,6 @@
 # Capítulo 7. Motor, freio e encoder
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q84]`, `PREENCHER [Q95]` e `PREENCHER [Q96]`. Não há, na base de conhecimento, manual nem folha de dados da máquina de tração: os dados dela vêm do esquema e do que o controlador exige.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selo aberto: `PREENCHER [Q84]` (Q95 e Q96 viraram conferência de obra em 15/11/2026, com o EL21 como exemplo). Não há, na base de conhecimento, manual nem folha de dados da máquina de tração: os dados dela vêm do esquema e do que o controlador exige.
 
 **Parte III. Instalação em campo**
 
@@ -27,13 +27,15 @@ O elevador de referência tem máquina de tração síncrona de ímã permanente
 
 **Resistor de frenagem.** Fica numa caixa à parte (DBR-B), ligada aos bornes (+) e PB do inversor. O manual recomenda de 65 a 85 ohm e 2500 W para o NICE-L-C-4007, com cabo de menos de 5 m. Fonte: manual NICE3000new, Tab. 3-12, pág. PDF 100; esquema, folha /9.
 
-**Dados da máquina.** Modelo, tensão, corrente, frequência, rotação nominal, número de polos e torque da máquina de tração do elevador de referência: `PREENCHER [Q95]`. Esses dados vão em F1-01 a F1-05 no autoajuste (capítulo 12).
+**Dados da máquina.** Modelo, tensão, corrente, frequência, rotação nominal, número de polos e torque mudam de uma máquina para outra: leia na plaqueta da máquina do seu elevador. Esses dados vão em F1-01 a F1-05 no autoajuste (capítulo 12).
+
+**Exemplo.** No pedido QC-2026-0014, modernização do elevador EL21, usado só como exemplo, a máquina é gearless, de ímã permanente, com 8,5 kW, 380 V, 21,1 A, 19,9 Hz e 119 rpm, freio em corrente contínua de 110 V e velocidade de 1,0 m/s (dados do formulário do pedido, tirados da plaqueta). Repare que 21,1 A passa a corrente de saída do NICE-L-C-4007 (18,0 A, capítulo 3, seção 3.3): um pedido assim pede a variante de 15 kW, e não a de 7,5 kW.
 
 > **ATENÇÃO.** A sequência de fases do motor precisa ser a correta. Uma sequência errada faz o motor girar ao contrário e pode gerar falha. O manual manda trocar a sequência UVW do motor quando a falha de sobrecorrente na aceleração (Err02) tem essa causa. Fonte: manual NICE3000new, pág. PDF 20 e tabela de falhas, pág. PDF 268.
 
 ## 7.3 O encoder
 
-**O que é o encoder do elevador de referência.** O modelo previsto é o EI53C9.25-2048-SA5N2TH, da Weton, um encoder óptico **incremental**, de 2048 pulsos por rotação, com saída senoidal diferencial (SIN/COS). Na etiqueta dele aparece o modelo SC53H. Que o motor do elevador de referência use esse encoder: `PREENCHER [Q96]`.
+**O que é o encoder do elevador de referência.** O modelo previsto é o EI53C9.25-2048-SA5N2TH, da Weton, um encoder óptico **incremental**, de 2048 pulsos por rotação, com saída senoidal diferencial (SIN/COS). Na etiqueta dele aparece o modelo SC53H. O encoder muda de uma máquina para outra: confira na plaqueta do encoder do seu motor e escolha a placa de encoder pelo manual do controlador (seção 7.3). Exemplo: no pedido QC-2026-0014, modernização do elevador EL21, usado só como exemplo, o encoder é um Heidenhain ECN, EnDat, de 2048 pulsos por rotação, de outro tipo que o EI53C9.25.
 
 | Dado | Valor |
 |---|---|

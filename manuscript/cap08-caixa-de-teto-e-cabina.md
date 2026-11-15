@@ -1,6 +1,6 @@
 # Capítulo 8. Caixa de teto e cabina
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selo aberto: `PREENCHER [Q99]` (Q98 resolvido em 15/11/2026). A fonte principal é o manual da caixa de teto MCTC-CTW-B3 (edição A02, julho de 2022), que tem só duas páginas densas.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Sem selos (Q98 resolvido e Q99 virou conferência de obra em 15/11/2026). A fonte principal é o manual da caixa de teto MCTC-CTW-B3 (edição A02, julho de 2022), que tem só duas páginas densas.
 
 **Parte III. Instalação em campo**
 
@@ -185,7 +185,7 @@ A placa de comando da cabina (COB) recebe os botões de andar e de porta e acend
 
 Em um elevador com mais de 16 andares, a placa de chamada da cabina MCTC-CCB-F1 liga em cascata com a COB e acrescenta 8 andares por placa. O elevador de referência tem 3 paradas e não usa a CCB-F1.
 
-O modelo da placa de comando da cabina instalada (A1 ou A2): `PREENCHER [Q99]`.
+O modelo da placa de comando da cabina depende do pedido: a A1 tem anunciador de voz e gongo de chegada, e a A2 não. Confira na etiqueta da placa do seu elevador.
 
 Fonte: manual CTW-B3, Tabelas 5 a 10, Figuras 6, 8 e 9.
 

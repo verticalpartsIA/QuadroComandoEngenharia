@@ -126,11 +126,8 @@ Cada selo `PREENCHER [Qn]` é um dado sem fonte. O livro só é liberado sem nen
 
 | Seção | Selo | Assunto |
 |---|---|---|
-| 1.3 | Q54 | RCS, CWSG e OS-G existem no elevador de referência? |
 | 1.3 | Q59 | Função de cada chave da cadeia de segurança |
-| 1.3 | Q60 | O MES-1 (Motor emg. stop button) existe no elevador de referência? |
 | 1.7 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço |
-| 2.3 | Q92 | O módulo SCB-A4 ou SCB-D4 está instalado no quadro? |
 | 3.2 | Q85 | Posição da PCB-D1, do QFB4 e da base do quadro; polos do barramento de terra |
 | 3.3 | Q82 | Dados do QF, tipo dos QFB3 e QFB4 e proteção diferencial |
 | 3.4 | Q83 | Pinos do plugue S2 e posição dos jumpers |
@@ -151,22 +148,11 @@ Cada selo `PREENCHER [Qn]` é um dado sem fonte. O livro só é liberado sem nen
 | 5.4 | Q84 | Parâmetros B0 e dados da bobina do freio |
 | 5.4 | Q118 | Valores esperados dos testes de bancada que ainda não têm critério |
 | 5.6 | Q119 | Critérios do checklist da Qualidade e situação do POP-ISO-PCP |
-| 7.2 | Q95 | Dados da máquina de tração |
-| 7.3 | Q96 | O motor usa o encoder EI53C9.25-2048? |
 | 7.5 | Q84 | Parâmetros B0 e dados da bobina do freio |
-| 8.9 | Q99 | A placa de comando da cabina é a COB-A1 ou a COB-A2? |
-| 9.2 | Q107 | Qual operador de porta tem o elevador de referência? |
 | 9.5 | Q108 | Ligação real entre o DEN1 da caixa de teto e o AD30 |
-| 9.8 | Q106 | Qual notação de parâmetros vale no controlador de porta entregue? |
-| 9.8 | Q109 | Dados do motor e do encoder do operador de porta |
 | 9.10 | Q111 | Sentido invertido: trocar U e V, mudar o F215 ou os dois? |
-| 10.2 | Q101 | Cabos de manobra e de poço: modulares BST ou feitos pela VerticalParts? |
-| 10.6 | Q102 | Velocidade nominal do elevador de referência |
 | 11.2 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço |
-| 11.2 | Q101 | Cabos de manobra e de poço: modulares BST ou feitos pela VerticalParts? |
 | 11.4 | Q59 | Função de cada chave da cadeia de segurança |
 | 11.5 | Q104 | Qual é a placa do poço instalada? |
-| 14.2 | Q112 | O elevador de referência tem UPS ou ARD além do resgate elétrico? |
 | 14.7 | Q113 | Plano de manutenção periódica do quadro de comando |
-| 14.8 | Q112 | O elevador de referência tem UPS ou ARD além do resgate elétrico? |
 | 14.9 | Q114 | A cartilha de resgate da VerticalParts (VP-RES-01 Rev. 02) está aprovada? |

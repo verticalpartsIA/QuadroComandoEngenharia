@@ -33,11 +33,11 @@ Este apêndice mostra o que a auditoria do Rev. 11 (14/11/2026) resolveu e o que
 | Selo | Assunto | O que fecha |
 |---|---|---|
 | `PREENCHER [Q47]` | Bloqueio e etiquetagem (LOTO) e exigências de norma sobre segurança do trabalho | Texto da NR-10 e das normas de elevadores |
-| `PREENCHER [Q54]` | RCS, CWSG e OS-G: existem no elevador de referência? | Decisão do responsável técnico |
 | `PREENCHER [Q59]` | Função de cada chave da cadeia de segurança | Material do fabricante ou explicação do responsável técnico |
-| `PREENCHER [Q60]` | MES-1 existe no elevador de referência? | Decisão do responsável técnico |
 | Q56 | BFS1 e BFS2: qual é do carro e qual é do contrapeso | O esquema VerticalParts diz BFS1 = carro e BFS2 = contrapeso; falta confirmação |
 | Jumpers 62 a 66 | Só de bancada ou também em campo? | Confirmação em campo (ver Apêndice A) |
+
+Decisão de 15/11/2026: o "elevador de referência" é um modelo, não uma instalação. O que muda de um elevador para outro (RCS, CWSG, OS-G, MES-1, módulo SCB, máquina de tração, encoder, velocidade, comprimento dos cabos, placa de comando da cabina, operador de porta, UPS ou ARD) deixou de ser selo: o livro manda conferir no seu elevador e usa o pedido QC-2026-0014 (elevador EL21) como exemplo. A lista completa dos selos que restam está no Apêndice F, seção F.3.
 
 ## C.3 Correções ao Rev. 11
 

@@ -4,6 +4,10 @@ Tudo o que ainda trava o livro e que só você pode resolver, numa lista só, po
 
 Legenda de prioridade: **Grupo A** você responde de onde estiver, em minutos; **Grupo B** precisa de um documento ou de alguém da Automação ou da Qualidade; **Grupo C** se resolve numa ida ao quadro com o `CHECKLIST_QUADRO_FISICO.md`; **Grupo D** não depende de você (eu confiro).
 
+## Mudança de 15/11/2026
+
+Você decidiu que o "elevador de referência" é um modelo, não uma instalação. Por isso saíram desta lista todos os dados que mudam de um elevador para outro: RCS, CWSG e OS-G; botão MES-1; módulo SCB; máquina de tração e encoder; velocidade; comprimento dos cabos; placa de comando da cabina; operador de porta e os dados do motor dele; notação de parâmetros e tempo de espera do controlador de porta. O livro agora manda conferir no seu elevador e usa o pedido QC-2026-0014 (elevador EL21) como exemplo. O resgate automático saiu porque o quadro de referência não tem UPS nem ARD.
+
 ## Grupo A. Decisões suas, sem ir ao quadro
 
 | Nº | O que preciso | Onde aparece | Minha recomendação |
@@ -11,9 +15,6 @@ Legenda de prioridade: **Grupo A** você responde de onde estiver, em minutos; *
 | A1 | **Registro profissional:** número do CREA ou do CFT e o nome completo do responsável técnico, para o verso da folha de rosto (registro CREA, issue #25) | Capa | Sem recomendação: é dado seu. Bloqueia o lançamento |
 | A2 | **Ordem de montagem:** a ordem de 12 etapas (recebimento, mecânica, componentes, terra, potência, comando, placas, cabo plano, botoeira, conferência cruzada, sem tensão, energização) é a oficial? Quem faz a conferência cruzada e quem libera, por departamento? (Q117, issue #37) | Cap. 4, seção 4.4 | Confirmar a ordem do Rev. 11; conferência por um segundo montador; liberação pela Qualidade |
 | A3 | **Cartilha de resgate:** a "Manual de Resgate" VP-RES-01 Rev. 02, que está marcada "versão para validação técnica", foi aprovada? (Q114, issue #34) | Cap. 14, seção 14.9 | Se não foi, manter o resumo com a ressalva que já está no texto |
-| A4 | **Operador de porta do elevador de referência:** qual fabricante e modelo, se houver um definido? O capítulo já vale para vários operadores (Q107, issue #27) | Cap. 9, seção 9.2 | Se não houver um padrão, responder "vários"; eu tiro o selo e deixo o AD30 como exemplo |
-| A5 | **Resgate automático:** o elevador de referência tem UPS ou ARD além do resgate elétrico? (Q112, issue #32) | Cap. 14, seções 14.2 e 14.8 | Pelo esquema e pelas fotos, só o resgate elétrico; responder "não" se for o caso |
-| A6 | **Velocidade nominal** do elevador de referência (Q102, issue #23) | Cap. 10, seção 10.6; cap. 12 | Informar o valor (por exemplo, 1,0 m/s); com ele eu calculo a distância de desaceleração |
 | A7 | **Rótulo da botoeira de inspeção:** vale o rótulo amarelo de 12/11 (SUBIR, DESCER, ACIONAMENTO LIMITADOR, REARME LIMITADOR, AÇÃO/FREIO) ou o branco de 13/11 (SOBE, DESCE, RESGATE, TESTE LIMITADOR, RESET LIMITADOR, AÇÃO FREIO)? (Q87, issue #15) | Cap. 3, seção 3.7 | O de 13/11, que é o mais recente |
 | A8 | **Amortecedores:** confirma que o BFS1 é o do carro e o BFS2 o do contrapeso, como diz o esquema VerticalParts? (Q56, issue #3) | Caps. 1 e 11 | Confirmar; aí o texto passa a dizer carro e contrapeso |
 | A9 | **Barramento de terra cheio:** o barramento de 6 polos não tem polo livre para o terra da rede e o do motor. Qual a solução: barramento de 8 ou 10 polos, ou borne de terra no trilho? (pendência P14) | Cap. 3, seção 3.10; Apêndice C | Barramento de 10 polos |
@@ -32,7 +33,7 @@ Legenda de prioridade: **Grupo A** você responde de onde estiver, em minutos; *
 | B5 | **Torque de aperto** do QF, dos disjuntores diferenciais, dos minidisjuntores, dos contatores e dos bornes de passagem; basta a folha de dados de cada um (Q115, issue #35) | Compras ou fornecedor | Cap. 4, seções 4.2 e 4.7 |
 | B6 | **Plano de manutenção periódica do quadro:** itens e periodicidade, ou a decisão de o livro não trazer plano (Q113, issue #33) | Você ou o fabricante | Cap. 14, seção 14.7 |
 | B7 | **Função de cada chave da cadeia de segurança** (o que cada uma detecta e por que existe), em material do fabricante. A resposta que chegou em 15/11 tem dispositivos que não estão nas fontes (Q59, issue #4) | Fabricante (BST ou Inovance) | Caps. 1 e 11 |
-| B8 | **Controlador de porta, três perguntas ao fabricante:** (a) para inverter o sentido da porta, troca-se U e V, muda-se o F215, ou os dois? (Q111, issue #31); (b) qual o tempo de espera para descarga antes de abrir o controlador? (Q110, issue #30); (c) existe diagrama da ligação da caixa de teto CTW-B3 com o AD30, fio a fio? (Q108, issue #28) | Fabricante do operador | Cap. 9, seções 9.1, 9.5 e 9.10 |
+| B8 | **Controlador de porta, três perguntas ao fabricante:** (a) para inverter o sentido da porta, troca-se U e V, muda-se o F215, ou os dois? (Q111, issue #31); (b) existe diagrama da ligação da caixa de teto CTW-B3 com o AD30, fio a fio? (Q108, issue #28) | Fabricante do operador | Cap. 9, seções 9.1, 9.5 e 9.10 |
 | B9 | **Origem dos 220 V de comando** nas variantes de 220 V (pendência P2) | Você | Adendo 220 V (pode esperar) |
 
 ## Grupo C. Uma ida ao quadro resolve (use o CHECKLIST_QUADRO_FISICO.md)
@@ -50,14 +51,8 @@ Leve o checklist impresso, com o quadro desligado e 10 minutos de espera. Cada l
 | C7 | A bateria dentro do resgate elétrico e a serigrafia de L e N | 11 | Bateria (P16) e L e N (P10); o modelo A1 já está confirmado pela foto (Q86 resolvida) |
 | C8 | Etiquetas dos contatores SW, BY e FX e dos blocos auxiliares | 13 | Dados dos contatores (Q88); mapa dos contatos (P6); bloco BC-1 ou BC-A (P15) |
 | C9 | Conectores AA, AB, BA, BD, BE e HW: há jumper instalado? | 14 | Se os jumpers 62 a 66 da lista de fios ficam só na bancada (Q71) |
-| C10 | Conector HW e o circuito do limitador de velocidade; se há contrapeso com cunha | 16 | Se existem RCS, CWSG e OS-G (Q54) e o botão MES-1 (Q60) |
-| C11 | Plaqueta do motor de tração e do encoder | 17 e 18 | Dados da máquina (Q95) e modelo do encoder (Q96) |
-| C12 | Módulo de abertura antecipada SCB-A4 ou SCB-D4 no quadro | 21 | Se o módulo está instalado (Q92) |
-| C13 | Comprimento de cada cabo de manobra e de poço | 22 | Comprimento (Q101); tipo e bitola já confirmados pela lista de fiação |
 | C14 | Placa dentro da caixa de inspeção do poço e o jumper J15 | 23 | Placa do poço (Q104) |
-| C15 | Etiqueta da placa de comando da cabina (MCTC-COB-A1 ou A2) | 25 | Placa COB (Q99); a caixa de teto já está resolvida (Q98) |
-| C16 | Placa do operador e do controlador de porta, aviso da tampa, plaqueta do motor e do encoder da porta, e como o parâmetro de pulsos aparece no display | 26 | Notação dos parâmetros (Q106), dados do motor da porta (Q109), tempo de espera (Q110) |
-| C17 | UPS, ARD ou contator de marcha da UPS no quadro | 27 | Resgate automático (Q112), se você não souber de cabeça (A5) |
+| C16 | Ligação real entre a caixa de teto (DEN1) e o controlador de porta, com multímetro | 26 | Ligação DEN1 com o controlador (Q108) |
 
 ## Grupo D. Conferência feita em 15/11/2026
 
@@ -82,7 +77,7 @@ As 12 respostas do documento de 15/11 foram conferidas contra a fonte citada. O 
 
 ## Resumo
 
-- Grupo A: 12 decisões (A1 bloqueia o lançamento; A2 a A8 tiram selos dos rascunhos).
+- Grupo A: 9 decisões (A1 bloqueia o lançamento).
 - Grupo B: 9 pedidos de documento ou de outra área.
-- Grupo C: 17 leituras numa só ida ao quadro.
+- Grupo C: 10 leituras numa só ida ao quadro (só do quadro em si).
 - Grupo D: feito; 4 resolvidas, 2 parciais e 6 que voltam para os grupos A, B e C.

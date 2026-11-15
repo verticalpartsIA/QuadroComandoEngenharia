@@ -38,6 +38,6 @@ Este material é um guia de aplicação e comissionamento do controlador NICE300
 
 **Esquema.** Cores de fio nos diagramas do livro são só funcionais (potência, comando, terra). Os fios reais do quadro de comando são pretos e se identificam pela anilha.
 
-**Rascunho.** Os selos em vermelho, como `PREENCHER [Q54]`, marcam um dado que ainda não tem fonte. O livro só é liberado quando nenhum selo restar.
+**Rascunho.** Os selos em vermelho, como `PREENCHER [Q59]`, marcam um dado que ainda não tem fonte. O livro só é liberado quando nenhum selo restar.
 
 **Termos.** O livro usa só os termos do glossário: quadro de comando, cabo de manobra, caixa de teto, caixa de inspeção do poço, resgate elétrico, resgate de passageiros e caixa de corrida.

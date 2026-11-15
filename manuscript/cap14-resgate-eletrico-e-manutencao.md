@@ -1,6 +1,6 @@
 # Capítulo 14. Resgate elétrico e manutenção
 
-> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q112]`, `PREENCHER [Q113]` e `PREENCHER [Q114]`. Fontes: manual do resgate elétrico MCTC-ERB-A (Inovance, 19010850), manual do NICE3000new (seção 9.13) e cartilha "Manual de Resgate" da VerticalParts (VP-RES-01, Rev. 02, versão para validação técnica).
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q113]` e `PREENCHER [Q114]` (Q112 resolvido em 15/11/2026). Fontes: manual do resgate elétrico MCTC-ERB-A (Inovance, 19010850), manual do NICE3000new (seção 9.13) e cartilha "Manual de Resgate" da VerticalParts (VP-RES-01, Rev. 02, versão para validação técnica).
 
 **Parte IV. Comissionamento**
 
@@ -27,7 +27,7 @@ Ao terminar este capítulo você será capaz de:
 | Operação elétrica de emergência | Modo de movimentar a cabina com a chave CIS e os botões de subir e descer; não é o resgate elétrico | Capítulos 3 e 12 |
 | Resgate automático | Equipamento reserva que faz o elevador chegar sozinho a um pavimento quando falta a rede (UPS de 220 V ou ARD) | Seção 14.8 |
 
-O elevador de referência tem o resgate elétrico ERB, conforme o esquema e as fotos do quadro (capítulo 3, seção 3.6). Se tem também UPS ou ARD: `PREENCHER [Q112]`.
+O elevador de referência tem o resgate elétrico ERB, conforme o esquema e as fotos do quadro (capítulo 3, seção 3.6). O quadro de referência não tem UPS nem ARD: nenhum dos dois aparece nas fotos nem na lista de materiais (Apêndice B). Se o pedido do seu elevador tiver, veja a seção 14.8.
 
 Fonte: glossário do projeto; manual NICE3000new, seção 9.13; esquema Vitinho, folha /23.
 
@@ -186,7 +186,7 @@ O manual descreve duas formas de evacuar: pelo controlador conduzindo o motor, o
 | 2 kVA (1400 a 1600 W) | de 5,5 a 11 kW |
 | 3 kVA (2100 a 2400 W) | de 15 a 22 kW |
 
-> **NOTA.** O controlador do elevador de referência é de 7,5 kW (variante padrão), na faixa de 5,5 a 11 kW. A faixa de 11 a 15 kW não consta na tabela do manual. Se o elevador de referência usa UPS: `PREENCHER [Q112]`.
+> **NOTA.** O controlador do elevador de referência é de 7,5 kW (variante padrão), na faixa de 5,5 a 11 kW. A faixa de 11 a 15 kW não consta na tabela do manual. Para 15 kW, a tabela indica UPS de 3 kVA.
 
 Fonte: manual NICE3000new, seção 9.13, págs. PDF 324 a 327.
 

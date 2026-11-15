@@ -1,6 +1,6 @@
 # Capítulo 10. Caixa de corrida e cabos de manobra
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q101]` (só o comprimento) e `PREENCHER [Q102]`.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Sem selos (Q101 e Q102 viraram conferência de obra em 15/11/2026).
 
 **Parte III. Instalação em campo**
 
@@ -23,7 +23,7 @@ Do quadro de comando saem dois cabos de manobra para a caixa de teto (um em cada
 **Figura 10.1.** Cabos entre o quadro de comando, a cabina e a caixa de corrida.
 Fonte: esquema Vitinho 19061867-ZL, folhas /11, /19, /34, /43, /44, /45 e /48 (págs. PDF 13, 21, 36, 45, 46, 47 e 50).
 
-Os cabos, o comprimento e a bitola dependem da obra. Os cabos de manobra e de poço são feitos pela VerticalParts: a lista de materiais da fiação traz cabos PP de 0,75 mm² (2 vias de 750 V, 3 e 4 vias de 500 V), com conectores Mini-Fit de passo 4,2 mm do lado do quadro e da cabina e conectores Hylok do lado do poço (`Lista de materiais QDC e fiação(FIAÇÃO).csv`). Nenhum esquema lido indica bitola. O comprimento de cada cabo depende da obra: `PREENCHER [Q101]`.
+Os cabos, o comprimento e a bitola dependem da obra. Os cabos de manobra e de poço são feitos pela VerticalParts: a lista de materiais da fiação traz cabos PP de 0,75 mm² (2 vias de 750 V, 3 e 4 vias de 500 V), com conectores Mini-Fit de passo 4,2 mm do lado do quadro e da cabina e conectores Hylok do lado do poço (`Lista de materiais QDC e fiação(FIAÇÃO).csv`). Nenhum esquema lido indica bitola. O comprimento de cada cabo depende da obra: meça no seu elevador (percurso, altura do poço e posição do quadro).
 
 ## 10.3 O cabo de manobra
 
@@ -132,7 +132,7 @@ Nessa fórmula, V é a velocidade nominal do elevador (parâmetro F0-04) e F3-08
 | Chave 2 (m) | nenhuma | nenhuma | nenhuma | nenhuma | nenhuma | nenhuma | 2,5 | 4,0 | 4,0 | 4,0 | 4,0 |
 | Chave 3 (m) | nenhuma | nenhuma | nenhuma | nenhuma | nenhuma | nenhuma | nenhuma | nenhuma | 6 | 8 | 11 |
 
-**Exemplo resolvido.** Para um elevador de 1 m/s: L > 1² / (2 × 0,9) = 1 / 1,8 = 0,56 m. O valor recomendado da tabela é 0,7 m, e vale o da tabela. Para 1,5 m/s: L > 1,5² / 1,8 = 2,25 / 1,8 = 1,25 m, e a tabela recomenda 1,5 m. Para 0,75 m/s: L > 0,5625 / 1,8 = 0,31 m, e a tabela recomenda 0,4 m. Os números de velocidade são exemplos. A velocidade do elevador de referência: `PREENCHER [Q102]`.
+**Exemplo resolvido.** Para um elevador de 1 m/s: L > 1² / (2 × 0,9) = 1 / 1,8 = 0,56 m. O valor recomendado da tabela é 0,7 m, e vale o da tabela. Para 1,5 m/s: L > 1,5² / 1,8 = 2,25 / 1,8 = 1,25 m, e a tabela recomenda 1,5 m. Para 0,75 m/s: L > 0,5625 / 1,8 = 0,31 m, e a tabela recomenda 0,4 m. Os números de velocidade são exemplos. Use a velocidade do seu elevador. Exemplo: o pedido QC-2026-0014, modernização do elevador EL21, usado só como exemplo tem 1,0 m/s, o que dá a distância de 0,56 m pela fórmula e 0,7 m pela tabela.
 
 **Tolerância de instalação.**
 

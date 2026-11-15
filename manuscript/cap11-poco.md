@@ -1,6 +1,6 @@
 # Capítulo 11. Poço
 
-> RASCUNHO v0.1 de 15/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q47]`, `PREENCHER [Q59]`, `PREENCHER [Q101]` e `PREENCHER [Q104]`. Fontes: folhas /19, /41, /42, /46 e /48 do esquema Vitinho 19061867-ZL.
+> RASCUNHO v0.1 de 15/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q47]`, `PREENCHER [Q59]` e `PREENCHER [Q104]`. Fontes: folhas /19, /41, /42, /46 e /48 do esquema Vitinho 19061867-ZL.
 
 **Parte III. Instalação em campo**
 
@@ -30,7 +30,7 @@ No poço do elevador de referência ficam:
 | Fins de curso FLSD e FLSU | contatos da cadeia de segurança | esquema /41 e /19 |
 | Interfone do poço | alimentado pelo plugue DC | esquema /48 |
 
-No elevador de referência, o responsável técnico informa que a caixa do poço é fixa, na altura do piso do primeiro pavimento (e não no fundo do poço), o mais perto possível da porta e ao alcance da mão do técnico, porque nela fica o botão de parada do poço. A posição e a altura exigidas pelas normas: `PREENCHER [Q47]`. O comprimento de cada cabo: `PREENCHER [Q101]` (capítulo 10).
+No elevador de referência, o responsável técnico informa que a caixa do poço é fixa, na altura do piso do primeiro pavimento (e não no fundo do poço), o mais perto possível da porta e ao alcance da mão do técnico, porque nela fica o botão de parada do poço. A posição e a altura exigidas pelas normas: `PREENCHER [Q47]`. O comprimento de cada cabo depende da obra (capítulo 10).
 
 ![Figura 11.1](../assets/figuras/fig-11-1-poco.svg)
 

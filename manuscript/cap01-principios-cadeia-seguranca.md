@@ -1,6 +1,6 @@
 # Capítulo 1. Princípios e cadeia de segurança
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Contém selos abertos: `PREENCHER [Q47]`, `PREENCHER [Q54]`, `PREENCHER [Q59]` e `PREENCHER [Q60]`. Eles bloqueiam o build de lançamento.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Contém selos abertos: `PREENCHER [Q47]` e `PREENCHER [Q59]` (Q54 e Q60 viraram conferência de obra em 15/11/2026). Eles bloqueiam o build de lançamento.
 
 **Parte I. Fundamentos**
 
@@ -60,7 +60,7 @@ Fonte: esquema Vitinho 19061867-ZL, folhas /19 (cadeia, pág. PDF 21), /34 (caix
 | Quadro de comando | F3 | fusível da cadeia de segurança, 250 VAC / 1 A |
 | | MES | botão de parada de emergência |
 | | CIS | chave de operação elétrica de emergência (no esquema também aparece como "chave de inspeção de emergência") |
-| | MES-1 | botão de parada do motor ("Motor emg. stop button"); presença no elevador de referência: `PREENCHER [Q60]` |
+| | MES-1 | botão de parada do motor ("Motor emg. stop button"); existe ou não conforme o elevador; confira no seu |
 | Poço e caixa de corrida | PES1 e PES2 | botões de parada do poço (o PES1 fica na botoeira de inspeção do poço) |
 | | GTS | chave elétrica da polia tensora |
 | | BFS1 e BFS2 | chave do amortecedor 1 e chave do amortecedor 2 |
@@ -74,7 +74,7 @@ Fonte: esquema Vitinho 19061867-ZL, folhas /19 (cadeia, pág. PDF 21), /34 (caix
 
 Fonte: esquema Vitinho 19061867-ZL, folhas /14 (pág. PDF 16), /19, /34, /41, /42 (pág. PDF 44) e /43. Para BFS1 e BFS2 o esquema Vitinho só traz "Buffer switch 1" e "Buffer switch 2".
 
-**O que o esquema marca como opcional.** Alguns contatos têm a instrução "When needed, otherwise short circuit" (quando necessário; senão, curto): RCS (chave do rope gripper), CWSG (chave elétrica da cunha de segurança do contrapeso) e OS-G (chave elétrica do limitador de velocidade do contrapeso). Se cada um deles existe no elevador de referência: `PREENCHER [Q54]`.
+**O que o esquema marca como opcional.** Alguns contatos têm a instrução "When needed, otherwise short circuit" (quando necessário; senão, curto): RCS (chave do rope gripper), CWSG (chave elétrica da cunha de segurança do contrapeso) e OS-G (chave elétrica do limitador de velocidade do contrapeso). Cada elevador tem ou não esses dispositivos: confira no seu. O que não existir fica com o curto que o esquema indica, e o que existir entra na cadeia no lugar do curto.
 
 Outros itens aparecem no esquema, mas ficam fora do elevador de referência: MSC (desenhado com um curto na caixa de teto), SUP1 e SUP2 (chaves de espera), a porta traseira (GS2 e 1RDS a nRDS) e o botão de parada do volante (MES-2), que é só para casa de máquinas.
 
