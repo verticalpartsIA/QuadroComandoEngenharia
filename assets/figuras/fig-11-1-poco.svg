@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 620" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t111 d111">
+  <title id="t111">Figura 11.1 Caixa de inspeção do poço, plugues e dispositivos</title>
+  <desc id="d111">A caixa de inspeção do poço MBT-PIB-XX recebe os cabos de poço pelos plugues DA, DB e DC e liga a caixa de parada, os dispositivos de segurança, a botoeira de inspeção e o botão de reset pelos plugues PT1 a PT4 e LIH.</desc>
+  <style>
+    .k{fill:#fafafa;stroke:#111;stroke-width:3}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2.2}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#1F5FA8;stroke-width:2.8;fill:none}
+    .lp{stroke:#C0392B;stroke-width:2.8;fill:none}
+  </style>
+  <rect width="960" height="620" fill="#fff"/>
+  <!-- cabos de poço -->
+  <rect x="20" y="30" width="200" height="180" rx="6" class="c"/>
+  <text x="120" y="56" text-anchor="middle" class="h">Quadro de comando</text>
+  <text x="120" y="86" text-anchor="middle" class="t">BA: cadeia de segurança</text>
+  <text x="120" y="110" text-anchor="middle" class="t">BB: 24 V e RS-485</text>
+  <text x="120" y="134" text-anchor="middle" class="t">BC: interfone</text>
+  <text x="120" y="170" text-anchor="middle" class="s">cabos de poço</text>
+  <!-- caixa de inspeção -->
+  <rect x="300" y="30" width="360" height="400" rx="8" class="k"/>
+  <text x="480" y="56" text-anchor="middle" class="h">Caixa de inspeção do poço</text>
+  <text x="480" y="74" text-anchor="middle" class="s">MBT-PIB-XX</text>
+  <g class="t" text-anchor="middle">
+    <rect x="315" y="95" width="150" height="40" class="p"/><text x="390" y="120">DA (6): cadeia</text>
+    <rect x="315" y="145" width="150" height="40" class="c"/><text x="390" y="170">DB (4): 24 V, RS-485</text>
+    <rect x="315" y="195" width="150" height="40" class="c"/><text x="390" y="220">DC (4): interfone</text>
+    <rect x="495" y="95" width="150" height="40" class="p"/><text x="570" y="120">PT1 (6): parada, 111 e 112</text>
+    <rect x="495" y="145" width="150" height="40" class="p"/><text x="570" y="170">PT2 (6): GTS e BFS</text>
+    <rect x="495" y="195" width="150" height="40" class="p"/><text x="570" y="220">PT3 (12): inspeção</text>
+    <rect x="495" y="245" width="150" height="40" class="c"/><text x="570" y="270">PT4 (3): reset</text>
+    <rect x="315" y="245" width="150" height="40" class="c"/><text x="390" y="270">LIH (6): iluminação</text>
+    <rect x="315" y="305" width="330" height="50" class="c"/><text x="480" y="326">Placa do poço</text><text x="480" y="344" class="s">MCTC-PTB-A1 ou MCTC-KZ-G2 (PREENCHER [Q104])</text>
+    <rect x="315" y="365" width="150" height="50" class="c"/><text x="390" y="386">Lâmpada PL1</text><text x="390" y="403" class="s">entre 802 e 805</text>
+    <rect x="495" y="365" width="150" height="50" class="c"/><text x="570" y="386">Tomadas PUR1, PUR2</text><text x="570" y="403" class="s">220 VAC</text>
+  </g>
+  <path class="lp" d="M220 70 H300"/><path class="l" d="M220 110 H300"/><path class="l" d="M220 135 H300"/>
+  <!-- dispositivos -->
+  <rect x="720" y="95" width="220" height="40" class="p"/><text x="830" y="120" text-anchor="middle" class="t">Caixa de parada: PES2 e LIHS2</text>
+  <rect x="720" y="145" width="220" height="40" class="p"/><text x="830" y="170" text-anchor="middle" class="t">GTS e chaves dos amortecedores</text>
+  <rect x="720" y="195" width="220" height="40" class="p"/><text x="830" y="220" text-anchor="middle" class="t">PES1, PIT, PITU, PITD, PITB</text>
+  <rect x="720" y="245" width="220" height="40" class="c"/><text x="830" y="270" text-anchor="middle" class="t">Botão RSW, fora da caixa</text>
+  <path class="lp" d="M645 115 H720"/><path class="lp" d="M645 165 H720"/><path class="lp" d="M645 215 H720"/><path class="l" d="M645 265 H720"/>
+  <!-- fora da caixa -->
+  <rect x="300" y="460" width="640" height="100" rx="8" class="k" stroke-dasharray="10 5"/>
+  <text x="620" y="486" text-anchor="middle" class="h">Na caixa de corrida, fora da caixa de inspeção</text>
+  <rect x="320" y="500" width="290" height="45" class="p"/><text x="465" y="527" text-anchor="middle" class="t">FLSD (119 a 120) e FLSU (120 a 121)</text>
+  <rect x="640" y="500" width="280" height="45" class="c"/><text x="780" y="527" text-anchor="middle" class="t">Interfone do poço (fora da caixa)</text>
+  <text x="480" y="600" text-anchor="middle" class="s">Vermelho: cadeia de segurança. Azul: comando, iluminação e comunicação.</text>
+</svg>

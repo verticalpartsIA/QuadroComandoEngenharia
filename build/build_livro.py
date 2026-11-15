@@ -22,6 +22,7 @@ ORDEM = [
     ("cap", "manuscript/cap07-motor-freio-encoder.md"),
     ("cap", "manuscript/cap08-caixa-de-teto-e-cabina.md"),
     ("cap", "manuscript/cap10-caixa-de-corrida-e-cabos.md"),
+    ("cap", "manuscript/cap11-poco.md"),
     ("cap", "manuscript/cap12-energizacao-parametros-autoajuste.md"),
     ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
     ("ap", "manuscript/ap-a-lista-de-fios.md"),

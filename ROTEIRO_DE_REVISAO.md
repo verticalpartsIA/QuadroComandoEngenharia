@@ -2,7 +2,7 @@
 
 Este roteiro reúne, em um só lugar, o que está pronto, o que você precisa revisar e tudo o que está em aberto, com o jeito de fechar cada item. Pare aqui, revise, vá ao quadro e responda pelo número.
 
-PDF atual: `build/out/Livro_Quadro_de_Comando_NICE3000_VerticalParts_Rev12_base_v0-1.pdf` (117 páginas). Se o PDF antigo estiver aberto no leitor, o Windows impede a gravação e o build gera `..._atualizado.pdf`: abra esse. Para gerar de novo: `python build/build_livro.py`.
+PDF atual: `build/out/Livro_Quadro_de_Comando_NICE3000_VerticalParts_Rev12_base_v0-1.pdf` (121 páginas). Se o PDF antigo estiver aberto no leitor, o Windows impede a gravação e o build gera `..._atualizado.pdf`: abra esse. Para gerar de novo: `python build/build_livro.py`.
 
 ## 1. Estado do livro
 
@@ -15,12 +15,13 @@ PDF atual: `build/out/Livro_Quadro_de_Comando_NICE3000_VerticalParts_Rev12_base_
 | 7. Motor, freio e encoder | 27 a 32 | rascunho | Q84, Q95, Q96 |
 | 8. Caixa de teto e cabina | 33 a 39 | rascunho | Q98, Q99 |
 | 10. Caixa de corrida e cabos de manobra | 40 a 46 | rascunho | Q98, Q101, Q102 |
-| 12. Energização, parâmetros e autoajuste | 47 a 81 | rascunho | (dados do motor, no checklist) |
-| 13. Diagnóstico de falhas | 82 a 109 | revisado por você | nenhum |
-| Apêndice A. Lista de fios conferida | 110 a 115 | rascunho | nenhum |
-| Apêndice C. Pendências e correções | 116 a 117 | rascunho | nenhum |
+| 11. Poço | 47 a 50 | rascunho | Q47, Q59, Q101, Q104 |
+| 12. Energização, parâmetros e autoajuste | 51 a 85 | rascunho | (dados do motor, no checklist) |
+| 13. Diagnóstico de falhas | 86 a 113 | revisado por você | nenhum |
+| Apêndice A. Lista de fios conferida | 114 a 119 | rascunho | nenhum |
+| Apêndice C. Pendências e correções | 120 a 121 | rascunho | nenhum |
 
-Faltam: 4 (montagem), 5 (testes de bancada), 6 (qualidade, em espera), 9 (operador de porta), 11 (poço), 14 (resgate elétrico e manutenção), 15 (normas) e os apêndices B (materiais), D (glossário), E (índice remissivo) e F (rastreabilidade).
+Faltam: 4 (montagem), 5 (testes de bancada), 6 (qualidade, em espera), 9 (operador de porta), 14 (resgate elétrico e manutenção), 15 (normas) e os apêndices B (materiais), D (glossário), E (índice remissivo) e F (rastreabilidade).
 
 ## 2. O que você revisa (nesta ordem)
 
@@ -32,7 +33,7 @@ Faltam: 4 (montagem), 5 (testes de bancada), 6 (qualidade, em espera), 9 (operad
 
 ## 3. O que só o quadro real responde (ida ao quadro)
 
-Use `CHECKLIST_QUADRO_FISICO.md` (21 itens, com o quadro desligado e depois de esperar 10 minutos; só ler etiquetas e fotografar). Fecha: Q54, Q60, Q71, Q98, Q99, Q101, Q102, Q79, Q80, Q81, Q82, Q83, Q84, Q85, Q86, Q87, Q88, Q92, Q95 e Q96.
+Use `CHECKLIST_QUADRO_FISICO.md` (21 itens, com o quadro desligado e depois de esperar 10 minutos; só ler etiquetas e fotografar). Fecha: Q54, Q60, Q71, Q98, Q99, Q101, Q102, Q104, Q79, Q80, Q81, Q82, Q83, Q84, Q85, Q86, Q87, Q88, Q92, Q95 e Q96.
 
 ## 4. O que só você decide ou fornece
 

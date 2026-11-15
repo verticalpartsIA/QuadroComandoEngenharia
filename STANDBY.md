@@ -59,3 +59,9 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 |---|---|
 | Q101 | Os cabos de manobra e de poço são os modulares da BST ou feitos pela VerticalParts? Tipo, bitola e comprimento de cada um |
 | Q102 | Velocidade nominal do elevador de referência (para calcular a distância de desaceleração) |
+
+## Capítulo 11 (15/11/2026)
+| Selo | Pergunta |
+|---|---|
+| Q104 | A placa do poço instalada é a MCTC-PTB-A1 (folha /42) ou a Pit extension board MCTC-KZ-G2 (folha /48)? Posição do jumper J15 |
+| Q47 | Exigências de norma sobre acesso ao poço e posição do botão de parada (texto das normas) |

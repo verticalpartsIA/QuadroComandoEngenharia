@@ -26,5 +26,6 @@ Uma ida ao quadro de referência responde quase todas as perguntas abertas do Ca
 | 20 | Pesagem e portas (Capítulo 12) | Se há célula de carga (nenhuma, analógica ou as duas); se a porta é única; características NO ou NC da cortina de luz e dos limites de porta | Cap. 12 |
 | 21 | Módulo de abertura antecipada | Se o módulo SCB-A4 ou SCB-D4 está instalado no quadro (o elevador de referência tem renivelamento) | Q92 |
 | 22 | Cabos de manobra e de poço (Capítulo 10) | Tipo, bitola e comprimento dos cabos de manobra (AA/CA e AB/CB) e de poço (BA, BB e BC), e se são cabos modulares BST ou feitos na VerticalParts | Q101 |
+| 23 | Placa do poço (Capítulo 11) | Etiqueta da placa dentro da caixa de inspeção do poço (MCTC-PTB-A1 ou MCTC-KZ-G2) e a posição do jumper J15 | Q104 |
 
 Antes de publicar qualquer foto: cobrir número de série, QR e código de barras, adesivos com nomes de pessoas ou clientes, e rostos.
