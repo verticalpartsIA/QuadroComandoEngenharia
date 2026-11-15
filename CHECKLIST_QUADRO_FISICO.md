@@ -27,5 +27,7 @@ Uma ida ao quadro de referência responde quase todas as perguntas abertas do Ca
 | 21 | Módulo de abertura antecipada | Se o módulo SCB-A4 ou SCB-D4 está instalado no quadro (o elevador de referência tem renivelamento) | Q92 |
 | 22 | Cabos de manobra e de poço (Capítulo 10) | Tipo, bitola e comprimento dos cabos de manobra (AA/CA e AB/CB) e de poço (BA, BB e BC), e se são cabos modulares BST ou feitos na VerticalParts | Q101 |
 | 23 | Placa do poço (Capítulo 11) | Etiqueta da placa dentro da caixa de inspeção do poço (MCTC-PTB-A1 ou MCTC-KZ-G2) e a posição do jumper J15 | Q104 |
+| 24 | Placa da caixa de teto (Capítulo 8) | Etiqueta da placa dentro da caixa de teto (MCTC-CTB-H5 ou AD2SO22M1/2/3) e foto do curto do MSC, mostrando entre quais bornes ele está | Q98 |
+| 25 | Placa de comando da cabina (Capítulo 8) | Etiqueta da placa na cabina (MCTC-COB-A1 ou A2) | Q99 |
 
 Antes de publicar qualquer foto: cobrir número de série, QR e código de barras, adesivos com nomes de pessoas ou clientes, e rostos.
