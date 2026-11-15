@@ -84,3 +84,11 @@ Rascunho v0.1. Fontes: manual NICE3000new (cap. 2), esquema Vitinho, manual do E
 4. Ficou de fora, de propósito: quadro de corte de fios com bitola e comprimento (vem da lista de fios; fica no Apêndice A), páginas 34 e 35 do Rev. 11 (manual antigo), e o formulário do contrato (capítulo 10).
 Selos: Q115, Q116, Q117 (issues abertas).
 
+## Capítulo 5, Testes de bancada e relatório de CQ (15/11/2026)
+Rascunho v0.1. Fontes: POP-ISO-PCP Rev. 00, Rev. 11 págs. 32 e 33 (E1 a E12 e R1 a R8, com as correções da auditoria), manual do ERB, esquema Vitinho. O que revisar:
+1. Seção 5.2: o caminho Automação, Qualidade, Expedição bate com a prática da fábrica? O POP está em Rev. 00 com código "xxx" e setor "Financeiro" (issue Q119).
+2. Seção 5.4: E5, E9, E11 e E12 ficaram sem valor esperado (issue Q118). E6 corrigido (24 V saem da PCB-D1 para a KCB).
+3. Seção 5.5: R3 corrigido para 187 a 242 V; R4 corrigido (o indicador azul só indica a posição quando a rede faltou).
+4. Seção 5.6 e 5.7: checklist da Qualidade e modelo do relatório de CQ vêm só do POP; critérios por item ficam em espera (Q49 a Q52).
+Selos: Q118 e Q119 (issues abertas).
+

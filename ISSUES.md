@@ -45,3 +45,5 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 | Q115 | Torque de aperto do QF, QFB, DQFB, contatores e bornes de passagem | falta-documento | [#35](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/35) | Aberta |
 | Q116 | Critério de isolação com megôhmetro antes de energizar | falta-documento, decisao-do-responsavel | [#36](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/36) | Aberta |
 | Q117 | A ordem de montagem de 12 etapas é a ordem oficial da fábrica? | decisao-do-responsavel | [#37](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/37) | Aberta |
+| Q118 | Valores esperados dos testes de bancada que ainda não têm critério | decisao-do-responsavel, falta-documento | [#38](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/38) | Aberta |
+| Q119 | Critérios do checklist da Qualidade e situação do POP-ISO-PCP | decisao-do-responsavel, falta-documento | [#39](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/39) | Aberta |

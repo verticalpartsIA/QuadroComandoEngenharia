@@ -20,6 +20,7 @@ ORDEM = [
     ("cap", "manuscript/cap02-visao-geral-sistema.md"),
     ("cap", "manuscript/cap03-componentes-do-quadro.md"),
     ("cap", "manuscript/cap04-montagem-e-pre-energizacao.md"),
+    ("cap", "manuscript/cap05-testes-de-bancada-e-relatorio-de-cq.md"),
     ("cap", "manuscript/cap07-motor-freio-encoder.md"),
     ("cap", "manuscript/cap08-caixa-de-teto-e-cabina.md"),
     ("cap", "manuscript/cap09-operador-de-porta.md"),
