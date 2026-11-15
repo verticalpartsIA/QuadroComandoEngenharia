@@ -30,6 +30,7 @@ ORDEM = [
     ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
     ("cap", "manuscript/cap14-resgate-eletrico-e-manutencao.md"),
     ("ap", "manuscript/ap-a-lista-de-fios.md"),
+    ("ap", "manuscript/ap-b-lista-de-materiais.md"),
     ("ap", "manuscript/ap-c-pendencias-e-correcoes.md"),
     ("ap", "manuscript/ap-d-glossario-e-siglas.md"),
     ("ap", "manuscript/ap-e-indice-remissivo.md"),

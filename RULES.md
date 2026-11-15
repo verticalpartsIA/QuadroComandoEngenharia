@@ -19,7 +19,7 @@ Nenhum capítulo pode violar estas regras. Fonte das decisões: rodadas 1 a 6 da
 - Só a variante 380 V é completa. As 220 V saem num adendo depois que as etiquetas reais forem conferidas.
 - Geração antiga: só num apêndice de diferenças. A apostila Villarta Monarch serve só para conceitos, nunca para pinagem ou parâmetro.
 - Portas: só parte elétrica; mecânica remete ao manual GLORY (T2240 e J2240).
-- FORA do escopo: códigos de BOM (VPMP, VPB, VPEL), chave de afrouxamento de cabos, resgate por desbalanço, NR-12, pendências internas.
+- Decisão de 15/11/2026: os códigos internos de BOM (VPMP, VPB, VPEL) ENTRAM no livro, só no Apêndice B (lista de materiais). Continuam FORA do escopo: chave de afrouxamento de cabos, resgate por desbalanço, NR-12, pendências internas.
 
 ## 3. Estrutura
 Três Partes e 14 capítulos:
