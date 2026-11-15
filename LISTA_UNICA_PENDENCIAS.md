@@ -79,5 +79,5 @@ As 12 respostas do documento de 15/11 foram conferidas contra a fonte citada. O 
 
 - Grupo A: 9 decisões (A1 bloqueia o lançamento).
 - Grupo B: 9 pedidos de documento ou de outra área.
-- Grupo C: 10 leituras numa só ida ao quadro (só do quadro em si).
+- Grupo C: 11 leituras numa só ida ao quadro (só do quadro em si).
 - Grupo D: feito; 4 resolvidas, 2 parciais e 6 que voltam para os grupos A, B e C.
