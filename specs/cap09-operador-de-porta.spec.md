@@ -23,7 +23,7 @@ O quadro de comando conversa com **muitos operadores de porta**, não com um só
 9. 9.9 Sentido de abertura e fechamento invertido.
 10. 9.10 Problemas comuns de mecânica (J4210, seção 5): batida ao fechar, limite de abertura por resistência, faca que não solta, lubrificante na guia, porta que rebate (1 a 2 mm).
 11. 9.11 Manutenção (J4210, seção 6) em lista curta.
-12. 9.12 Se o seu elevador tiver outra configuração (duas portas, com pesagem, outro operador).
+12. 9.12 O que é igual e o que muda entre operadores (interface comum: alimentação, abrir, fechar, limites, obstrução, fechamento forçado, falha; muda a numeração de parâmetros, o autoajuste e o painel). Se o seu elevador tiver outra configuração (duas portas, com pesagem, outro operador).
 13. 9.13 Teste o que você aprendeu.
 
 ## 4. Fontes permitidas
@@ -35,6 +35,8 @@ O quadro de comando conversa com **muitos operadores de porta**, não com um só
 
 - Manual de depuração da Glarie GKL-01 (`639728241-manual-de-programacion-de-glarie.pdf`): **apoio de conhecimento, não fonte**. Trata da placa principal GKL-01 e do inversor de tração; não traz o controlador de porta NICE900/AD30 nem o F215. Não se cita no livro.
 - `403327582-New-monarch-nice-3000-pdf.pdf` (Scribd, 233 págs., inglês): edição mais antiga do manual do NICE3000new (Suzhou Monarch). **Apoio, não fonte**; não tem FA-63, F3-25 nem o código E22, que o manual da base (368 págs.) tem. Não traz o AD30/NICE900. Nele, F2-15 é parâmetro do laço de corrente de servo zero (NICE3000new), não inversão de sentido de porta.
+
+- BST BG101 e BG201 (manuais de ajuste) e brochura J5801 + AlphaBox: **apoio**, resumidos em `sources/cap09_apoio_outros_operadores.md`. Servem para a tabela "o que é igual e o que muda entre operadores" e só viram fonte se o elevador usar esses modelos.
 
 ## 5. Fora de escopo
 Instalação das portas de pavimento e da cabina (manuais GLORY J2240/T2240, em espera); falhas do AD30 (as fontes não trazem tabela de falhas do controlador de porta); parâmetros do AD30 além dos citados; resgate com porta (capítulo 14).
