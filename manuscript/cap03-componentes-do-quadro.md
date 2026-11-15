@@ -1,6 +1,6 @@
 # Capítulo 3. Componentes do quadro de comando
 
-> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q81]` a `PREENCHER [Q85]`, `PREENCHER [Q87]` e `PREENCHER [Q88]` (Q79, Q80 e Q86 resolvidos em 15/11/2026). Texto aprovado pelo Gelson em 14/11/2026 (as respostas Q79 a Q88 seguem em aberto). Fatos levantados em `sources/cap03_fichas_potencia.md`, `sources/cap03_fichas_controle.md` e `sources/cap03_fotos.md`.
+> RASCUNHO v0.1 de 14/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q81]` a `PREENCHER [Q85]` e `PREENCHER [Q88]` (Q79, Q80, Q86 e Q87 resolvidos em 15/11/2026). Texto aprovado pelo Gelson em 14/11/2026 (as respostas Q79 a Q88 seguem em aberto). Fatos levantados em `sources/cap03_fichas_potencia.md`, `sources/cap03_fichas_controle.md` e `sources/cap03_fotos.md`.
 
 **Parte II. O quadro de comando**
 
@@ -225,7 +225,7 @@ A botoeira de inspeção é o "Emergency electric operation handle KKB4-1C-02" d
 
 Fonte: esquema Vitinho, folha /14 (pág. PDF 16). As ligações internas de CIS, CIU E e CID E foram conferidas contra o desenho (ver o apêndice A).
 
-Rótulos dos botões na caixa real. A etiqueta mudou entre as fotos de 12/11 (SUBIR, DESCER, ACIONAMENTO LIMITADOR, REARME LIMITADOR, AÇÃO/FREIO) e as de 13/11 (SOBE, DESCE, RESGATE, TESTE LIMITADOR, RESET LIMITADOR, AÇÃO FREIO). Qual rótulo vale para o livro: `PREENCHER [Q87]`.
+Rótulos dos botões na caixa real. A etiqueta mudou entre as fotos de 12/11 (SUBIR, DESCER, ACIONAMENTO LIMITADOR, REARME LIMITADOR, AÇÃO/FREIO) e as de 13/11 (SOBE, DESCE, RESGATE, TESTE LIMITADOR, RESET LIMITADOR, AÇÃO FREIO). Vale o rótulo de 13/11 (SOBE, DESCE, RESGATE, TESTE LIMITADOR, RESET LIMITADOR, AÇÃO FREIO), o mais recente (decisão do responsável técnico em 15/11/2026).
 
 ## 3.8 Proteções e transformador
 
@@ -244,7 +244,7 @@ Os dois diferenciais (QFB3 e QFB4) ficam **antes** do QF e continuam energizados
 **Figura 3.3.** Alimentação e proteção do quadro de comando. QFB3 e QFB4 saem antes do QF.
 Fonte: esquema Vitinho 19061867-ZL, folhas /8, /9, /10 e /11 (págs. PDF 10 a 13).
 
-Na foto, ao lado dos QFB aparecem as etiquetas DQFB1, DQFB2 e DQFB3. O esquema não tem DQFB, e o QFB4 não foi visto no quadro. A lista de materiais traz três minidisjuntores monopolares C6 (VPMP-333) e três interruptores diferenciais de 30 mA (VPMP-761), o que bate com DQFB1 a DQFB3 ao lado de QFB1 a QFB3 (Apêndice B). Que circuito cada DQFB protege: `PREENCHER [Q81]`.
+Na foto, ao lado dos QFB aparecem as etiquetas DQFB1, DQFB2 e DQFB3. O esquema não tem DQFB, e o QFB4 não foi visto no quadro. Decisão do responsável técnico em 15/11/2026: o QFB4 (iluminação do poço e tomada CZ) **entra** no quadro, como no esquema; a lista de fios e a de materiais precisam ser acertadas. A lista de materiais traz três minidisjuntores monopolares C6 (VPMP-333) e três interruptores diferenciais de 30 mA (VPMP-761), o que bate com DQFB1 a DQFB3 ao lado de QFB1 a QFB3 (Apêndice B). Que circuito cada DQFB protege: `PREENCHER [Q81]`.
 
 **Transformador TRF.** Gera a tensão de comando do circuito de segurança.
 
@@ -295,7 +295,7 @@ Nas fotos de 12/11/2026 dá para ler: no FX, "WEG" e "CAWB 32"; no BY, "CWC012.0
 | CZ | tomada, ligada ao QFB4 | esquema /8 |
 | XPE | não existe no esquema Vitinho | busca em todas as folhas |
 
-O esquema representa o terra por símbolos PE e por terminais PE da KCB. O barramento de terra do quadro real tem seis polos e as fotos o mostram cheio; o livro anterior já apontava a falta de polo para o PE da rede e do motor. O que cada polo recebe: `PREENCHER [Q85]`.
+O esquema representa o terra por símbolos PE e por terminais PE da KCB. O barramento de terra do quadro real tem seis polos e as fotos o mostram cheio; o livro anterior já apontava a falta de polo para o PE da rede e do motor. Decisão do responsável técnico em 15/11/2026: o quadro passa a usar barramento de terra de **10 polos**, para receber também o PE da rede e o do motor. O que cada polo recebe: `PREENCHER [Q85]`.
 
 ## 3.11 Se o seu elevador tiver outra configuração
 

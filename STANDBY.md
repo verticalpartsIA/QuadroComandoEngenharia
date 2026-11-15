@@ -4,7 +4,7 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 
 | Item | Assunto | Situação |
 |---|---|---|
-| NR-12 | Entra ou não no capítulo de normas | Em espera. Fora do ebook por enquanto. |
+| NR-12 | Entra ou não no capítulo de normas | Decidido em 15/11/2026: fica fora desta revisão do livro. |
 | Registro | CREA ou CFT do responsável técnico (verso da folha de rosto) | Não informado. Marcador `PENDENTE-REGISTRO` bloqueia o build de lançamento. |
 | Q47 | Texto da NR-10, NBR 16858 e EN 81-20 para o capítulo 1 | Em espera. Sem texto, o capítulo não cita norma. |
 | Q49 | Posição do capítulo de qualidade (nova numeração) | Em espera. |
@@ -13,7 +13,7 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 | Q52 | Fotos de acabamento conforme e não conforme | Em espera. |
 | SVG do logotipo | Só PNG no `009_DesignSystem` | O Gelson envia se for necessário. |
 | Q54 | O elevador de referência tem RCS, CWSG e OS-G (contrapeso)? | Sem resposta. Marcado com o selo `PREENCHER [Q54]` nos rascunhos; bloqueia o lançamento. |
-| Q56 | BFS1 e BFS2: qual é do carro e qual é do contrapeso | O esquema VerticalParts 19060918-ZL (pág. 30) diz BFS1 = carro, BFS2 = contrapeso. Texto provisório "chave do amortecedor 1/2" até o Gelson confirmar. |
+| Q56 | BFS1 e BFS2: qual é do carro e qual é do contrapeso | Decidido em 15/11/2026: BFS1 = carro, BFS2 = contrapeso (esquema VerticalParts), aplicado nos capítulos 1 e 11. |
 | Q59 | Função de cada chave da cadeia (o que detecta e por que existe) | Sem fonte lida. Selo `PREENCHER [Q59]` no capítulo 1. |
 | Q60 | MES-1 ("Motor emg. stop button") existe no MRL de referência? Aparece na cadeia fora do bloco "Use for MR" | Sem resposta. Selo `PREENCHER [Q60]`. |
 | 220 V | Adendo (etiquetas reais do inversor, trafo, origem dos 220 V, bitola) | Depois do ebook 380 V. |

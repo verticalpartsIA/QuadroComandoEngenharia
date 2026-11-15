@@ -63,7 +63,7 @@ Fonte: esquema Vitinho 19061867-ZL, folhas /19 (cadeia, pág. PDF 21), /34 (caix
 | | MES-1 | botão de parada do motor ("Motor emg. stop button"); existe ou não conforme o elevador; confira no seu |
 | Poço e caixa de corrida | PES1 e PES2 | botões de parada do poço (o PES1 fica na botoeira de inspeção do poço) |
 | | GTS | chave elétrica da polia tensora |
-| | BFS1 e BFS2 | chave do amortecedor 1 e chave do amortecedor 2 |
+| | BFS1 e BFS2 | chave do amortecedor do carro (BFS1) e chave do amortecedor do contrapeso (BFS2) |
 | | FLSD e FLSU | fim de curso inferior e fim de curso superior |
 | | PIT, PITU, PITD e PITB | chave de inspeção do poço e botões de subir, descer e comum da inspeção do poço |
 | Cabina e caixa de teto | TES | botão de parada de emergência da caixa de teto |
@@ -72,7 +72,7 @@ Fonte: esquema Vitinho 19061867-ZL, folhas /19 (cadeia, pág. PDF 21), /34 (caix
 | Circuito de fechaduras | GS1 | contato de fechadura da porta de cabina |
 | | 1DS, 2DS e nDS | contatos de fechadura das portas de pavimento (uma por pavimento) |
 
-Fonte: esquema Vitinho 19061867-ZL, folhas /14 (pág. PDF 16), /19, /34, /41, /42 (pág. PDF 44) e /43. Para BFS1 e BFS2 o esquema Vitinho só traz "Buffer switch 1" e "Buffer switch 2".
+Fonte: esquema Vitinho 19061867-ZL, folhas /14 (pág. PDF 16), /19, /34, /41, /42 (pág. PDF 44) e /43. Para BFS1 e BFS2 o esquema Vitinho só traz "Buffer switch 1" e "Buffer switch 2"; a atribuição carro e contrapeso vem do esquema VerticalParts 19060918-ZL (pág. 30 e legenda da pág. 12), confirmada pelo responsável técnico em 15/11/2026.
 
 **O que o esquema marca como opcional.** Alguns contatos têm a instrução "When needed, otherwise short circuit" (quando necessário; senão, curto): RCS (chave do rope gripper), CWSG (chave elétrica da cunha de segurança do contrapeso) e OS-G (chave elétrica do limitador de velocidade do contrapeso). Cada elevador tem ou não esses dispositivos: confira no seu. O que não existir fica com o curto que o esquema indica, e o que existir entra na cadeia no lugar do curto.
 

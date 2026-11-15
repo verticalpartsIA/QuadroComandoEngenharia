@@ -1,6 +1,6 @@
 # Capítulo 4. Montagem e pré-energização
 
-> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q115]`, `PREENCHER [Q116]` e `PREENCHER [Q117]`. Fontes: manual do NICE3000new (capítulo 2), esquema Vitinho 19061867-ZL, manual do resgate elétrico ERB e a prática de montagem do Rev. 11 (págs. 11 e 12), que o Rev. 12 reaproveita só no que tem fonte.
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q115]` e `PREENCHER [Q116]` (Q117 decidido em 15/11/2026). Fontes: manual do NICE3000new (capítulo 2), esquema Vitinho 19061867-ZL, manual do resgate elétrico ERB e a prática de montagem do Rev. 11 (págs. 11 e 12), que o Rev. 12 reaproveita só no que tem fonte.
 
 **Parte II. O quadro de comando**
 
@@ -70,7 +70,7 @@ Fonte: manual NICE3000new, págs. PDF 39 a 47.
 
 ## 4.4 A ordem de montagem
 
-A ordem abaixo é a prática de montagem da VerticalParts (Rev. 11, pág. 12), com as etapas reescritas a partir dos manuais e do esquema. Siga-a de cima para baixo e só passe à etapa seguinte com a anterior pronta. A confirmação de que esta é a ordem oficial da fábrica: `PREENCHER [Q117]`.
+A ordem abaixo é a prática de montagem da VerticalParts (Rev. 11, pág. 12), com as etapas reescritas a partir dos manuais e do esquema. Siga-a de cima para baixo e só passe à etapa seguinte com a anterior pronta. Esta é a ordem oficial da fábrica (decisão do responsável técnico em 15/11/2026): a conferência cruzada (etapa 10) é feita por um segundo montador, e a liberação do quadro é da Qualidade (capítulo 5).
 
 | Etapa | Atividade | O que fazer |
 |---|---|---|
@@ -90,7 +90,7 @@ A ordem abaixo é a prática de montagem da VerticalParts (Rev. 11, pág. 12), c
 ![Figura 4.1](../assets/figuras/fig-4-1-ordem-montagem.svg)
 
 **Figura 4.1.** Ordem de montagem do quadro, da mecânica à energização.
-Fonte: prática de montagem do Rev. 11, pág. 12, e seções 4.2 a 4.7.
+Fonte: prática de montagem do Rev. 11, pág. 12, confirmada como ordem oficial em 15/11/2026, e seções 4.2 a 4.7.
 
 > **ATENÇÃO.** O terra vem primeiro, antes da potência. Sem o terra ligado, uma falha de isolamento energiza a massa do quadro.
 

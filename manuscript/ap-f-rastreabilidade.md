@@ -7,7 +7,7 @@
 | Documento | Arquivo na base de conhecimento | Capítulos que citam |
 |---|---|---|
 | Esquema elétrico Vitinho 19061867-ZL (2023-07-18), revisão de esquema válida | `Diagrama Completo Vitinho NICE3000-B&W-B4A(GBT).pdf` | 1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 14 |
-| Esquema elétrico VerticalParts 19060918-ZL (2022-10-11), só referência | `Esquema Elétrico Elevadores Verticalparts.pdf` | 5, 11 |
+| Esquema elétrico VerticalParts 19060918-ZL (2022-10-11), só referência | `Esquema Elétrico Elevadores Verticalparts.pdf` | 1, 5, 11 |
 | Manual do controlador NICE3000new (368 págs., edição 20181130) | `Manual_Usuario_Controlador_NICE3000new_Completo.pdf` | 1, 2, 3, 4, 5, 7, 8, 10, 11, 12, 13, 14 |
 | Manual do resgate elétrico MCTC-ERB-A (19010850-B01) | `Manual_Dispositivo_Resgate_Eletrico_ERB-A1_EN.pdf` | 3, 4, 5, 7, 14 |
 | Manual da caixa de teto MCTC-CTW-B3 (edição A02, julho de 2022) | `Manual_Caixa_de_Teto_MCTC-CTW-B3_EN.pdf` | 2, 8, 9, 10 |
@@ -29,7 +29,7 @@ Cada linha traz as fontes exatamente como a seção as cita (linhas "Fonte:"). A
 | Seção | Fontes citadas |
 |---|---|
 | 1.2 O elevador sem casa de máquinas | esquema Vitinho 19061867-ZL, folhas /7, /8, /19 e /34 (páginas PDF 9, 10, 21 e 36; a página PDF é o número da folha mais 2). |
-| 1.3 Cadeia de segurança | manual NICE3000new (20181130), pág. PDF 61 (impressa 60), tabela do conector CN2; pág. PDF 199 (impressa 198), parâmetros de entrada.; esquema Vitinho 19061867-ZL, folhas /19 (cadeia, pág. PDF 21), /34 (caixa de teto, pág. PDF 36), /41 (poço, pág. PDF 43) e /43 (fechaduras, pág. PDF 45); manual NICE3000new, pág. PDF 61.; esquema Vitinho 19061867-ZL, folhas /14 (pág. PDF 16), /19, /34, /41, /42 (pág. PDF 44) e /43. Para BFS1 e BFS2 o esquema Vitinho só traz "Buffer switch 1" e "Buffer switch 2".; esquema Vitinho 19061867-ZL, folhas /19, /34 e /43. |
+| 1.3 Cadeia de segurança | manual NICE3000new (20181130), pág. PDF 61 (impressa 60), tabela do conector CN2; pág. PDF 199 (impressa 198), parâmetros de entrada.; esquema Vitinho 19061867-ZL, folhas /19 (cadeia, pág. PDF 21), /34 (caixa de teto, pág. PDF 36), /41 (poço, pág. PDF 43) e /43 (fechaduras, pág. PDF 45); manual NICE3000new, pág. PDF 61.; esquema Vitinho 19061867-ZL, folhas /14 (pág. PDF 16), /19, /34, /41, /42 (pág. PDF 44) e /43. Para BFS1 e BFS2 o esquema Vitinho só traz "Buffer switch 1" e "Buffer switch 2"; a atribuição carro e contrapeso vem do esquema VerticalParts 19060918-ZL (pág. 30 e legenda da pág. 12), confirmada pelo responsável técnico em 15/11/2026.; esquema Vitinho 19061867-ZL, folhas /19, /34 e /43. |
 | 1.4 Circuito de fechaduras | manual NICE3000new (20181130), pág. PDF 199 (impressa 198), parâmetros de entrada 04, 05, 29 e 31.; manual NICE3000new (20181130), pág. PDF 281 (impressa 280), tabela de falhas, e pág. PDF 288, notas. |
 | 1.5 Bypass de porta | esquema Vitinho 19061867-ZL, folha /14 (nota 1, pág. PDF 16) e folha /19 (pág. PDF 21). |
 | 1.6 Inspeção e operação elétrica de emergência | manual NICE3000new (20181130), pág. PDF 200 (impressa 199), parâmetros de entrada 08, 09, 10 e 84; págs. PDF 194 e 196, parâmetros F3-11, F3-25 e F3-26. |
@@ -47,7 +47,7 @@ Cada linha traz as fontes exatamente como a seção as cita (linhas "Fonte:"). A
 | 3.11 Se o seu elevador tiver outra configuração | esquema Vitinho, folhas /7, /8 e /9; manual NICE3000new, tabelas 1-1 e 3-2. |
 | 4.2 Antes de começar | manual NICE3000new, págs. PDF 54, 56 e 63; manual do resgate elétrico, seção 6. |
 | 4.3 O ambiente e a fixação do inversor | manual NICE3000new, págs. PDF 39 a 47. |
-| 4.4 A ordem de montagem | prática de montagem do Rev. 11, pág. 12, e seções 4.2 a 4.7.; Rev. 11, pág. 12 (ordem); manual NICE3000new, seção 2.2.1 (terra e potência). |
+| 4.4 A ordem de montagem | prática de montagem do Rev. 11, pág. 12, confirmada como ordem oficial em 15/11/2026, e seções 4.2 a 4.7.; Rev. 11, pág. 12 (ordem); manual NICE3000new, seção 2.2.1 (terra e potência). |
 | 4.5 Regras de fiação do manual | manual NICE3000new, págs. PDF 52 a 54, 63 e 68 (seções 2.2.1 a 2.3.4). |
 | 4.6 O cabo plano de 40 vias entre a MCB-C3 e a KCB-B4A | esquema Vitinho 19061867-ZL, folhas /13, /14 e /20 (págs. PDF 15, 16 e 22); auditoria do Rev. 11, lote 7a. |
 | 4.7 Verificações sem tensão | manual NICE3000new, págs. PDF 54, 71, 73 e 143 a 145; esquema Vitinho; Rev. 11, pág. 12. |
@@ -133,14 +133,12 @@ Cada selo `PREENCHER [Qn]` é um dado sem fonte. O livro só é liberado sem nen
 | 3.4 | Q83 | Pinos do plugue S2 e posição dos jumpers |
 | 3.5 | Q84 | Parâmetros B0 e dados da bobina do freio |
 | 3.5 | Q85 | Posição da PCB-D1, do QFB4 e da base do quadro; polos do barramento de terra |
-| 3.7 | Q87 | Qual rótulo da botoeira de inspeção vale? |
 | 3.8 | Q81 | Função de DQFB1, DQFB2 e DQFB3 |
 | 3.8 | Q82 | Dados do QF, tipo dos QFB3 e QFB4 e proteção diferencial |
 | 3.9 | Q88 | Dados dos contatores SW, BY e FX |
 | 3.10 | Q85 | Posição da PCB-D1, do QFB4 e da base do quadro; polos do barramento de terra |
 | 4.2 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço |
 | 4.2 | Q115 | Torque de aperto do QF, QFB, DQFB, contatores e bornes de passagem |
-| 4.4 | Q117 | A ordem de montagem de 12 etapas é a ordem oficial da fábrica? |
 | 4.7 | Q83 | Pinos do plugue S2 e posição dos jumpers |
 | 4.7 | Q115 | Torque de aperto do QF, QFB, DQFB, contatores e bornes de passagem |
 | 4.7 | Q116 | Critério de isolação com megôhmetro antes de energizar |

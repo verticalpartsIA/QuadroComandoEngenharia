@@ -10,7 +10,7 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 |---|---|---|---|---|
 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço | falta-documento | [#1](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/1) | Sem resposta, aguardando dado do responsável |
 | Q54 | RCS, CWSG e OS-G existem no elevador de referência? | ida-ao-quadro | [#2](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/2) | Resolvida em 15/11/2026: virou conferência de obra (o elevador de referência é um modelo) |
-| Q56 | BFS1 e BFS2: qual é o amortecedor do carro e qual é o do contrapeso? | decisao-do-responsavel, pendencia | [#3](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/3) | Não resolve na conferência de 15/11/2026 |
+| Q56 | BFS1 e BFS2: qual é o amortecedor do carro e qual é o do contrapeso? | decisao-do-responsavel, pendencia | [#3](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/3) | Decidida pelo responsável técnico em 15/11/2026 |
 | Q59 | Função de cada chave da cadeia de segurança | falta-documento | [#4](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/4) | Não resolve na conferência de 15/11/2026 |
 | Q60 | O MES-1 (Motor emg. stop button) existe no elevador de referência? | ida-ao-quadro | [#5](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/5) | Resolvida em 15/11/2026: virou conferência de obra (o elevador de referência é um modelo) |
 | Q71 | Os jumpers 62 a 66 da lista de fios são só de bancada? | ida-ao-quadro, pendencia | [#6](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/6) | Não resolve na conferência de 15/11/2026 |
@@ -22,7 +22,7 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 | Q84 | Parâmetros B0 e dados da bobina do freio | ida-ao-quadro | [#12](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/12) | Sem resposta, aguardando dado do responsável |
 | Q85 | Posição da PCB-D1, do QFB4 e da base do quadro; polos do barramento de terra | ida-ao-quadro | [#13](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/13) | Sem resposta, aguardando dado do responsável |
 | Q86 | O resgate elétrico é o ERB-A1 (com bateria) ou o ERB-A2? | ida-ao-quadro | [#14](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/14) | Resolvida na conferência de 15/11/2026 |
-| Q87 | Qual rótulo da botoeira de inspeção vale? | decisao-do-responsavel, ida-ao-quadro | [#15](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/15) | Não resolve na conferência de 15/11/2026 |
+| Q87 | Qual rótulo da botoeira de inspeção vale? | decisao-do-responsavel, ida-ao-quadro | [#15](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/15) | Decidida pelo responsável técnico em 15/11/2026 |
 | Q88 | Dados dos contatores SW, BY e FX | ida-ao-quadro | [#16](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/16) | Sem resposta, aguardando dado do responsável |
 | Q92 | O módulo SCB-A4 ou SCB-D4 está instalado no quadro? | ida-ao-quadro | [#17](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/17) | Resolvida em 15/11/2026: virou conferência de obra (o elevador de referência é um modelo) |
 | Q95 | Dados da máquina de tração | ida-ao-quadro, falta-documento | [#18](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/18) | Resolvida em 15/11/2026: virou conferência de obra (o elevador de referência é um modelo) |
@@ -44,6 +44,6 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 | Q114 | A cartilha de resgate da VerticalParts (VP-RES-01 Rev. 02) está aprovada? | falta-documento, decisao-do-responsavel | [#34](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/34) | Aberta |
 | Q115 | Torque de aperto do QF, QFB, DQFB, contatores e bornes de passagem | falta-documento | [#35](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/35) | Aberta |
 | Q116 | Critério de isolação com megôhmetro antes de energizar | falta-documento, decisao-do-responsavel | [#36](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/36) | Aberta |
-| Q117 | A ordem de montagem de 12 etapas é a ordem oficial da fábrica? | decisao-do-responsavel | [#37](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/37) | Aberta |
+| Q117 | A ordem de montagem de 12 etapas é a ordem oficial da fábrica? | decisao-do-responsavel | [#37](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/37) | Decidida pelo responsável técnico em 15/11/2026 |
 | Q118 | Valores esperados dos testes de bancada que ainda não têm critério | decisao-do-responsavel, falta-documento | [#38](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/38) | Aberta |
 | Q119 | Critérios do checklist da Qualidade e situação do POP-ISO-PCP | decisao-do-responsavel, falta-documento | [#39](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/39) | Aberta |

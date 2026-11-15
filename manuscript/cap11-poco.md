@@ -26,7 +26,7 @@ No poço do elevador de referência ficam:
 | Botoeira de inspeção do poço | Botão de parada (PES1) e as chaves PIT, PITU, PITD e PITB | esquema /42 |
 | Botão de reset fora da caixa de corrida | Botão RSW, ligado ao plugue PT4 | esquema /42 |
 | Chave elétrica da polia tensora (GTS) | contato da cadeia de segurança | esquema /41 |
-| Chaves dos amortecedores 1 e 2 (BFS1 e BFS2) | contatos da cadeia de segurança | esquema /41 |
+| Chave do amortecedor do carro (BFS1) e do contrapeso (BFS2) | contatos da cadeia de segurança | esquema /41 |
 | Fins de curso FLSD e FLSU | contatos da cadeia de segurança | esquema /41 e /19 |
 | Interfone do poço | alimentado pelo plugue DC | esquema /48 |
 
@@ -58,7 +58,7 @@ Fonte: esquema Vitinho 19061867-ZL, folha /48 (pág. PDF 50).
 
 A cadeia de segurança atravessa o poço por esta ordem, na parte que o esquema desenha: botão de parada do poço PES2 (entre 111 e 112, plugue PT1), chave da polia tensora GTS (entre 112 e 113, plugue PT2), botão de parada PES1 e chaves da inspeção do poço (a partir de 113, plugue PT3), chaves dos amortecedores BFS1 e BFS2 (entre 118B e 119, plugue PT2) e os fins de curso FLSD (entre 119 e 120) e FLSU (entre 120 e 121). No desenho, os fins de curso e o conjunto da polia tensora e dos amortecedores têm ligação ao terra.
 
-O esquema chama o BFS1 e o BFS2 apenas de "Buffer switch 1" e "Buffer switch 2". O esquema VerticalParts diz que o BFS1 é o do amortecedor do carro e o BFS2, o do contrapeso. Enquanto você não confirmar, o livro os chama de chave do amortecedor 1 e chave do amortecedor 2.
+O esquema chama o BFS1 e o BFS2 apenas de "Buffer switch 1" e "Buffer switch 2". O esquema VerticalParts diz que o BFS1 é o do amortecedor do carro e o BFS2, o do contrapeso, e o responsável técnico confirmou em 15/11/2026.
 
 A função de cada chave (o que ela detecta e por que existe): `PREENCHER [Q59]` (capítulo 1).
 

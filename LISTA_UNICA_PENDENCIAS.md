@@ -13,14 +13,14 @@ Você decidiu que o "elevador de referência" é um modelo, não uma instalaçã
 | Nº | O que preciso | Onde aparece | Minha recomendação |
 |---|---|---|---|
 | A1 | **Registro profissional:** número do CREA ou do CFT e o nome completo do responsável técnico, para o verso da folha de rosto (registro CREA, issue #25) | Capa | Sem recomendação: é dado seu. Bloqueia o lançamento |
-| A2 | **Ordem de montagem:** a ordem de 12 etapas (recebimento, mecânica, componentes, terra, potência, comando, placas, cabo plano, botoeira, conferência cruzada, sem tensão, energização) é a oficial? Quem faz a conferência cruzada e quem libera, por departamento? (Q117, issue #37) | Cap. 4, seção 4.4 | Confirmar a ordem do Rev. 11; conferência por um segundo montador; liberação pela Qualidade |
+| A2 | ~~**Ordem de montagem:** a ordem de 12 etapas (recebimento, mecânica, componentes, terra, potência, comando, placas, cabo plano, botoeira, conferência cruzada, sem tensão, energização) é a oficial? Quem faz a conferência cruzada e quem libera, por departamento? (Q117, issue #37)~~ **Decidido em 15/11/2026: ordem oficial; conferência por segundo montador; liberação pela Qualidade.** | Cap. 4, seção 4.4 | Confirmar a ordem do Rev. 11; conferência por um segundo montador; liberação pela Qualidade |
 | A3 | **Cartilha de resgate:** a "Manual de Resgate" VP-RES-01 Rev. 02, que está marcada "versão para validação técnica", foi aprovada? (Q114, issue #34) | Cap. 14, seção 14.9 | Se não foi, manter o resumo com a ressalva que já está no texto |
-| A7 | **Rótulo da botoeira de inspeção:** vale o rótulo amarelo de 12/11 (SUBIR, DESCER, ACIONAMENTO LIMITADOR, REARME LIMITADOR, AÇÃO/FREIO) ou o branco de 13/11 (SOBE, DESCE, RESGATE, TESTE LIMITADOR, RESET LIMITADOR, AÇÃO FREIO)? (Q87, issue #15) | Cap. 3, seção 3.7 | O de 13/11, que é o mais recente |
-| A8 | **Amortecedores:** confirma que o BFS1 é o do carro e o BFS2 o do contrapeso, como diz o esquema VerticalParts? (Q56, issue #3) | Caps. 1 e 11 | Confirmar; aí o texto passa a dizer carro e contrapeso |
-| A9 | **Barramento de terra cheio:** o barramento de 6 polos não tem polo livre para o terra da rede e o do motor. Qual a solução: barramento de 8 ou 10 polos, ou borne de terra no trilho? (pendência P14) | Cap. 3, seção 3.10; Apêndice C | Barramento de 10 polos |
-| A10 | **Disjuntor QFB4 (iluminação do poço):** entra no quadro? Existe no esquema, mas não está na lista de fios nem na lista de materiais (pendência P9) | Cap. 3, seção 3.8; Apêndice B | Entrar, como no esquema |
+| A7 | ~~**Rótulo da botoeira de inspeção:** vale o rótulo amarelo de 12/11 (SUBIR, DESCER, ACIONAMENTO LIMITADOR, REARME LIMITADOR, AÇÃO/FREIO) ou o branco de 13/11 (SOBE, DESCE, RESGATE, TESTE LIMITADOR, RESET LIMITADOR, AÇÃO FREIO)? (Q87, issue #15)~~ **Decidido em 15/11/2026: vale o rótulo de 13/11.** | Cap. 3, seção 3.7 | O de 13/11, que é o mais recente |
+| A8 | ~~**Amortecedores:** confirma que o BFS1 é o do carro e o BFS2 o do contrapeso, como diz o esquema VerticalParts? (Q56, issue #3)~~ **Decidido em 15/11/2026: BFS1 carro, BFS2 contrapeso.** | Caps. 1 e 11 | Confirmar; aí o texto passa a dizer carro e contrapeso |
+| A9 | ~~**Barramento de terra cheio:** o barramento de 6 polos não tem polo livre para o terra da rede e o do motor. Qual a solução: barramento de 8 ou 10 polos, ou borne de terra no trilho? (pendência P14)~~ **Decidido em 15/11/2026: barramento de 10 polos.** | Cap. 3, seção 3.10; Apêndice C | Barramento de 10 polos |
+| A10 | ~~**Disjuntor QFB4 (iluminação do poço):** entra no quadro? Existe no esquema, mas não está na lista de fios nem na lista de materiais (pendência P9)~~ **Decidido em 15/11/2026: QFB4 entra no quadro.** | Cap. 3, seção 3.8; Apêndice B | Entrar, como no esquema |
 | A11 | **Capítulo 6, qualidade do equipamento e dos acabamentos:** onde ele entra na numeração; o que conta como qualidade do equipamento e dos acabamentos (você já concordou: equipamento = o quadro como produto; acabamentos = mão de obra visível); de onde vêm os critérios de aceite; e fotos de peça conforme e não conforme (Q49 a Q52) | Cap. 6 (em espera) | Manter como capítulo 6; critérios definidos pela Qualidade; eu monto o capítulo quando chegarem os critérios e as fotos |
-| A12 | **NR-12:** entra ou não no capítulo de normas? | Em espera | Deixar fora nesta revisão |
+| A12 | ~~**NR-12:** entra ou não no capítulo de normas?~~ **Decidido em 15/11/2026: NR-12 fora desta revisão.** | Em espera | Deixar fora nesta revisão |
 
 ## Grupo B. Precisa de documento ou de outra área
 
@@ -77,7 +77,7 @@ As 12 respostas do documento de 15/11 foram conferidas contra a fonte citada. O 
 
 ## Resumo
 
-- Grupo A: 9 decisões (A1 bloqueia o lançamento).
+- Grupo A: 6 decididos em 15/11/2026 pelas recomendações; restam A1 (registro CREA ou CFT, bloqueia o lançamento), A3 (cartilha de resgate aprovada?) e A11 (capítulo 6 de qualidade).
 - Grupo B: 9 pedidos de documento ou de outra área.
 - Grupo C: 11 leituras numa só ida ao quadro (só do quadro em si).
 - Grupo D: feito; 4 resolvidas, 2 parciais e 6 que voltam para os grupos A, B e C.

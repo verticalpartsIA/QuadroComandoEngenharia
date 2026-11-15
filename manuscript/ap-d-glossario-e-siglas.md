@@ -72,7 +72,7 @@ O livro usa só estes termos para estas coisas. A coluna "Evite" lista as palavr
 | CIS | Chave de operação elétrica de emergência (no esquema também "chave de inspeção de emergência") | 1 |
 | PES1 e PES2 | Botões de parada do poço (o PES1 fica na botoeira de inspeção do poço) | 11 |
 | GTS | Chave elétrica da polia tensora | 11 |
-| BFS1 e BFS2 | Chave do amortecedor 1 e chave do amortecedor 2 (qual é do carro e qual é do contrapeso: capítulo 11) | 11 |
+| BFS1 e BFS2 | Chave do amortecedor do carro (BFS1) e chave do amortecedor do contrapeso (BFS2) | 11 |
 | FLSD e FLSU | Fins de curso inferior e superior | 11 |
 | PIT, PITU, PITD e PITB | Chave de inspeção do poço e botões de subir, descer e comum | 11 |
 | TES | Botão de parada de emergência da caixa de teto | 8 |

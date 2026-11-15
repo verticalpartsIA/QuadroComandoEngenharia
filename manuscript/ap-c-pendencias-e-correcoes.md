@@ -16,11 +16,11 @@ Este apêndice mostra o que a auditoria do Rev. 11 (14/11/2026) resolveu e o que
 | P6 | Mapa dos contatores | Aberto | Multímetro nos contatores reais |
 | P7 | Botoeira de inspeção | Esquema mostra o handle KKB4-1C-02 (CIS, CIU E, CID E e MES) e nenhum botão extra | Mapa furo a botão |
 | P8 | Plugues S1 e S2 da KCB | Tag "S1" da lista é o limitador de velocidade (resolvido) | Conferir os pinos na placa |
-| P9 | QFB4 | Existe no esquema; não está na lista nem no BOM | Decidir se entra |
+| P9 | QFB4 | Decidido em 15/11/2026: entra no quadro, como no esquema | Acertar a lista de fios e a lista de materiais |
 | P10 | L e N da ERB-A1 | Esquema: 501 em L e 502 em N; a lista está invertida | Conferir a serigrafia da ERB e corrigir a lista |
 | P11 | MCB-C2 ou C3 | Só existe a C3 | Corrigir a lista |
 | P13 | Terminais no BOM | Tubular de 6 mm²: 19 na lista e 16 no BOM | Recalcular a compra |
-| P14 | Barramento de terra de 6 polos | Cheio | Decisão de projeto |
+| P14 | Barramento de terra de 6 polos | Decidido em 15/11/2026: barramento de 10 polos | Acertar a lista de materiais e a de fios |
 | P15 | BC-1 | Inconsistência (BC-1 ou BC-A) | Confirmar o bloco |
 | P16 | Bateria da ERB | Aberto | Abrir a tampa, com 10 minutos ou mais sem rede |
 | P17 | Bornes grandes 2 x 7 | Aberto | Contar na montagem |
@@ -34,7 +34,6 @@ Este apêndice mostra o que a auditoria do Rev. 11 (14/11/2026) resolveu e o que
 |---|---|---|
 | `PREENCHER [Q47]` | Bloqueio e etiquetagem (LOTO) e exigências de norma sobre segurança do trabalho | Texto da NR-10 e das normas de elevadores |
 | `PREENCHER [Q59]` | Função de cada chave da cadeia de segurança | Material do fabricante ou explicação do responsável técnico |
-| Q56 | BFS1 e BFS2: qual é do carro e qual é do contrapeso | O esquema VerticalParts diz BFS1 = carro e BFS2 = contrapeso; falta confirmação |
 | Jumpers 62 a 66 | Só de bancada ou também em campo? | Confirmação em campo (ver Apêndice A) |
 
 Decisão de 15/11/2026: o "elevador de referência" é um modelo, não uma instalação. O que muda de um elevador para outro (RCS, CWSG, OS-G, MES-1, módulo SCB, máquina de tração, encoder, velocidade, comprimento dos cabos, placa de comando da cabina, operador de porta, UPS ou ARD) deixou de ser selo: o livro manda conferir no seu elevador e usa o pedido QC-2026-0014 (elevador EL21) como exemplo. A lista completa dos selos que restam está no Apêndice F, seção F.3.
