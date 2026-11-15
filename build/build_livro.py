@@ -33,6 +33,7 @@ ORDEM = [
     ("ap", "manuscript/ap-c-pendencias-e-correcoes.md"),
     ("ap", "manuscript/ap-d-glossario-e-siglas.md"),
     ("ap", "manuscript/ap-e-indice-remissivo.md"),
+    ("ap", "manuscript/ap-f-rastreabilidade.md"),
 ]
 SELOS = r"<code>(PREENCHER \[Q\d+\]|PENDENTE-REGISTRO|\[Certeza\]|\[Provável\]|\[Chute\])</code>"
 

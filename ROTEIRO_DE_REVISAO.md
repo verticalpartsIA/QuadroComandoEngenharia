@@ -102,3 +102,6 @@ Selo: Q59 (função de cada chave da cadeia).
 
 ## Apêndice E, Índice remissivo (15/11/2026)
 Gerado por `build/gera_indice.py` a partir dos termos e siglas do Apêndice D: 109 verbetes. Remete por **seção** (3.6 = capítulo 3, seção 6), não por página, para não quebrar quando a paginação mudar. Ficam de fora as seções de objetivos, de teste e de fontes, e as siglas PDF e ZL. Para atualizar depois de mexer em capítulos: `python build/gera_indice.py` e gerar o livro de novo. O que revisar: se faltar algum assunto que você procuraria no índice, me diga a palavra e eu acrescento ao Apêndice D (o índice segue o D).
+
+## Apêndice F, Rastreabilidade (15/11/2026)
+Gerado por `build/gera_rastreabilidade.py`. F.1: os 13 documentos-fonte, o arquivo de cada um na base e os capítulos que o citam. F.2: as fontes que cada seção cita (89 seções com linha "Fonte:"; 11 citam a fonte só dentro das tabelas). F.3: os 50 selos de dado faltante, por seção, com o assunto escrito por extenso. Para atualizar depois de mexer em capítulos: `python build/gera_rastreabilidade.py` e gerar o livro de novo. O que revisar: a regra de hierarquia no fim de F.1 (esquema Vitinho vale para ligações; manual do fabricante vale para valores; lista de fios não é fonte; BST, Glarie e manuais antigos só como apoio).
