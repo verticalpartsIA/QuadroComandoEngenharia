@@ -1,6 +1,6 @@
 # Capítulo 4. Montagem e pré-energização
 
-> RASCUNHO v0.1 de 15/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q115]`, `PREENCHER [Q116]` e `PREENCHER [Q117]`. Fontes: manual do NICE3000new (capítulo 2), esquema Vitinho 19061867-ZL, manual do resgate elétrico ERB e a prática de montagem do Rev. 11 (págs. 11 e 12), que o Rev. 12 reaproveita só no que tem fonte.
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q115]`, `PREENCHER [Q116]` e `PREENCHER [Q117]`. Fontes: manual do NICE3000new (capítulo 2), esquema Vitinho 19061867-ZL, manual do resgate elétrico ERB e a prática de montagem do Rev. 11 (págs. 11 e 12), que o Rev. 12 reaproveita só no que tem fonte.
 
 **Parte II. O quadro de comando**
 

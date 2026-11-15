@@ -1,6 +1,6 @@
 # Capítulo 14. Resgate elétrico e manutenção
 
-> RASCUNHO v0.1 de 15/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q86]`, `PREENCHER [Q112]`, `PREENCHER [Q113]` e `PREENCHER [Q114]`. Fontes: manual do resgate elétrico MCTC-ERB-A (Inovance, 19010850), manual do NICE3000new (seção 9.13) e cartilha "Manual de Resgate" da VerticalParts (VP-RES-01, Rev. 02, versão para validação técnica).
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q86]`, `PREENCHER [Q112]`, `PREENCHER [Q113]` e `PREENCHER [Q114]`. Fontes: manual do resgate elétrico MCTC-ERB-A (Inovance, 19010850), manual do NICE3000new (seção 9.13) e cartilha "Manual de Resgate" da VerticalParts (VP-RES-01, Rev. 02, versão para validação técnica).
 
 **Parte IV. Comissionamento**
 

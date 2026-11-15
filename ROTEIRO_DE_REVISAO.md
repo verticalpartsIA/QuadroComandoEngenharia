@@ -108,3 +108,7 @@ Gerado por `build/gera_rastreabilidade.py`. F.1: os 13 documentos-fonte, o arqui
 
 ## Apêndice B, Lista de materiais e comparativo das variantes (15/11/2026)
 Decisão do responsável técnico em 15/11/2026: os códigos internos (VPMP, VPB, VPEL) entram, só neste apêndice (RULES.md atualizado). Gerado por `build/gera_apendice_bom.py` a partir do Compilado de Materiais (aba COMANDO): 75 códigos, 54 comuns às quatro variantes e 21 que mudam. B.4 lista 11 divergências entre a lista de materiais e o esquema ou o manual (QF, trafo, disjuntores de comando, inversores VPB-196 e VPB-224, terminais, cabos de terra e de potência do 15 kW/220 V, olhal com quantidade zero). B.5 resume a conciliação com o ERP (VPEL-702b e VPEL-704b; a variante de referência não foi conciliada). Para atualizar depois de mudar a planilha: `python build/gera_apendice_bom.py`.
+
+## Aprovação de 15/11/2026
+O Gelson leu este roteiro e aprovou os rascunhos dos capítulos 4, 5, 9 e 14 e dos apêndices B, D, E e F, que passam a v0.2. Os capítulos 4, 5 e 14 ainda precisam da assinatura da Qualidade. Os selos continuam abertos até cada dado chegar (ver `LISTA_UNICA_PENDENCIAS.md`).
+

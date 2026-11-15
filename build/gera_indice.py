@@ -106,7 +106,7 @@ def main():
     linhas = [
         "# Apêndice E. Índice remissivo",
         "",
-        "> RASCUNHO v0.1 de 15/11/2026. Gerado por `build/gera_indice.py` a partir dos termos e siglas do Apêndice D. "
+        "> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Gerado por `build/gera_indice.py` a partir dos termos e siglas do Apêndice D. "
         "Os números são **seções** (por exemplo, 3.6 é a seção 6 do capítulo 3), e não páginas, para que o índice "
         "continue certo quando a paginação mudar. As seções \"O que você vai aprender\", \"Teste o que você aprendeu\" "
         "e as listas de fontes não entram.",

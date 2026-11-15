@@ -1,6 +1,6 @@
 # Apêndice D. Glossário e siglas
 
-> RASCUNHO v0.1 de 15/11/2026. Selo aberto: `PREENCHER [Q59]`. Cada termo e cada sigla vem dos capítulos do livro; o número depois do verbete é o capítulo onde ele é explicado. Onde um capítulo ainda não tem a definição do fabricante, o verbete diz isso em vez de supor.
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Selo aberto: `PREENCHER [Q59]`. Cada termo e cada sigla vem dos capítulos do livro; o número depois do verbete é o capítulo onde ele é explicado. Onde um capítulo ainda não tem a definição do fabricante, o verbete diz isso em vez de supor.
 
 ## D.1 Termos fixos
 

@@ -1,6 +1,6 @@
 # Apêndice B. Lista de materiais e comparativo das variantes
 
-> RASCUNHO v0.1 de 15/11/2026. Gerado por `build/gera_apendice_bom.py` a partir do Compilado de Materiais (`Compilado_Materiais Quadro de comando NICE3000 MRL BST VerticalParts.xlsx`, aba COMANDO). Os códigos são os códigos internos da VerticalParts (VPMP, VPB, VPEL), incluídos por decisão do responsável técnico em 15/11/2026. Quantidades **por quadro**. A lista de materiais não é fonte técnica: quando ela diverge do esquema ou do manual, vale o esquema ou o manual, e a divergência está na seção B.4.
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Gerado por `build/gera_apendice_bom.py` a partir do Compilado de Materiais (`Compilado_Materiais Quadro de comando NICE3000 MRL BST VerticalParts.xlsx`, aba COMANDO). Os códigos são os códigos internos da VerticalParts (VPMP, VPB, VPEL), incluídos por decisão do responsável técnico em 15/11/2026. Quantidades **por quadro**. A lista de materiais não é fonte técnica: quando ela diverge do esquema ou do manual, vale o esquema ou o manual, e a divergência está na seção B.4.
 
 ## B.1 Como ler este apêndice
 

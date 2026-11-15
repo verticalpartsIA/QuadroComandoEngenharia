@@ -1,6 +1,6 @@
 # Capítulo 5. Testes de bancada e relatório de CQ
 
-> RASCUNHO v0.1 de 15/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q118]` e `PREENCHER [Q119]`. Fontes: POP-ISO-PCP (Rev. 00, 14/09/2026), manual do NICE3000new, manual do resgate elétrico ERB, esquema Vitinho 19061867-ZL e os testes E1 a E12 e R1 a R8 do Rev. 11 (págs. 32 e 33), conferidos pela auditoria do Rev. 11.
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026; aguarda a assinatura da Qualidade. Selos abertos: `PREENCHER [Q118]` e `PREENCHER [Q119]`. Fontes: POP-ISO-PCP (Rev. 00, 14/09/2026), manual do NICE3000new, manual do resgate elétrico ERB, esquema Vitinho 19061867-ZL e os testes E1 a E12 e R1 a R8 do Rev. 11 (págs. 32 e 33), conferidos pela auditoria do Rev. 11.
 
 **Parte II. O quadro de comando**
 

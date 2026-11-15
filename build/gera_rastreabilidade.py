@@ -101,7 +101,7 @@ def main():
     L = [
         "# Apêndice F. Rastreabilidade",
         "",
-        "> RASCUNHO v0.1 de 15/11/2026. Gerado por `build/gera_rastreabilidade.py` a partir dos capítulos. "
+        "> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Gerado por `build/gera_rastreabilidade.py` a partir dos capítulos. "
         "Mostra de onde vem cada informação do livro: os documentos da base (F.1), as fontes citadas em cada seção (F.2) "
         "e os dados que ainda faltam (F.3). A regra do livro é: toda afirmação técnica cita documento e página; "
         "o que não tem fonte fica com selo, nunca com suposição.",

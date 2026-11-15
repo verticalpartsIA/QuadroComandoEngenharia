@@ -1,6 +1,6 @@
 # Capítulo 9. Operador de porta
 
-> RASCUNHO v0.1 de 15/11/2026. Aguarda aprovação do Gelson e assinatura da Qualidade. Selos abertos: `PREENCHER [Q106]`, `PREENCHER [Q107]`, `PREENCHER [Q108]`, `PREENCHER [Q109]`, `PREENCHER [Q110]` e `PREENCHER [Q111]`. Fontes: boletim "Parametrização de Controlador de Porta NICE900", manual de comissionamento do NICE900 (versão 1.0, fevereiro de 2026) e manual de instalação da máquina de porta J4210 (22/03/2024).
+> VERSÃO v0.2 de 15/11/2026. Aprovado pelo Gelson em 15/11/2026. Selos abertos: `PREENCHER [Q106]`, `PREENCHER [Q107]`, `PREENCHER [Q108]`, `PREENCHER [Q109]`, `PREENCHER [Q110]` e `PREENCHER [Q111]`. Fontes: boletim "Parametrização de Controlador de Porta NICE900", manual de comissionamento do NICE900 (versão 1.0, fevereiro de 2026) e manual de instalação da máquina de porta J4210 (22/03/2024).
 
 **Parte III. Instalação em campo**
 
