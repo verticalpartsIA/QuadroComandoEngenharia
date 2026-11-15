@@ -3,9 +3,10 @@
 Cada selo `PREENCHER [Qn]` do livro tem uma issue no GitHub. Ao resolver, remova o selo dos capítulos, registre a fonte e feche a issue. O livro só é lançado com todas as issues de selo fechadas.
 
 Checklist da ida ao quadro: [CHECKLIST_QUADRO_FISICO.md](CHECKLIST_QUADRO_FISICO.md)
+
 Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsável técnico, para ficarem abertas só as novas. Os selos continuam nos capítulos até cada resposta ser conferida.
 
-| Selo | Assunto | Tipo | Issue  Status |
+| Selo | Assunto | Tipo | Issue | Status |
 |---|---|---|---|---|
 | Q47 | Textos das normas: bloqueio e etiquetagem, cadeia de segurança, acesso ao poço | falta-documento | [#1](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/1) | Sem resposta, aguardando dado do responsável |
 | Q54 | RCS, CWSG e OS-G existem no elevador de referência? | ida-ao-quadro | [#2](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/2) | Sem resposta, aguardando dado do responsável |
