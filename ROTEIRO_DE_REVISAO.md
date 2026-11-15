@@ -67,3 +67,12 @@ Rascunho v0.1 (págs. 40 a 47 do PDF atual). Duas camadas: interface do quadro c
 3. Seções 9.8 a 9.10: mostram os dois documentos do fabricante lado a lado (notação e método de autoajuste), sem escolher um (issues #26, #30 e #31).
 4. Seção 9.6 e 9.11: cotas e folhas tiradas do manual J4210, em inglês, traduzidas por mim.
 Selos: Q106 a Q111 (issues #26 a #31). Apoio não citado: manual Glarie, NICE3000new antigo, BST BG101/BG201, brochura J5801.
+
+## Capítulo 14, Resgate elétrico e manutenção (15/11/2026)
+Rascunho v0.1. Fontes: manual do ERB (Inovance), manual NICE3000new seção 9.13 (UPS e ARD) e cartilha VP-RES-01 Rev. 02 (versão para validação). O que revisar:
+1. Seção 14.2: a distinção entre os quatro termos bate com o glossário e com o seu uso em campo?
+2. Seção 14.6: sequência de liberação do freio, só o que o manual do dispositivo diz. O manual tem uma caixa "Press the buttons for at least 120s" no fluxograma que não ficou clara; o livro usa só o texto (110 V por 2 s, 80 V por até 120 s, 3 ciclos, 10 min).
+3. Seção 14.9: resume a cartilha sem acrescentar passos de resgate; a VerticalParts não faz resgate.
+4. Capítulo 3, seção 3.6: remissão corrigida do capítulo 13 para o 14.
+Selos: Q86 (A1 ou A2; issue encerrada), Q112 a Q114 (issues abertas).
+

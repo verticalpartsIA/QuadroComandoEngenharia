@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t141 d141">
+  <title id="t141">Figura 14.1 Ligação do resgate elétrico ERB</title>
+  <desc id="d141">O resgate elétrico recebe a rede em L e N, a bateria em BAT+ e BAT-, o sensor de zona de porta em MQ, 24V e COM, o sinal da fechadura em MS+ e MS-, e entrega a tensão de liberação do freio em ZQ1+ e ZQ2- à bobina do freio.</desc>
+  <style>
+    .k{fill:#fafafa;stroke:#111;stroke-width:3}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2.2}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#1F5FA8;stroke-width:2.6;fill:none}
+    .lp{stroke:#C0392B;stroke-width:2.6;fill:none}
+  </style>
+  <rect width="960" height="560" fill="#fff"/>
+  <rect x="340" y="30" width="280" height="440" rx="8" class="k"/>
+  <text x="480" y="56" text-anchor="middle" class="h">Resgate elétrico MCTC-ERB</text>
+  <g class="t">
+    <text x="360" y="100">L, N</text>
+    <text x="360" y="180">BAT+, BAT-</text>
+    <text x="360" y="260">MQ+, MQ-</text>
+    <text x="360" y="300">24V, COM</text>
+    <text x="360" y="370">MS+, MS-</text>
+    <text x="560" y="100" text-anchor="end">ZQ1+, ZQ2-</text>
+  </g>
+  <!-- esquerda -->
+  <rect x="20" y="75" width="260" height="40" class="p"/><text x="150" y="100" text-anchor="middle" class="t">Rede monofásica 220 V (501, 502)</text>
+  <rect x="20" y="155" width="260" height="40" class="p"/><text x="150" y="180" text-anchor="middle" class="t">Bateria 12 V, 7 Ah ou mais</text>
+  <rect x="20" y="235" width="260" height="80" class="c"/><text x="150" y="260" text-anchor="middle" class="t" font-weight="700">Sensor de zona de porta</text><text x="150" y="282" text-anchor="middle" class="s">nível alto; fotoelétrico ou magnético</text><text x="150" y="300" text-anchor="middle" class="s">alimentado pelo 24V e COM do ERB</text>
+  <rect x="20" y="350" width="260" height="40" class="c"/><text x="150" y="375" text-anchor="middle" class="t">Sinal da fechadura da porta</text>
+  <path class="lp" d="M280 95 H340"/><path class="lp" d="M280 175 H340"/><path class="l" d="M280 275 H340"/><path class="l" d="M280 370 H340"/>
+  <!-- direita -->
+  <rect x="680" y="75" width="260" height="40" class="p"/><text x="810" y="100" text-anchor="middle" class="t">Bobina do freio (110 V / 80 V)</text>
+  <path class="lp" d="M620 95 H680"/>
+  <rect x="680" y="240" width="260" height="110" class="c"/><text x="810" y="266" text-anchor="middle" class="t" font-weight="700">Painel do ERB</text><text x="810" y="288" text-anchor="middle" class="s">botões Start, Common e Forced</text><text x="810" y="308" text-anchor="middle" class="s">indicadores verde, vermelho,</text><text x="810" y="326" text-anchor="middle" class="s">amarelo e azul</text>
+  <text x="480" y="505" text-anchor="middle" class="s">Se não houver sensor de fechadura, ligue MS+ e MS- em curto (fechadura fechada por padrão). Porta de cabina aberta: sem tensão de liberação.</text>
+  <text x="480" y="527" text-anchor="middle" class="s">Vermelho: potência. Azul: sinais. Não use o sinal de zona de porta do circuito de segurança.</text>
+</svg>

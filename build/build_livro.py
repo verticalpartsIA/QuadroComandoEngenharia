@@ -26,6 +26,7 @@ ORDEM = [
     ("cap", "manuscript/cap11-poco.md"),
     ("cap", "manuscript/cap12-energizacao-parametros-autoajuste.md"),
     ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
+    ("cap", "manuscript/cap14-resgate-eletrico-e-manutencao.md"),
     ("ap", "manuscript/ap-a-lista-de-fios.md"),
     ("ap", "manuscript/ap-c-pendencias-e-correcoes.md"),
 ]

@@ -39,3 +39,6 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 | Q109 | Dados do motor e do encoder do operador de porta | ida-ao-quadro | [#29](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/29) | Aberta |
 | Q110 | Tempo de espera para descarga do controlador de porta | ida-ao-quadro, falta-documento | [#30](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/30) | Aberta |
 | Q111 | Sentido invertido: trocar U e V, mudar o F215 ou os dois? | falta-documento, decisao-do-responsavel | [#31](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/31) | Aberta |
+| Q112 | O elevador de referência tem UPS ou ARD além do resgate elétrico? | ida-ao-quadro, decisao-do-responsavel | [#32](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/32) | Aberta |
+| Q113 | Plano de manutenção periódica do quadro de comando | falta-documento, decisao-do-responsavel | [#33](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/33) | Aberta |
+| Q114 | A cartilha de resgate da VerticalParts (VP-RES-01 Rev. 02) está aprovada? | falta-documento, decisao-do-responsavel | [#34](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/34) | Aberta |

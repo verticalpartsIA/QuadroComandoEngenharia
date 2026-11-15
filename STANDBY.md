@@ -17,7 +17,7 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 | Q59 | Função de cada chave da cadeia (o que detecta e por que existe) | Sem fonte lida. Selo `PREENCHER [Q59]` no capítulo 1. |
 | Q60 | MES-1 ("Motor emg. stop button") existe no MRL de referência? Aparece na cadeia fora do bloco "Use for MR" | Sem resposta. Selo `PREENCHER [Q60]`. |
 | 220 V | Adendo (etiquetas reais do inversor, trafo, origem dos 220 V, bitola) | Depois do ebook 380 V. |
-| Manual de Resgate da VerticalParts | Confirmar que está aprovado | Pendente. |
+| Manual de Resgate da VerticalParts | Confirmar que está aprovado | Pendente. Selo `PREENCHER [Q114]` no capítulo 14 (issue aberta). |
 | Encoder | Confirmar EI53C9.25-2048 no motor real | Pendente. |
 
 ## Respostas registradas em 14/11/2026 (auditoria da lista de fios)

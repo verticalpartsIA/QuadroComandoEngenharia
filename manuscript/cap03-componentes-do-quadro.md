@@ -210,7 +210,7 @@ O resgate elétrico MCTC-ERB-A1 libera o freio quando a rede falta. Com a rede n
 
 **Indicadores** (da esquerda para a direita): verde "Brake release" (aceso, há tensão de liberação), vermelho "Fault" (aceso, sobrecarga ou curto na saída do freio), amarelo "Battery" (aceso fixo, bateria cheia; piscando devagar, carregando; piscando rápido, nível baixo) e azul "Door zone" (aceso, elevador em zona de porta quando a rede falha). Os três botões, Start, Common e Forced, só valem enquanto pressionados. Fonte: manual ERB EN, pág. PDF 2, e esquema /23.
 
-A ligação do resgate à KCB usa o soquete SZ e os plugues SZ1, SZ2, MT e MT1. O quadro real usa bornes pequenos em 5 pares no lugar da tomada de 9 pinos do esquema (informação do responsável técnico; confirmação visual pendente). A operação e o teste do resgate estão no capítulo 13.
+A ligação do resgate à KCB usa o soquete SZ e os plugues SZ1, SZ2, MT e MT1. O quadro real usa bornes pequenos em 5 pares no lugar da tomada de 9 pinos do esquema (informação do responsável técnico; confirmação visual pendente). A operação, a manutenção e o teste do resgate estão no capítulo 14.
 
 ## 3.7 Botoeira de inspeção
 

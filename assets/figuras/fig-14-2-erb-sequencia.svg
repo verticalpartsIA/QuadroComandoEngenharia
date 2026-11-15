@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 560" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t142 d142">
+  <title id="t142">Figura 14.2 Sequência de liberação do freio pelo resgate elétrico</title>
+  <desc id="d142">Com a rede em falta, ativa-se a bateria com o botão Start por 1 segundo. Se o elevador está fora da zona de porta, aperta-se Start e Common; se está em zona de porta, aperta-se Forced e Common. A tensão é de 110 V por 2 segundos e 80 V por até 120 segundos, três ciclos seguidos, e depois 10 minutos de espera.</desc>
+  <style>
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2.2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2.2}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#111;stroke-width:2;fill:none}
+  </style>
+  <defs><marker id="a142" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 z" fill="#111"/></marker></defs>
+  <rect width="960" height="560" fill="#fff"/>
+  <rect x="340" y="20" width="280" height="44" rx="6" class="p"/><text x="480" y="48" text-anchor="middle" class="t" font-weight="700">Falta de rede</text>
+  <rect x="340" y="95" width="280" height="60" rx="6" class="c"/><text x="480" y="120" text-anchor="middle" class="t">Ative a bateria: Start por 1 s</text><text x="480" y="140" text-anchor="middle" class="s">indicador amarelo aceso; desliga em 3 min</text>
+  <polygon points="480,185 600,235 480,285 360,235" class="c"/><text x="480" y="232" text-anchor="middle" class="t">Indicador azul aceso?</text><text x="480" y="250" text-anchor="middle" class="s">(zona de porta)</text>
+  <rect x="40" y="320" width="330" height="70" rx="6" class="c"/><text x="205" y="346" text-anchor="middle" class="t" font-weight="700">Não: Start e Common juntos</text><text x="205" y="368" text-anchor="middle" class="s">o elevador anda até a zona de porta</text>
+  <rect x="590" y="320" width="330" height="70" rx="6" class="c"/><text x="755" y="346" text-anchor="middle" class="t" font-weight="700">Sim: Forced e Common juntos</text><text x="755" y="368" text-anchor="middle" class="s">libera o freio na zona de porta</text>
+  <rect x="300" y="425" width="360" height="56" rx="6" class="p"/><text x="480" y="449" text-anchor="middle" class="t" font-weight="700">Solte os botões: a liberação para</text><text x="480" y="469" text-anchor="middle" class="s">110 V por 2 s, depois 80 V por até 120 s</text>
+  <path class="l" d="M480 64 V95" marker-end="url(#a142)"/><path class="l" d="M480 155 V185" marker-end="url(#a142)"/>
+  <path class="l" d="M360 235 H205 V320" marker-end="url(#a142)"/><path class="l" d="M600 235 H755 V320" marker-end="url(#a142)"/>
+  <path class="l" d="M205 390 V453 H300" marker-end="url(#a142)"/><path class="l" d="M755 390 V453 H660" marker-end="url(#a142)"/>
+  <text x="270" y="228" text-anchor="middle" class="s">não</text><text x="690" y="228" text-anchor="middle" class="s">sim</text>
+  <text x="480" y="515" text-anchor="middle" class="s">Depois de 3 ciclos seguidos, espere 10 minutos. Porta de cabina aberta, bateria abaixo de 10,2 V, sobrecarga ou curto: sem liberação.</text>
+  <text x="480" y="536" text-anchor="middle" class="s">Os botões só valem pressionados.</text>
+</svg>
