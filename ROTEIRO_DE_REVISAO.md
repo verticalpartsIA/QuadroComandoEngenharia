@@ -76,3 +76,11 @@ Rascunho v0.1. Fontes: manual do ERB (Inovance), manual NICE3000new seção 9.13
 4. Capítulo 3, seção 3.6: remissão corrigida do capítulo 13 para o 14.
 Selos: Q86 (A1 ou A2; issue encerrada), Q112 a Q114 (issues abertas).
 
+## Capítulo 4, Montagem e pré-energização (15/11/2026)
+Rascunho v0.1. Fontes: manual NICE3000new (cap. 2), esquema Vitinho, manual do ERB e a prática do Rev. 11 (págs. 11 e 12) só no que tem fonte. O que revisar:
+1. Seção 4.4: a ordem de 12 etapas é a oficial? (issue Q117).
+2. Seção 4.6: o cabo plano usa X14 = subida 1, X15 = descida 1, X16 = subida 2 e X17 = descida 2 (o Rev. 11 tinha X15 e X16 trocados). W1 a W6 não foram mapeados porque a legenda do esquema conflita.
+3. Seção 4.7: valores com fonte (terra < 10 Ω, CAN e RS-485 cerca de 60 Ω, torques do inversor); isolação com megôhmetro e torque dos demais componentes ficam como selo (Q116 e Q115).
+4. Ficou de fora, de propósito: quadro de corte de fios com bitola e comprimento (vem da lista de fios; fica no Apêndice A), páginas 34 e 35 do Rev. 11 (manual antigo), e o formulário do contrato (capítulo 10).
+Selos: Q115, Q116, Q117 (issues abertas).
+

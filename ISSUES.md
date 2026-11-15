@@ -42,3 +42,6 @@ Todas as 25 issues iniciais foram encerradas em 15/11/2026 a pedido do responsá
 | Q112 | O elevador de referência tem UPS ou ARD além do resgate elétrico? | ida-ao-quadro, decisao-do-responsavel | [#32](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/32) | Aberta |
 | Q113 | Plano de manutenção periódica do quadro de comando | falta-documento, decisao-do-responsavel | [#33](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/33) | Aberta |
 | Q114 | A cartilha de resgate da VerticalParts (VP-RES-01 Rev. 02) está aprovada? | falta-documento, decisao-do-responsavel | [#34](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/34) | Aberta |
+| Q115 | Torque de aperto do QF, QFB, DQFB, contatores e bornes de passagem | falta-documento | [#35](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/35) | Aberta |
+| Q116 | Critério de isolação com megôhmetro antes de energizar | falta-documento, decisao-do-responsavel | [#36](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/36) | Aberta |
+| Q117 | A ordem de montagem de 12 etapas é a ordem oficial da fábrica? | decisao-do-responsavel | [#37](https://github.com/verticalpartsIA/QuadroComandoEngenharia/issues/37) | Aberta |
