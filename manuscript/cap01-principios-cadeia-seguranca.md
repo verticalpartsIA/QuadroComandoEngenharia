@@ -131,9 +131,9 @@ Fonte: esquema Vitinho 19061867-ZL, folha /14 (nota 1, pág. PDF 16) e folha /19
 
 ## 1.6 Inspeção e operação elétrica de emergência
 
-Quando a chave de inspeção ou de operação de emergência está ativa, o elevador entra no estado de inspeção ou de operação de emergência. O sistema cancela todo o movimento automático, inclusive as aberturas e fechamentos automáticos de porta. Com o sinal de subir ou de descer válido, o elevador anda na velocidade ajustada em F3-26 (operação de emergência) ou em F3-11 (inspeção). O sinal de inspeção tem prioridade sobre o de emergência: com os dois ativos, o elevador anda como em inspeção.
+Quando a chave de inspeção ou de operação de emergência está ativa, o elevador entra no estado de inspeção ou de operação de emergência. O sistema cancela todo o movimento automático, inclusive as aberturas e fechamentos automáticos de porta. Com o sinal de subir ou de descer válido, o elevador anda na velocidade de inspeção (F3-11) ou na de operação de emergência. Para a velocidade de emergência o manual se contradiz: o texto desta seção cita F3-26, mas a tabela de parâmetros traz F3-25 como "Emergency electric RUN speed" (padrão 0,250 m/s) e F3-26 como a velocidade do autoajuste do poço (págs. PDF 196 e 200). Confira no seu controlador qual parâmetro vale. O sinal de inspeção tem prioridade sobre o de emergência: com os dois ativos, o elevador anda como em inspeção.
 
-Fonte: manual NICE3000new (20181130), pág. PDF 200 (impressa 199), parâmetros de entrada 08, 09, 10 e 84.
+Fonte: manual NICE3000new (20181130), pág. PDF 200 (impressa 199), parâmetros de entrada 08, 09, 10 e 84; págs. PDF 194 e 196, parâmetros F3-11, F3-25 e F3-26.
 
 ## 1.7 Segurança do trabalho no quadro de comando
 

@@ -20,5 +20,10 @@ Uma ida ao quadro de referência responde quase todas as perguntas abertas do Ca
 | 14 | Jumpers do cabo de manobra e do poço | Foto dos conectores AA, AB, BA, BD, BE e HW, mostrando se há jumper de 9 cm instalado | Q71 (jumpers 62 a 66) |
 | 15 | O motor é síncrono? Que encoder? | Plaqueta do motor e do encoder (modelo) | Encoder do Capítulo 7 |
 | 16 | MES-1, RCS, CWSG e OS-G | Foto do conector HW e do circuito do limitador de velocidade; dizer se o elevador tem contrapeso com cunha de segurança | Q54, Q60 |
+| 17 | Dados do motor (Capítulo 12) | Plaqueta do motor: potência, tensão, corrente, frequência, rotação nominal e número de polos (para F1-01 a F1-05) | Cap. 12 |
+| 18 | Encoder (Capítulos 7 e 12) | Plaqueta do encoder: modelo e pulsos por rotação (F1-12); tipo (F1-00) | Cap. 12 |
+| 19 | Velocidade e pavimentos (Capítulo 12) | Velocidade nominal do elevador, número de paradas, altura entre pavimentos e andar mais alto e mais baixo (F0-04, F6-00, F6-01) | Cap. 12 |
+| 20 | Pesagem e portas (Capítulo 12) | Se há célula de carga (nenhuma, analógica ou as duas); se a porta é única; características NO ou NC da cortina de luz e dos limites de porta | Cap. 12 |
+| 21 | Módulo de abertura antecipada | Se o módulo SCB-A4 ou SCB-D4 está instalado no quadro (o elevador de referência tem renivelamento) | Q92 |
 
 Antes de publicar qualquer foto: cobrir número de série, QR e código de barras, adesivos com nomes de pessoas ou clientes, e rostos.

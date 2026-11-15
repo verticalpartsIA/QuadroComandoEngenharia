@@ -40,3 +40,10 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 | Q86 | O ERB do quadro é o A1 (com bateria) ou o A2? |
 | Q87 | Qual rótulo da botoeira vale (12/11 amarelo ou 13/11 branco)? |
 | Q88 | Marca, corrente (AC-3), tensão de bobina e tipo dos auxiliares de SW, BY e FX |
+
+## Capítulos 2 e 12 (14/11/2026)
+| Selo ou dado | Pergunta |
+|---|---|
+| Q92 | O módulo SCB-A4 ou SCB-D4 está instalado no quadro de referência? |
+| Cap. 12 | Dados do motor, do encoder, velocidade, pavimentos, pesagem e portas (itens 17 a 20 do CHECKLIST_QUADRO_FISICO) |
+| Cap. 12 | Manual inconsistente: F3-25 ou F3-26 para a velocidade de emergência; F1-22 ou F1-12 nas figuras 5-7 e 5-8 (registrado, não corrigido) |
