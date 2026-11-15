@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 660" font-family="Poppins, 'Segoe UI', Arial, sans-serif" role="img" aria-labelledby="t81 d81">
+  <title id="t81">Figura 8.1 A caixa de teto e o que se liga a ela</title>
+  <desc id="d81">A caixa de teto MCTC-CTW-B3 liga ao quadro de comando pelo cabo de manobra (CA e CB) e recebe a placa de comando da cabina, o operador de porta com a cortina de luz, os sensores de nivelamento, a iluminação, o alarme e os dispositivos da cadeia de segurança.</desc>
+  <style>
+    .k{fill:#fafafa;stroke:#111;stroke-width:3}
+    .c{fill:#fff;stroke:#1F5FA8;stroke-width:2}
+    .p{fill:#fff;stroke:#C0392B;stroke-width:2}
+    .u{fill:#fff;stroke:#777;stroke-width:2;stroke-dasharray:6 4}
+    .h{font-size:14px;font-weight:700;fill:#111}
+    .t{font-size:12.5px;fill:#111}
+    .s{font-size:11px;fill:#555}
+    .l{stroke:#1F5FA8;stroke-width:2.5;fill:none}
+    .lp{stroke:#C0392B;stroke-width:2.5;fill:none}
+  </style>
+  <rect width="960" height="660" fill="#fff"/>
+  <!-- Quadro -->
+  <rect x="330" y="15" width="300" height="55" rx="6" class="c"/>
+  <text x="480" y="40" text-anchor="middle" class="h">Quadro de comando</text>
+  <text x="480" y="58" text-anchor="middle" class="s">conectores AA e AB da KCB (cabo de manobra)</text>
+  <path class="lp" d="M420 70 V150"/><path class="l" d="M540 70 V150"/>
+  <text x="408" y="112" text-anchor="end" class="s">CA: 220 V e segurança</text>
+  <text x="552" y="112" class="s">CB: 24 V, CAN, interfone</text>
+  <!-- Caixa de teto -->
+  <rect x="200" y="150" width="560" height="270" rx="10" class="k"/>
+  <text x="480" y="176" text-anchor="middle" class="h">Caixa de teto MCTC-CTW-B3</text>
+  <text x="480" y="196" text-anchor="middle" class="s">placa de interface MCTC-CTB-H5, inspeção, interfone, iluminação</text>
+  <g class="t" text-anchor="middle">
+    <rect x="215" y="215" width="160" height="40" class="c"/><text x="295" y="240">Inspeção do teto</text>
+    <rect x="215" y="265" width="160" height="40" class="c"/><text x="295" y="290">TCI, TES, TCIU, TCID, TCIB</text>
+    <rect x="215" y="315" width="160" height="40" class="p"/><text x="295" y="340">Tomada 220 V, 5 A</text>
+    <rect x="215" y="365" width="160" height="40" class="c"/><text x="295" y="390">Interfone do teto</text>
+    <rect x="385" y="215" width="170" height="40" class="p"/><text x="470" y="240">Cadeia: SOS, GS1</text>
+    <rect x="385" y="265" width="170" height="40" class="u"/><text x="470" y="290">MSC (curto), SUP1, SUP2</text>
+    <rect x="385" y="315" width="170" height="40" class="c"/><text x="470" y="340">Iluminação e ventilador</text>
+    <rect x="385" y="365" width="170" height="40" class="c"/><text x="470" y="390">Alarme sonoro e luminoso</text>
+    <rect x="565" y="215" width="180" height="40" class="c"/><text x="655" y="240">Nivelamento e renivelamento</text>
+    <rect x="565" y="265" width="180" height="40" class="c"/><text x="655" y="290">Cortina de luz e borda</text>
+    <rect x="565" y="315" width="180" height="40" class="c"/><text x="655" y="340">Limites e comandos de porta</text>
+    <rect x="565" y="365" width="180" height="40" class="u"/><text x="655" y="390">Pesagem (WT1, WT2)</text>
+  </g>
+  <!-- Dispositivos -->
+  <rect x="20" y="470" width="210" height="75" class="c"/><text x="125" y="498" text-anchor="middle" class="h">COB1</text><text x="125" y="518" text-anchor="middle" class="s">placa de comando da cabina</text><text x="125" y="534" text-anchor="middle" class="s">PREENCHER [Q99]</text>
+  <rect x="250" y="470" width="210" height="75" class="c"/><text x="355" y="498" text-anchor="middle" class="h">Sensores DZ e RDZ</text><text x="355" y="518" text-anchor="middle" class="s">nivelamento e renivelamento</text>
+  <rect x="480" y="470" width="210" height="75" class="c"/><text x="585" y="498" text-anchor="middle" class="h">Operador de porta</text><text x="585" y="518" text-anchor="middle" class="s">EDP1, DEN1, DC1 e DP</text><text x="585" y="534" text-anchor="middle" class="s">controlador externo (cap. 9)</text>
+  <rect x="710" y="470" width="230" height="75" class="u"/><text x="825" y="498" text-anchor="middle" class="h">Fora do elevador de referência</text><text x="825" y="518" text-anchor="middle" class="s">porta traseira, pesagem,</text><text x="825" y="534" text-anchor="middle" class="s">régua magnética e chaves SUP</text>
+  <path class="l" d="M125 470 V430 H250 V420"/>
+  <path class="l" d="M355 470 V420"/>
+  <path class="l" d="M585 470 V420"/>
+  <text x="480" y="605" text-anchor="middle" class="s">Azul: comando e sinais. Vermelho: 220 V. Tracejado: fora do elevador de referência ou sem dado.</text>
+  <text x="480" y="628" text-anchor="middle" class="s">Cadeia de segurança: o manual e o esquema usam redes diferentes na caixa de teto (PREENCHER [Q98]).</text>
+</svg>

@@ -19,6 +19,7 @@ ORDEM = [
     ("cap", "manuscript/cap01-principios-cadeia-seguranca.md"),
     ("cap", "manuscript/cap02-visao-geral-sistema.md"),
     ("cap", "manuscript/cap03-componentes-do-quadro.md"),
+    ("cap", "manuscript/cap08-caixa-de-teto-e-cabina.md"),
     ("cap", "manuscript/cap07-motor-freio-encoder.md"),
     ("cap", "manuscript/cap12-energizacao-parametros-autoajuste.md"),
     ("cap", "manuscript/cap13-diagnostico-de-falhas.md"),
@@ -77,11 +78,22 @@ def main():
     h = OUT / f"{NOME}.html"
     pdf = OUT / f"{NOME}.pdf"
     h.write_text(pagina, encoding="utf-8")
-    subprocess.run(
-        [str(CHROME), "--headless", "--disable-gpu", "--no-pdf-header-footer", "--generate-pdf-document-outline",
-         "--virtual-time-budget=8000", f"--print-to-pdf={pdf}", h.as_uri()],
-        check=True, capture_output=True, timeout=180,
-    )
+    import time
+    inicio = time.time()
+
+    def imprime(destino):
+        subprocess.run(
+            [str(CHROME), "--headless", "--disable-gpu", "--no-pdf-header-footer", "--generate-pdf-document-outline",
+             "--virtual-time-budget=8000", f"--print-to-pdf={destino}", h.as_uri()],
+            check=True, capture_output=True, timeout=180,
+        )
+
+    imprime(pdf)
+    if not pdf.exists() or pdf.stat().st_mtime < inicio:
+        # o arquivo costuma estar aberto em um leitor de PDF (Windows trava a gravação): grava com outro nome
+        pdf = OUT / f"{NOME}_atualizado.pdf"
+        imprime(pdf)
+        print("AVISO: o PDF anterior estava em uso; gerado com outro nome.")
     print(pdf)
 
 

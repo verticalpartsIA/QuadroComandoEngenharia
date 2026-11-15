@@ -47,3 +47,9 @@ Nada daqui entra no ebook até o Gelson reativar o item.
 | Q92 | O módulo SCB-A4 ou SCB-D4 está instalado no quadro de referência? |
 | Cap. 12 | Dados do motor, do encoder, velocidade, pavimentos, pesagem e portas (itens 17 a 20 do CHECKLIST_QUADRO_FISICO) |
 | Cap. 12 | Manual inconsistente: F3-25 ou F3-26 para a velocidade de emergência; F1-22 ou F1-12 nas figuras 5-7 e 5-8 (registrado, não corrigido) |
+
+## Capítulo 8 (14/11/2026)
+| Selo | Pergunta |
+|---|---|
+| Q98 | O manual da CTW-B3 (placa MCTC-CTB-H5) e o esquema Vitinho /34 (placa AD2SO22M1/2/3) usam redes diferentes na cadeia da caixa de teto (SOS, MSC, SUP2). Qual descreve a caixa de teto instalada, e onde fica o curto do MSC? |
+| Q99 | A placa de comando da cabina é a MCTC-COB-A1 (com anunciador de voz e gongo) ou a COB-A2? |

@@ -38,11 +38,33 @@ def selos(html: str) -> str:
     return re.sub(r"<code>(PREENCHER \[Q\d+\]|\[Certeza\]|\[Provável\]|\[Chute\])</code>", r'<code class="selo">\1</code>', html)
 
 
+_CONTADOR_SVG = [0]
+
+
+def isola_estilo(svg_texto: str) -> str:
+    """Prefixa os seletores do <style> de cada SVG com o id dele, para que as classes
+    (.b, .c, .k...) de uma figura não sobrescrevam as de outra no HTML do livro."""
+    _CONTADOR_SVG[0] += 1
+    ident = f"fig{_CONTADOR_SVG[0]}"
+
+    def prefixa(m):
+        css = m.group(1)
+        regras = re.findall(r"([^{}]+)\{([^{}]*)\}", css)
+        novo = []
+        for seletores, corpo in regras:
+            ss = ",".join(f"#{ident} {s.strip()}" for s in seletores.split(",") if s.strip())
+            novo.append(f"{ss}{{{corpo}}}")
+        return "<style>" + "".join(novo) + "</style>"
+
+    svg_texto = re.sub(r"<style>(.*?)</style>", prefixa, svg_texto, flags=re.S)
+    return re.sub(r"<svg ", f'<svg id="{ident}" ', svg_texto, count=1)
+
+
 def inline_svg(html: str, base: Path) -> str:
     def troca(m):
         svg = (base / m.group(2)).resolve()
         if svg.suffix == ".svg" and svg.exists():
-            return f'<figure class="fig">{svg.read_text(encoding="utf-8")}</figure>'
+            return f'<figure class="fig">{isola_estilo(svg.read_text(encoding="utf-8"))}</figure>'
         return m.group(0)
     return re.sub(r'<p><img alt="([^"]*)" src="([^"]+)"\s*/?></p>', troca, html)
 
